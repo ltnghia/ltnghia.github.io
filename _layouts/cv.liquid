@@ -79,48 +79,77 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for data in site.data.resume %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
-              {% continue %}
-            {% endunless %}
-          {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
-          <a class="anchor" id="{{ data[0] }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-            <div>
-              {% case data[0] %}
-                {% when 'basics' %}
-                  {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
-                {% when 'awards' %}
-                  {% include resume/awards.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
-                {% when 'languages' %}
-                  {% include resume/languages.liquid %}
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
-                {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
-                {% else %}
+        {%- if site.data.resume.basics -%}
+          {% include resume/basics.liquid %}
+        {%- endif -%}
 
-              {% endcase %}
-            </div>
+        {%- assign section_data = site.data.resume.education -%}
+        {%- if section_data and section_data.size > 0 -%}
+          <a class="anchor" id="education-background"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Education Background</h3>
+            <div>{% include resume/education.liquid %}</div>
           </div>
-        {% endfor %}
+        {%- endif -%}
+
+        {%- assign section_data = site.data.resume.work -%}
+        {%- if section_data and section_data.size > 0 -%}
+          <a class="anchor" id="working-experience"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Working Experience</h3>
+            <div>{% include resume/work.liquid %}</div>
+          </div>
+        {%- endif -%}
+
+        {%- assign section_data = site.data.resume.volunteer -%}
+        {%- if section_data and section_data.size > 0 -%}
+          <a class="anchor" id="professional-activities"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Professional Activities</h3>
+            <div>{% include resume/volunteer.liquid %}</div>
+          </div>
+        {%- endif -%}
+
+        {%- assign section_data = site.data.resume.grants -%}
+        {%- if section_data and section_data.size > 0 -%}
+          <a class="anchor" id="grant-and-fellowship"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Grant and Fellowship</h3>
+            <div>{% include resume/awards.liquid data=section_data %}</div>
+          </div>
+        {%- endif -%}
+
+        {%- assign section_data = site.data.resume.awards -%}
+        {%- if section_data and section_data.size > 0 -%}
+          <a class="anchor" id="awards-and-honors"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Awards and Honors</h3>
+            <div>{% include resume/awards.liquid data=section_data %}</div>
+          </div>
+        {%- endif -%}
+
+        {%- assign other_sections = "skills,languages,interests,certificates,projects,publications,references" | split: "," -%}
+        {%- for section in other_sections -%}
+          {%- assign section_data = site.data.resume[section] -%}
+          {%- if section_data and section_data.size > 0 -%}
+            <a class="anchor" id="{{ section }}"></a>
+            <div class="card mt-3 p-3">
+              <h3 class="card-title font-weight-medium">{{ section | capitalize }}</h3>
+              <div>
+                {%- case section -%}
+                  {%- when 'projects' -%}{% include resume/projects.liquid %_}
+                  {%- when 'skills' -%}{% include resume/skills.liquid %_}
+                  {%- when 'publications' -%}{% include resume/publications.liquid %_}
+                  {%- when 'languages' -%}{% include resume/languages.liquid %_}
+                  {%- when 'interests' -%}{% include resume/interests.liquid %_}
+                  {%- when 'certificates' -%}{% include resume/certificates.liquid %_}
+                  {%- when 'references' -%}{% include resume/references.liquid %_}
+                {%- endcase -%}
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+
       </div>
     </article>
   </div>

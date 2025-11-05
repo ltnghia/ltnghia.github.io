@@ -186,7 +186,9 @@
       "startDate": "",
       "endDate": "2018",
       "score": "",
-      "courses": ["Supervisor: Prof. Akihiro Sugimoto"]
+      "courses": [
+        "Supervisor: Prof. Akihiro Sugimoto"
+      ]
     },
     {
       "institution": "John Von Neumann Institute & University of Science, VNU-HCM",
@@ -197,7 +199,9 @@
       "startDate": "",
       "endDate": "2014",
       "score": "",
-      "courses": ["Supervisor: Assoc. Prof. Minh-Triet Tran"]
+      "courses": [
+        "Supervisor: Assoc. Prof. Minh-Triet Tran"
+      ]
     },
     {
       "institution": "University of Science, VNU-HCM",
@@ -208,10 +212,12 @@
       "startDate": "",
       "endDate": "2012",
       "score": "",
-      "courses": ["Supervisor: Assoc. Prof. Minh-Triet Tran"]
+      "courses": [
+        "Supervisor: Assoc. Prof. Minh-Triet Tran"
+      ]
     }
   ],
-  "awards": [
+  "grants": [
     {
       "title": "NAFOSTED Grant",
       "date": "2024-2026",
@@ -267,7 +273,9 @@
       "awarder": "Young Talent Development Foundation, Vietnam",
       "url": "",
       "summary": ""
-    },
+    }
+  ],
+  "awards": [
     {
       "title": "Top-1 result in SyntaGen Challenge, CVPR, 2024",
       "date": "2024",
