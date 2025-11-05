@@ -186,9 +186,7 @@
       "startDate": "",
       "endDate": "2018",
       "score": "",
-      "courses": [
-        "Supervisor: Prof. Akihiro Sugimoto"
-      ]
+      "courses": ["Supervisor: Prof. Akihiro Sugimoto"]
     },
     {
       "institution": "John Von Neumann Institute & University of Science, VNU-HCM",
@@ -199,9 +197,7 @@
       "startDate": "",
       "endDate": "2014",
       "score": "",
-      "courses": [
-        "Supervisor: Assoc. Prof. Minh-Triet Tran"
-      ]
+      "courses": ["Supervisor: Assoc. Prof. Minh-Triet Tran"]
     },
     {
       "institution": "University of Science, VNU-HCM",
@@ -212,9 +208,7 @@
       "startDate": "",
       "endDate": "2012",
       "score": "",
-      "courses": [
-        "Supervisor: Assoc. Prof. Minh-Triet Tran"
-      ]
+      "courses": ["Supervisor: Assoc. Prof. Minh-Triet Tran"]
     }
   ],
   "grants": [

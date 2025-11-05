@@ -137,13 +137,13 @@ layout: default
               <h3 class="card-title font-weight-medium">{{ section | capitalize }}</h3>
               <div>
                 {%- case section -%}
-                  {%- when 'projects' -%}{% include resume/projects.liquid %_}
-                  {%- when 'skills' -%}{% include resume/skills.liquid %_}
-                  {%- when 'publications' -%}{% include resume/publications.liquid %_}
-                  {%- when 'languages' -%}{% include resume/languages.liquid %_}
-                  {%- when 'interests' -%}{% include resume/interests.liquid %_}
-                  {%- when 'certificates' -%}{% include resume/certificates.liquid %_}
-                  {%- when 'references' -%}{% include resume/references.liquid %_}
+                  {%- when 'projects' -%}{% include resume/projects.liquid -%}
+                  {%- when 'skills' -%}{% include resume/skills.liquid -%}
+                  {%- when 'publications' -%}{% include resume/publications.liquid -%}
+                  {%- when 'languages' -%}{% include resume/languages.liquid -%}
+                  {%- when 'interests' -%}{% include resume/interests.liquid -%}
+                  {%- when 'certificates' -%}{% include resume/certificates.liquid -%}
+                  {%- when 'references' -%}{% include resume/references.liquid -%}
                 {%- endcase -%}
               </div>
             </div>
