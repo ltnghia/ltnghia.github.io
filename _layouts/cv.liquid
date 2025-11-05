@@ -88,7 +88,7 @@
           <a class="anchor" id="education-background"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Education Background</h3>
-            <div>{% include resume/education.liquid %}</div>
+            <div>{% include resume/education.liquid data=section_data %}</div>
           </div>
         {%- endif -%}
 
@@ -115,7 +115,7 @@
           <a class="anchor" id="grant-and-fellowship"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Grant and Fellowship</h3>
-            <div>{% include resume/awards.liquid data=section_data %}</div>
+            <div>{% include resume/grants.liquid data=section_data %}</div>
           </div>
         {%- endif -%}
 
