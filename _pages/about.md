@@ -27,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my homepage! I am a  senior researcher and lecturer at University of Science's Software Engineering Laboratory and Faculty of Information Technology. 
+Welcome to my homepage! I am a senior researcher and lecturer at University of Science's Software Engineering Laboratory and Faculty of Information Technology.
 
-I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at University of Science, John Von Neumann Institute, and National Institute of Informatics in 2012, 2014, and 2018 respectively. 
+I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at University of Science, John Von Neumann Institute, and National Institute of Informatics in 2012, 2014, and 2018 respectively.
 
-My research interests are Computer Vision and Applied Deep Learning.   
+My research interests are Computer Vision and Applied Deep Learning.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
