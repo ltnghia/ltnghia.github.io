@@ -153,8 +153,51 @@
 {% endif %}
 
 {% if page.toc and page.toc.sidebar %}
-  <!-- Sidebar Table of Contents -->
   <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>
+
+  <script>
+    function setupScrollSpy() {
+      // 1. Tính offset cơ bản (chiều cao navbar + 10px đệm)
+      var baseOffset = 10;
+      if ($('body').hasClass('fixed-top-nav')) {
+        baseOffset = $('nav.navbar').outerHeight(true) + 10;
+      } // 2. Tính offset 4/5 (80%) chiều cao màn hình theo yêu cầu của bạn
+
+      var viewportHeight = $(window).height();
+      var dynamicOffset = viewportHeight * 0.8; // 4/5 = 80%
+      // 3. Chọn giá trị lớn hơn
+      // (Việc này để đảm bảo trigger line không bao giờ nằm BÊN TRÊN header)
+
+      var finalOffset = Math.max(baseOffset, dynamicOffset); // 4. Hủy ScrollSpy cũ (nếu có) để tránh xung đột
+
+      var $body = $(document.body);
+      if ($body.data('bs.scrollspy')) {
+        $body.scrollspy('dispose');
+      } // 5. Khởi tạo lại ScrollSpy với offset 80% đã tính
+
+      $body.scrollspy({
+        target: '#toc-sidebar',
+        offset: finalOffset,
+      }); // 6. Yêu cầu bootstrap-toc làm mới
+
+      try {
+        $('nav#toc-sidebar').toc('refresh');
+      } catch (e) {
+        // Bỏ qua lỗi nếu toc chưa được khởi tạo kịp
+      }
+    } // Chạy khi tài liệu sẵn sàng
+
+    $(document).ready(function () {
+      // Chờ 100ms để bootstrap-toc.min.js chạy xong rồi mới thực thi
+      setTimeout(setupScrollSpy, 100);
+    }); // Chạy lại khi thay đổi kích thước cửa sổ (để offset 80% luôn đúng)
+
+    var resizeTimer;
+    $(window).on('resize', function () {
+      clearTimeout(resizeTimer); // Dùng 'debounce' để tránh chạy hàm quá nhiều lần khi resize
+      resizeTimer = setTimeout(setupScrollSpy, 250);
+    });
+  </script>
 {% endif %}
 
 {% if page.pretty_table %}

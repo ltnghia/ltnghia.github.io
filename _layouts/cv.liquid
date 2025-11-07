@@ -29,8 +29,8 @@ layout: default
     <article>
       <div class="cv">
         {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
+            <a class="anchor" id="{{ entry.title | slugify }}"></a>
             <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
             <div>
               {% if entry.type == 'list' %}
@@ -73,12 +73,11 @@ layout: default
         {% endif %}
       </h1>
 
-      <!-- SỬA LỖI 1: Hiển thị mô tả và các nút bấm -->
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
       {% if page.cv_links %}
-        <p class="post-description mt-2">{{ page.cv_links }}</p>
+        <p class="post-description">{{ page.cv_links }}</p>
       {% endif %}
     </header>
 
@@ -91,18 +90,21 @@ layout: default
             {% endunless %}
           {% endif %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
-          <a class="anchor" id="{{ data[0] }}"></a>
+
+          {% case data[0] %}
+            {% when 'volunteer' %}
+              {% assign section_title = 'Professional Activities' %}
+            {% when 'certificates' %}
+              {% assign section_title = 'Grant and Fellowship' %}
+            {% else %}
+              {% assign section_title = data[0] | capitalize %}
+          {% endcase %}
+
           <div class="card mt-3 p-3">
-            <!-- SỬA LỖI 2: Đổi tên tiêu đề mục -->
+            <a class="anchor" id="{{ section_title | slugify }}"></a>
+
             <h3 class="card-title font-weight-medium">
-              {% case data[0] %}
-                {% when 'volunteer' %}
-                  Professional Activities
-                {% when 'certificates' %}
-                  Grant and Fellowship
-                {% else %}
-                  {{ data[0] | capitalize }}
-              {% endcase %}
+              {{ section_title }}
             </h3>
 
             <div>
