@@ -218,3 +218,18 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+.btn-theme-color {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: var(--global-bg-color) !important;
+
+  &:hover,
+  &:focus,
+  &.focus {
+    background-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-bg-color) !important;
+    filter: brightness(90%);
+    text-decoration: none !important;
+  }
+}
