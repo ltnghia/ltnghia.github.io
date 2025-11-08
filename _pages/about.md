@@ -28,7 +28,7 @@ latest_posts:
 
 Welcome to my homepage! I am a senior researcher and lecturer at [University of Science](https://en.hcmus.edu.vn/)'s [Software Engineering Laboratory](https://selab.hcmus.edu.vn/) and [Faculty of Information Technology](https://www.fit.hcmus.edu.vn/en/).
 
-I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at [University of Science](http://www.hcmus.edu.vn/en/index.php), [John Von Neumann Institute](http://www.jvn.edu.vn/), and [National Institute of Informatics](https://www.nii.ac.jp/en/) in 2012, 2014, and 2018 respectively.
+I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at [University of Science](https://en.hcmus.edu.vn/), [John Von Neumann Institute](http://www.jvn.edu.vn/), and [National Institute of Informatics](https://www.nii.ac.jp/en/) in 2012, 2014, and 2018 respectively.
 
 I currently lead the **Multimedia Synergy Lab (MSLab)** to advance research at the crossroads of computer vision, multimodal intelligence, and generative AI. We study how machines can see, imagine, and reason about the world through synergistic integration of vision, language, and creativity. Our mission is to create systems that not only perceive reality but also generate meaningful and trustworthy multimedia content, bridging analysis, synthesis, and understanding.
 
