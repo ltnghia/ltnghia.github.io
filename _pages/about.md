@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar
-  limit: 10 # Hiển thị 10 tin mới nhất, có thể cuộn
+  # limit: 10 # Hiển thị 10 tin mới nhất, có thể cuộn
 
 latest_posts:
   enabled: false # Tắt mục blog
