@@ -1,40 +1,46 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Senior Researcher & Lecturer at <a href="https://selab.hcmus.edu.vn/" target="_blank">SELAB</a>, <a href="https://www.fit.hcmus.edu.vn/en/" target="_blank">Faculty of IT</a>,
+  <br>
+  <a href="https://en.hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM</a>.
+  <br>
+  <a href="mailto:ltnghia@hcmus.edu.vn">ltnghia@hcmus.edu.vn</a>
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  more_info:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: true # adds a vertical scroll bar
+  limit: 10 # Hiển thị 10 tin mới nhất, có thể cuộn
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false # Tắt mục blog
 ---
 
-Welcome to my homepage! I am a senior researcher and lecturer at University of Science's Software Engineering Laboratory and Faculty of Information Technology.
+Welcome to my homepage! I am a senior researcher and lecturer at [University of Science](https://en.hcmus.edu.vn/)'s [Software Engineering Laboratory](https://selab.hcmus.edu.vn/) and [Faculty of Information Technology](https://www.fit.hcmus.edu.vn/en/).
 
-I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at University of Science, John Von Neumann Institute, and National Institute of Informatics in 2012, 2014, and 2018 respectively.
+I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at [University of Science](http://www.hcmus.edu.vn/en/index.php), [John Von Neumann Institute](http://www.jvn.edu.vn/), and [National Institute of Informatics](https://www.nii.ac.jp/en/) in 2012, 2014, and 2018 respectively.
 
-My research interests are Computer Vision and Applied Deep Learning.
+I currently lead the **Multimedia Synergy Lab (MSLab)** to advance research at the crossroads of computer vision, multimodal intelligence, and generative AI. We study how machines can see, imagine, and reason about the world through synergistic integration of vision, language, and creativity. Our mission is to create systems that not only perceive reality but also generate meaningful and trustworthy multimedia content, bridging analysis, synthesis, and understanding.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+### 🔥 Research topics of interest:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+- Visual Perception and Understanding
+- Multimodal and Context-Aware Learning
+- Generative and Creative AI
+- Trustworthy and Forensic AI
+- Collaborative & Human-Centered AI Systems
+- Health Science
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### 🙋 Prospective Students:
+
+I am looking for motivated undergraduate/graduate students. Please send an email to **ltnghia [at] fit.hcmus.edu.vn** to discuss your research interests.
