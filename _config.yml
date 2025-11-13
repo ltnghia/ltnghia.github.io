@@ -59,6 +59,13 @@ max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
 
+
+excludes:
+  - _pages/dropdown.md
+  _ _pages/blog.md
+  _ _pages/repositories.md
+
+
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
