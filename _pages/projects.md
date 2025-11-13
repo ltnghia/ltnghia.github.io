@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Old projects are [here](https://sites.google.com/view/ltnghia/research).
+description: Old projects are <a href="https://sites.google.com/view/ltnghia/research" target="_blank">Here</a>.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
