@@ -56,7 +56,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/thesis/index.html";
+            window.location.href = "/thesis/";
           },
         },{id: "post-a-post-with-image-galleries",
       
