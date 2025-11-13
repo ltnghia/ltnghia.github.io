@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-courses",
           title: "Courses",
-          description: "UNIVERSITY OF SCIENCE, VNU-HCM, Vietnam",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
