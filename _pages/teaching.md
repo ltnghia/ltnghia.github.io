@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Courses
-description: UNIVERSITY OF SCIENCE, VNU-HCM, Vietnam
+description: 
 nav: true
 nav_order: 4
 ---
