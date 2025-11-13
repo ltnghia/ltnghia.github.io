@@ -62,8 +62,8 @@ max_width: 930px
 
 excludes:
   - _pages/dropdown.md
-  _ _pages/blog.md
-  _ _pages/repositories.md
+  - _pages/blog.md
+  - _pages/repositories.md
 
 
 # -----------------------------------------------------------------------------
