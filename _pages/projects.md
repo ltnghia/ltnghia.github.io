@@ -2,12 +2,14 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Old projects are <a href="https://sites.google.com/view/ltnghia/research" target="_blank">Here</a>.
+description: 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+
+Old projects are <a href="https://sites.google.com/view/ltnghia/research" target="_blank">Here</a>.
 
 <!-- pages/projects.md -->
 <div class="projects">
