@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Old projects are [here](https://sites.google.com/view/ltnghia/research).",
+          description: "Old projects are Here.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
