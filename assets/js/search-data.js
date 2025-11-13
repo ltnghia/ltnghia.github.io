@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-thesis",
+          title: "Thesis",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/thesis/index.html";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "",
@@ -30,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/demo/";
           },
-        },{id: "nav-people",
-          title: "People",
-          description: "Members and collaborators of the lab.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "nav-courses",
           title: "Courses",
           description: "",
@@ -44,12 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/course/";
           },
-        },{id: "nav-thesis",
-          title: "Thesis",
-          description: "",
+        },{id: "nav-people",
+          title: "People",
+          description: "Members and collaborators of the lab.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/thesis/index.html";
+            window.location.href = "/people/";
           },
         },{id: "post-a-post-with-image-galleries",
       
