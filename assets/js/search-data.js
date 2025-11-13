@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-thesis",
-          title: "Thesis",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/thesis/index.html";
-          },
         },{id: "nav-projects",
           title: "Projects",
           description: "",
@@ -50,6 +43,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/course/";
+          },
+        },{id: "nav-thesis",
+          title: "Thesis",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/thesis/index.html";
           },
         },{id: "post-a-post-with-image-galleries",
       
