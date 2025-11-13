@@ -4,7 +4,7 @@ permalink: /people/
 title: People
 description: Members and collaborators of the lab.
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
 ## Collaborators
