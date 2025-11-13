@@ -3,11 +3,9 @@ layout: about
 title: Home
 permalink: /
 subtitle: >
-  Senior Researcher & Lecturer at <a href="https://selab.hcmus.edu.vn/" target="_blank">SELAB</a>, <a href="https://www.fit.hcmus.edu.vn/en/" target="_blank">Faculty of IT</a>,
+  Senior Researcher & Lecturer at <a href="https://selab.hcmus.edu.vn/" target="_blank">SELAB</a> and <a href="https://www.fit.hcmus.edu.vn/en/" target="_blank">Faculty of IT</a>,
   <br>
   <a href="https://en.hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM</a>.
-  <br>
-  <a href="mailto:ltnghia@hcmus.edu.vn">ltnghia@hcmus.edu.vn</a>
 
 profile:
   align: left
