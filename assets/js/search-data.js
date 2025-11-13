@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-thesis",
+  },{id: "nav-cv",
+          title: "CV",
+          description: "The academic curriculum vitae of Dr. Trung-Nghia Le, Senior Researcher and Lecturer at University of Science, VNU-HCM.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-thesis",
           title: "Thesis",
           description: "",
           section: "Navigation",
@@ -36,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/course/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "The academic curriculum vitae of Dr. Trung-Nghia Le, Senior Researcher and Lecturer at University of Science, VNU-HCM.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-people",
           title: "People",
