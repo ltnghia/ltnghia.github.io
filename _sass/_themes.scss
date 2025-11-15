@@ -159,7 +159,7 @@ html[data-theme-setting="light"] {
 }
 
 .card-img-square {
-  aspect-ratio: 1 / 1; /* Tạo khung vuông */
-  object-fit: contain; /* Cho ảnh lọt thỏm vào giữa */
-  background-color: #f9f9f9; /* Tùy chọn: màu nền cho khoảng trống */
+  aspect-ratio: 1 / 0.8;
+  object-fit: contain;
+  background-color: #f9f9f9;
 }
