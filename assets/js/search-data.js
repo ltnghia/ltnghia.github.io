@@ -577,14 +577,14 @@ ninja.data = [{
           section: "News",},{id: "news-some-papers-are-accepted-to-soict-2025",
           title: 'Some papers are accepted to SoICT, 2025.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-pandora",
+          title: 'PANDORA',
+          description: "Pixel-wise Attention Dissolution and Latent Guidance for Zero-Shot Object Removal",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-shape2animal",
+          title: 'Shape2Animal',
+          description: "Creative Animal Generation from Natural Silhouettes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
