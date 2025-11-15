@@ -253,6 +253,37 @@
       {% if entry.demo %}
         <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
       {% endif %}
+      {% if entry.project_page %}
+        <a href="{{ entry.project_page }}" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+      {% endif %}
+      {% if entry.dataset %}
+        <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
+      {% endif %}
+      {% if entry.leaderboard %}
+        <a href="{{ entry.leaderboard }}" class="btn btn-sm z-depth-0" role="button">Leaderboard</a>
+      {% endif %}
+      {% if entry.invited_paper %}
+        <a href="{{ entry.invited_paper }}" class="btn btn-sm z-depth-0" role="button">Invited Paper</a>
+      {% endif %}
+      {% if entry.invited_poster %}
+        <a href="{{ entry.invited_poster }}" class="btn btn-sm z-depth-0" role="button">Invited Poster</a>
+      {% endif %}
+      {% if entry.track1 %}
+        <a href="{{ entry.track1 }}" class="btn btn-sm z-depth-0" role="button">Track 1</a>
+      {% endif %}
+      {% if entry.track2 %}
+        <a href="{{ entry.track2 }}" class="btn btn-sm z-depth-0" role="button">Track 2</a>
+      {% endif %}
+      {% if entry.track3 %}
+        <a href="{{ entry.track4 }}" class="btn btn-sm z-depth-0" role="button">Track 4</a>
+      {% endif %}
+      {% if entry.track4 %}
+        <a href="{{ entry.track4 }}" class="btn btn-sm z-depth-0" role="button">Track 4</a>
+      {% endif %}
+      {% if entry.results %}
+        <a href="{{ entry.results }}" class="btn btn-sm z-depth-0" role="button">Results</a>
+      {% endif %}
+
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
