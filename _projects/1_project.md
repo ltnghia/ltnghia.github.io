@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: PANDORA 
+description: Pixel-wise Attention Dissolution and Latent Guidance for Zero-Shot Object Removal
+img: assets/img/pandora.jpg
+redirect: https://pandora-laboratory.github.io/
 importance: 1
-category: work
-related_publications: true
+category: project
 ---
 
 Every project has a beautiful feature showcase page.
