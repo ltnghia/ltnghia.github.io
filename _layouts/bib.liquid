@@ -283,6 +283,9 @@
       {% if entry.results %}
         <a href="{{ entry.results }}" class="btn btn-sm z-depth-0" role="button">Results</a>
       {% endif %}
+      {% if entry.abs %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
