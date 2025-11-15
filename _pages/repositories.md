@@ -4,63 +4,50 @@ permalink: /demo/
 title: Demo
 nav: true
 nav_order: 4
-display_categories: [work, fun]
-horizontal: false
 ---
 
-Old projects are <a href="https://sites.google.com/view/ltnghia/research" target="_blank">Here</a>.
+<div class="row">
 
-<!-- pages/repositories.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" 
+                src="https://www.youtube.com/embed/uXpXmEbjg3M?si=O2y4LD7EWgUmJ5-E" 
+                title="Demo 1" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="card-body">
+        <h5 class="card-title text-center">Streamlining Virtual KOL Generation Through Modular Generative AI Architecture</h5>
+      </div>
     </div>
+
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" 
+                src="https://www.youtube.com/embed/BX-Edz7Z7ZY?si=D0riDgBQ55-ira3J" 
+                title="Demo 2" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+        </iframe>
+      </div>
 
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+      <div class="card-body">
+        <h5 class="card-title text-center">Advancing Fashion Design Through Intelligent Sketchpad Studio</h5>
+      </div>
     </div>
+
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
+
   </div>
-  {% endif %}
-{% endif %}
-</div>

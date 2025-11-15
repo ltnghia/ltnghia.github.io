@@ -157,3 +157,12 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+.project-card-img img {
+  /* Ép tất cả ảnh có cùng chiều cao (bạn có thể đổi số) */
+  height: 200px;
+  width: 100%;
+
+  /* Tự động căn giữa và lấp đầy khung */
+  object-fit: cover;
+}
