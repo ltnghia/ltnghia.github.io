@@ -449,7 +449,7 @@ ninja.data = [{
           title: 'Two papers (video object segmentation and camouflaged instance segmentation) are accepted to AAAI...',
           description: "",
           section: "News",},{id: "news-call-for-papers-special-issue-advanced-artificial-intelligence-in-mixed-reality-applications-of-journal-of-electronics",
-          title: 'Call for papers: Special Issue “Advanced Artificial Intelligence in Mixed Reality Applications” of...',
+          title: 'Call for papers: Special Issue “[Advanced Artificial Intelligence in Mixed Reality Applications]” of...',
           description: "",
           section: "News",},{id: "news-an-article-about-camouflaged-object-segmentation-is-accepted-to-ieee-access-2021",
           title: 'An article about camouflaged object segmentation is accepted to IEEE Access, 2021.',
