@@ -158,11 +158,8 @@ html[data-theme-setting="light"] {
   }
 }
 
-.project-card-img img {
-  /* Ép tất cả ảnh có cùng chiều cao (bạn có thể đổi số) */
-  height: 200px;
-  width: 100%;
-
-  /* Tự động căn giữa và lấp đầy khung */
-  object-fit: cover;
+.card-img-square {
+  aspect-ratio: 1 / 1; /* Tạo khung vuông */
+  object-fit: contain; /* Cho ảnh lọt thỏm vào giữa */
+  background-color: #f9f9f9; /* Tùy chọn: màu nền cho khoảng trống */
 }

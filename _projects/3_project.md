@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: EVENTA
+description: Seeing Beyond the Pixels — Understanding the Story Behind Every Image
+img: assets/img/eventa.jpg
+redirect: https://ltnghia.github.io/eventa/
+importance: 1
+category: Long-Term Projects
 ---
 
 Every project has a beautiful feature showcase page.

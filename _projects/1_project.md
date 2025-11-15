@@ -5,7 +5,7 @@ description: Pixel-wise Attention Dissolution and Latent Guidance for Zero-Shot 
 img: assets/img/pandora.jpg
 redirect: https://pandora-laboratory.github.io/
 importance: 1
-category: project
+category: Standard Projects
 ---
 
 Every project has a beautiful feature showcase page.

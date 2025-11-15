@@ -5,7 +5,7 @@ description: Creative Animal Generation from Natural Silhouettes
 img: assets/img/shape2animal.jpg
 redirect: https://shape2image.github.io/
 importance: 1
-category: project
+category: Standard Projects
 related_publications: true
 ---
 
