@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PANDORA 
+title: PANDORA
 description: Pixel-wise Attention Dissolution and Latent Guidance for Zero-Shot Object Removal
 img: assets/img/pandora.jpg
 redirect: https://pandora-laboratory.github.io/

@@ -64,5 +64,3 @@ Old projects are <a href="https://sites.google.com/view/ltnghia/research" target
   {% endif %}
 {% endif %}
 </div>
-
-
