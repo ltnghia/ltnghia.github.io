@@ -577,22 +577,7 @@ ninja.data = [{
           section: "News",},{id: "news-some-papers-are-accepted-to-soict-2025",
           title: 'Some papers are accepted to SoICT, 2025.',
           description: "",
-          section: "News",},{id: "projects-pandora",
-          title: 'PANDORA',
-          description: "Pixel-wise Attention Dissolution and Latent Guidance for Zero-Shot Object Removal",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-shape2animal",
-          title: 'Shape2Animal',
-          description: "Creative Animal Generation from Natural Silhouettes",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-eventa",
-          title: 'EVENTA',
-          description: "Seeing Beyond the Pixels — Understanding the Story Behind Every Image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
+          section: "News",},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
@@ -622,6 +607,41 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-eventa",
+          title: 'EVENTA',
+          description: "Seeing Beyond the Pixels — Understanding the Story Behind Every Image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/EVENTA/";
+            },},{id: "projects-openforensics-dataset",
+          title: 'OpenForensics Dataset',
+          description: "Large-Scale Challenging Dataset For Multi-Face Forgery Detection And Segmentation In-The-Wild",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/OpenForensics/";
+            },},{id: "projects-pandora",
+          title: 'PANDORA',
+          description: "Pixel-wise Attention Dissolution and Latent Guidance for Zero-Shot Object Removal",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PANDORA/";
+            },},{id: "projects-shape2animal",
+          title: 'Shape2Animal',
+          description: "Creative Animal Generation from Natural Silhouettes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Shape2Animal/";
+            },},{id: "projects-camouflaged-object-segmentation",
+          title: 'Camouflaged Object Segmentation',
+          description: "MirrorNet_Bio-Inspired Camouflaged Object Segmentation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/camo/";
+            },},{id: "projects-camouflaged-instance-segmentation",
+          title: 'Camouflaged Instance Segmentation',
+          description: "Camouflaged Instance Segmentation In-The-Wild_Dataset, Method, and Benchmark Suite",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/camopp/";
+            },},{id: "projects-semi-supervised-video-instance-segmentation",
+          title: 'Semi-Supervised Video Instance Segmentation',
+          description: "Contextual Guided Segmentation Framework for Semi-supervised Video Instance Segmentation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/semi-supervised/";
             },},{
         id: 'social-email',
         title: 'email',
