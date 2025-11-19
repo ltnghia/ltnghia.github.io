@@ -627,8 +627,8 @@ ninja.data = [{
           description: "Creative animal generation from natural silhouettes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Shape2Animal/";
-            },},{id: "projects-camouflaged-object-segmentation",
-          title: 'Camouflaged Object Segmentation',
+            },},{id: "projects-camo",
+          title: 'CAMO',
           description: "Pioneering work on camouflaged object segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camo/";
