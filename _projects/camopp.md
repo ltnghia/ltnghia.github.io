@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Camouflaged Instance Segmentation
-description: Camouflaged Instance Segmentation In-The-Wild_Dataset, Method, and Benchmark Suite
+description: Camouflaged instance segmentation in-the-wild
 img: assets/img/camopp.jpg
 redirect: https://sites.google.com/view/ltnghia/research/camo_plus_plus
 importance: 2
