@@ -634,7 +634,7 @@ ninja.data = [{
               window.location.href = "/projects/camo/";
             },},{id: "projects-camouflaged-instance-segmentation",
           title: 'Camouflaged Instance Segmentation',
-          description: "Camouflaged Instance Segmentation In-The-Wild_Dataset, Method, and Benchmark Suite",
+          description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camopp/";
             },},{id: "projects-semi-supervised-video-instance-segmentation",
