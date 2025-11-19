@@ -6,6 +6,8 @@ nav: true
 nav_order: 4
 ---
 
+<div class="row">
+
 <div class="col-md-6 mb-4">
     <div class="card h-100 rounded z-depth-1">
       
@@ -26,8 +28,6 @@ nav_order: 4
     </div>
 
   </div>
-
-<div class="row">
 
   <div class="col-md-6 mb-4">
     <div class="card h-100 rounded z-depth-1">
