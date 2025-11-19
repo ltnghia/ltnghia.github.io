@@ -632,8 +632,8 @@ ninja.data = [{
           description: "Pioneering work on camouflaged object segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camo/";
-            },},{id: "projects-camouflaged-instance-segmentation",
-          title: 'Camouflaged Instance Segmentation',
+            },},{id: "projects-camo",
+          title: 'CAMO++',
           description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camopp/";
