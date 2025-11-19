@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Semi-Supervised Video Instance Segmentation
-description: Contextual Guided Segmentation Framework for Semi-supervised Video Instance Segmentation
+description: Semi-supervised video instance segmentation in CVPR DAVIS Challenge series 
 img: assets/img/semi-supervised.jpg
 redirect: https://sites.google.com/view/ltnghia/research/vos
 importance: 2
