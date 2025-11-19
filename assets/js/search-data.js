@@ -624,7 +624,7 @@ ninja.data = [{
               window.location.href = "/projects/PANDORA/";
             },},{id: "projects-shape2animal",
           title: 'Shape2Animal',
-          description: "Creative Animal Generation from Natural Silhouettes",
+          description: "Creative animal generation from natural silhouettes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Shape2Animal/";
             },},{id: "projects-camouflaged-object-segmentation",
