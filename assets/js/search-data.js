@@ -629,7 +629,7 @@ ninja.data = [{
               window.location.href = "/projects/Shape2Animal/";
             },},{id: "projects-camouflaged-object-segmentation",
           title: 'Camouflaged Object Segmentation',
-          description: "MirrorNet_Bio-Inspired Camouflaged Object Segmentation",
+          description: "Pioneering work on camouflaged object segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camo/";
             },},{id: "projects-camouflaged-instance-segmentation",
