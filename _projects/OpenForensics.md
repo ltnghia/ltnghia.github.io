@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenForensics Dataset
+title: OpenForensics
 description: Large-Scale Challenging Dataset For Multi-Face Forgery Detection And Segmentation In-The-Wild
 img: assets/img/OpenForensics.jpg
 redirect: https://sites.google.com/view/ltnghia/research/openforensics
