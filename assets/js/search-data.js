@@ -639,7 +639,7 @@ ninja.data = [{
               window.location.href = "/projects/camopp/";
             },},{id: "projects-semi-supervised-video-instance-segmentation",
           title: 'Semi-Supervised Video Instance Segmentation',
-          description: "Contextual Guided Segmentation Framework for Semi-supervised Video Instance Segmentation",
+          description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
           section: "Projects",handler: () => {
               window.location.href = "/projects/semi-supervised/";
             },},{
