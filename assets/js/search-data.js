@@ -619,7 +619,7 @@ ninja.data = [{
               window.location.href = "/projects/OpenForensics/";
             },},{id: "projects-pandora",
           title: 'PANDORA',
-          description: "Pixel-wise Attention Dissolution and Latent Guidance for Zero-Shot Object Removal",
+          description: "Pixel-wise attention dissolution and latent guidance for zero-shot object removal",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PANDORA/";
             },},{id: "projects-shape2animal",
