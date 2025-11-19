@@ -614,7 +614,7 @@ ninja.data = [{
               window.location.href = "/projects/EVENTA/";
             },},{id: "projects-openforensics",
           title: 'OpenForensics',
-          description: "Large-Scale Challenging Dataset For Multi-Face Forgery Detection And Segmentation In-The-Wild",
+          description: "Large-scale dataset for multi-face forgery segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/OpenForensics/";
             },},{id: "projects-pandora",
