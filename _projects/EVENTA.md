@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EVENTA
-description: Seeing Beyond the Pixels — Understanding the Story Behind Every Image
+description: Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels
 img: assets/img/eventa.jpg
 redirect: https://ltnghia.github.io/eventa/
 importance: 1
