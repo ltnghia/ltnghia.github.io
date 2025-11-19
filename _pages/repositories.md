@@ -179,6 +179,94 @@ nav_order: 4
 
 <div class="row">
 
+<div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RwkJ7sNeMfk?si=YrZnysiyE1TpCO4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">OpenEvents V1: Large-Scale Benchmark Dataset for Multimodal Event Grounding [ACMMM'25]</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cwqVqoCrs8E?si=AplGYy-EVs9SsVrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">Event-Enriched Image Analysis Grand Challenge at ACM Multimedia 2025 [ACMMM'25]</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/23rwOnlwl9M?si=cbAGEBj_XScdGIsv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">Advancing Fashion Design Through Intelligent Sketchpad Studio [ACMMM'25]</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TIobhFjskgc?si=q2UE2EzcIBgLrUpu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">Streamlining Virtual KOL Generation Through Modular Generative AI Architecture [ACMMM'25]</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L_hHgVf_cfM?si=Nx9rMIIhrftJqNHj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization [ACMMM'25]</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-UiTJHKeKZs?si=Vz3nbSwCCQOTVNPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">EVENT-Retriever: Event-Aware Multimodal Image Retrieval for Realistic Captions [ACMMM'25]</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CJ7pFxZWebU?si=mz-pIWqdEM5KcrvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">Multi-Level CLS Token Fusion for Contrastive Learning in Endoscopy Image Classification [ACMMM'25]</h5>
+      </div>
+    </div>
+  </div>
+
+<div class="col-md-6 mb-4">
+    <div class="card h-100 rounded z-depth-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H0iMlvBNrac?si=IBmaK_ZY5O3Gxe2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-left">GenFlow: Interactive Modular System for Image Generation [CBMI'25]</h5>
+      </div>
+    </div>
+  </div>
+
   <div class="col-md-6 mb-4">
     <div class="card h-100 rounded z-depth-1">
       <div class="embed-responsive embed-responsive-16by9">
