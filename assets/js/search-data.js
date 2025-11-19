@@ -612,8 +612,8 @@ ninja.data = [{
           description: "Seeing Beyond the Pixels — Understanding the Story Behind Every Image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/EVENTA/";
-            },},{id: "projects-openforensics-dataset",
-          title: 'OpenForensics Dataset',
+            },},{id: "projects-openforensics",
+          title: 'OpenForensics',
           description: "Large-Scale Challenging Dataset For Multi-Face Forgery Detection And Segmentation In-The-Wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/OpenForensics/";
