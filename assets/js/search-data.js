@@ -609,7 +609,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-eventa",
           title: 'EVENTA',
-          description: "Seeing Beyond the Pixels — Understanding the Story Behind Every Image",
+          description: "Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels",
           section: "Projects",handler: () => {
               window.location.href = "/projects/EVENTA/";
             },},{id: "projects-openforensics",
