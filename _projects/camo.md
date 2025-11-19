@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Camouflaged Object Segmentation
+title: CAMO
 description: Pioneering work on camouflaged object segmentation
 img: assets/img/camo.jpg
 redirect: https://sites.google.com/view/ltnghia/research/camo
