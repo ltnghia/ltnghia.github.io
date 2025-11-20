@@ -5,7 +5,7 @@ description: Pioneering work on camouflaged object segmentation
 img: assets/img/camo.jpg
 redirect: https://sites.google.com/view/ltnghia/research/camo
 importance: 2
-category: Standard Projects
+category: Selected Projects
 related_publications: true
 ---
 
