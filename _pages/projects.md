@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [Long-Term Projects, Standard Projects]
+display_categories: [Long-Term Projects, Selected Projects]
 horizontal: false
 ---
 
