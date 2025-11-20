@@ -647,7 +647,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%74%6E%67%68%69%61.%72%65%73%65%61%72%63%68@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6C%74%6E%67%68%69%61@%66%69%74.%68%63%6D%75%73.%65%64%75.%76%6E", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -661,7 +661,7 @@ ninja.data = [{
         title: 'DBLP',
         section: 'Socials',
         handler: () => {
-          window.open("http://www.informatik.uni-trier.de/~ley/pers/hd/l/Le:Trung=Nghia", "_blank");
+          window.open("https://dblp.org/pid/00/11111.html", "_blank");
         },
       },{
         id: 'social-researchgate',
