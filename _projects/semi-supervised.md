@@ -5,7 +5,7 @@ description: Semi-supervised video instance segmentation in CVPR DAVIS Challenge
 img: assets/img/semi-supervised.jpg
 redirect: https://sites.google.com/view/ltnghia/research/vos
 importance: 2
-category: Standard Projects
+category: Selected Projects
 related_publications: true
 ---
 
