@@ -33,6 +33,10 @@ nav_order: 5
 - [Ngan N.T. Tran](https://sites.google.com/view/ngantran) (Ph.D.)
 - Alvin Le
 
+### PhD students
+
+- Vu-Truong Le (2025, Computer Science)
+
 ### Master's students
 
 - Duy-Dat Tran (2022, Computer Science Program, G2)
