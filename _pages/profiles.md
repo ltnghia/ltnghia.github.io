@@ -50,6 +50,7 @@ nav_order: 5
 - Phi-Long Vo (2024, Integrated Science Program)
 - Thi-Hong-Hanh Nguyen (2024, Integrated Science Program)
 - Mai-Duc-Duy Nguyen (2024, Integrated Science Program)
+- [Trong-Vu Hoang](https://htrvu.github.io/) (2025, Artificial Intelligence Program, G1)
 
 ### Undergraduate students
 
