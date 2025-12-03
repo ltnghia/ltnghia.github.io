@@ -8,6 +8,14 @@ nav_order: 7
 
 # Thesis
 
+## X
+
+- **Research on Data Hiding Techniques for Authenticating AI-Generated Images (Vietnamese: Nghiên Cứu Các Giải Pháp Ẩn Dữ Liệu Cho Việc Xác Thực Hình Ảnh Do AI Sinh Ra)**
+
+  - Vu-Truong Le. Co-supervised with Dr. Thanh-Duc Chau
+  - [Thesis] [Slide]
+
+
 ## 2026
 
 - **Application of Artificial Intelligence in Analysis of Adverse Drug Events in Pharmacovigilance (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Biến Cố Bất Lợi Của Thuốc Trong Lĩnh Vực Cảnh Giác Dược)**
