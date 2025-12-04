@@ -84,6 +84,17 @@ nav_order: 6
 
 ---
 
+### High-Quality Program
+
+- **Summer 2025:**
+  - CSC10003 - Object Oriented Programming
+- **Autumn 2024:**
+  - CSC10003 - Object Oriented Programming
+- **Autumn 2023:**
+  - CSC10003 - Object Oriented Programming
+    
+---
+
 ### Standard Program
 
 - **Spring 2026:**
