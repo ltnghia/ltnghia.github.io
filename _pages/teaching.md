@@ -10,6 +10,9 @@ nav_order: 6
 
 ### Master Program
 
+- **Spring 2026:**
+  - MTH058 - Advanced Artificial Intelligence
+  - MKHTH21 - Basic Machine Learning and Applications
 - **Summer 2025:**
   - MKHTH27 - Applied Generative Artificial Intelligence
 - **Spring 2025:**
@@ -31,6 +34,8 @@ nav_order: 6
 
 ### Advanced Program in Computer Science (APCS)
 
+- **Spring 2026:**
+  - WR227 - Technical Writing
 - **Autumn 2025:**
   - SC203 - Scientific Methods
   - [CS419 - Introduction to Information Retrieval](https://sites.google.com/view/information-retrieval-2023/home)
@@ -60,6 +65,8 @@ nav_order: 6
 
 ### Honors Program
 
+- **Spring 2026:**
+  - CSC15108 - Multimedia Forensics Technologies
 - **Spring 2025:**
   - CSC15108 - Multimedia Forensics Technologies
 - **Spring 2024:**
@@ -79,6 +86,8 @@ nav_order: 6
 
 ### Standard Program
 
+- **Spring 2026:**
+  - CSC15108 - Multimedia Forensics Technologies
 - **Autumn 2025:**
   - CSC18101 - AI for Computer Security
 - **Spring 2025:**
