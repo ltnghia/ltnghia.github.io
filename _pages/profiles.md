@@ -45,12 +45,13 @@ nav_order: 5
 - Minh-Tan Pham (2024, Artificial Intelligence Program, G1)
 - Duy-Khang Bui-Duong (2024, Artificial Intelligence Program, G1)
 - Duy-Bao Bui (2024, Computer Science Program, G2)
-- Minh-Thu Do (2024, Integrated Science Program)
-- Quynh-Chau Le-Tran (2024, Integrated Science Program)
-- Phi-Long Vo (2024, Integrated Science Program)
-- Thi-Hong-Hanh Nguyen (2024, Integrated Science Program)
-- Mai-Duc-Duy Nguyen (2024, Integrated Science Program)
-- [Trong-Vu Hoang](https://htrvu.github.io/) (2025, Artificial Intelligence Program, G1)
+- Minh-Thu Do (2024, Integrated Science Program, G2)
+- Quynh-Chau Le-Tran (2024, Integrated Science Program, G2)
+- Phi-Long Vo (2024, Integrated Science Program, G2)
+- Thi-Hong-Hanh Nguyen (2024, Integrated Science Program, G2)
+- Mai-Duc-Duy Nguyen (2024, Integrated Science Program, G2)
+- [Trong-Vu Hoang](https://htrvu.github.io/) (2025, Artificial Intelligence Program)
+- Duy-Hoang Do-Nguyen (2025, Artificial Intelligence Program)
 
 ### Undergraduate students
 
