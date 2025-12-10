@@ -82,7 +82,7 @@ nav_order: 5
 - Thinh-Phuc Nguyen-Le (2023~2027, Advanced Computer Science Program)
 - Gia-Huy Dinh-Ho (2023~2027, Advanced Computer Science Program)
 - Thanh-Hai Nguyen (2023~2027, Advanced Computer Science Program)
-- Lam-Huy Nguyen (2023~2027, Advanced Computer Science Program)
+- Lam-Huy Nguyen-Ngoc (2023~2027, Advanced Computer Science Program)
 - Le-Hoang Bui (2023~2027, Advanced Computer Science Program)
 - Hoang-Nguyen Cao (2023~2027, Advanced Computer Science Program)
 
