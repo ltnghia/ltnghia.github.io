@@ -15,29 +15,28 @@ nav_order: 7
   - Vu-Truong Le. Co-supervised with Dr. Thanh-Duc Chau
   - [Thesis] [Slide]
 
-
 ## 2026
 
 - **Application of Artificial Intelligence in Analysis of Adverse Drug Events in Pharmacovigilance (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Biến Cố Bất Lợi Của Thuốc Trong Lĩnh Vực Cảnh Giác Dược)**
 
   - Quynh-Chau Le-Tran. Co-supervised with Dr. Thi-Hong-Truc Phan
   - [Thesis] [Slide]
- 
+
 - **Exploration and Prediction of Bioactive Natural Compounds Toward Cancer Drug Development Using Artificial Intelligence (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Khai Thác Và Dự Đoán Hoạt Tính Sinh Học Của Các Hợp Chất Tự Nhiên Hướng Tới Phát Triển Thuốc Điều Trị Ung Thư)s**
 
   - Phi-Long Vo. Co-supervised with Dr. Thi-Hong-Truc Phan
   - [Thesis] [Slide]
- 
+
 - **AI-Driven Analysis of Corporate Financial Health in Vietnam (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Sức Khỏe Tài Chính Doanh Nghiệp Việt Nam)**
 
   - Minh-Thu Do. Co-supervised with Dr. Khanh-Duy Le
   - [Thesis] [Slide]
- 
+
 - **AI-Based Analysis and Assessment of University Admission Profiles (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Và Đánh Giá Hồ Sơ Ứng Tuyển Đại Học)**
 
   - Thi-Hong-Hanh Nguyen. Co-supervised with Dr. Khanh-Duy Le
   - [Thesis] [Slide]
- 
+
 - **Application of Artificial Intelligence in Monitoring and Analyzing Traffic Flow at Ho Chi Minh City Intersections (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Giám Sát Và Phân Tích Lưu Lượng Giao Thông Ở Giao Lộ Thành Phố Hồ Chí Minh)**
 
   - Mai-Duc-Duy Nguyen. Co-supervised with Dr. Khanh-Duy Le
@@ -59,6 +58,7 @@ nav_order: 7
   - [Thesis] [Slide]
 
 - **Interactive Image Generation Using Deep Generative Models**
+
   - Duy-Khang Bui-Duong. Co-supervised with Prof. Minh-Triet Tran
   - [Thesis] [Slide]
 

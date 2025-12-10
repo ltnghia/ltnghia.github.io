@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Semi-Supervised Video Instance Segmentation
-description: Semi-supervised video instance segmentation in CVPR DAVIS Challenge series
-img: assets/img/semi-supervised.jpg
-redirect: https://sites.google.com/view/ltnghia/research/vos
-importance: 2
+title: ForgedCalamity
+description: Challenging synthetic disaster detection with cross-domain evaluation on unseen diffusion models.
+img: assets/img/forgedcalamity.jpg
+redirect: https://forgedcalamity.github.io/
+importance: 1
 category: Selected Projects
 related_publications: true
 ---

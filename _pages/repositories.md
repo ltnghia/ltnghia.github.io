@@ -50,8 +50,6 @@ nav_order: 4
 
   </div>
 
-  
-
   <div class="col-md-6 mb-4">
     <div class="card h-100 rounded z-depth-1">
       <div class="embed-responsive embed-responsive-16by9">

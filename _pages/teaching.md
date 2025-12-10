@@ -92,7 +92,7 @@ nav_order: 6
   - CSC10003 - Object Oriented Programming
 - **Autumn 2023:**
   - CSC10003 - Object Oriented Programming
-    
+
 ---
 
 ### Standard Program
