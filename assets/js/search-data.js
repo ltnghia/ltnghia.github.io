@@ -612,6 +612,11 @@ ninja.data = [{
           description: "Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels",
           section: "Projects",handler: () => {
               window.location.href = "/projects/EVENTA/";
+            },},{id: "projects-forgedcalamity",
+          title: 'ForgedCalamity',
+          description: "Challenging synthetic disaster detection with cross-domain evaluation on unseen diffusion models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ForgedCalamity/";
             },},{id: "projects-openforensics",
           title: 'OpenForensics',
           description: "Large-scale dataset for multi-face forgery segmentation in-the-wild",
