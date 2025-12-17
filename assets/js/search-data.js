@@ -635,6 +635,11 @@ ninja.data = [{
           description: "Creative animal generation from natural silhouettes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Shape2Animal/";
+            },},{id: "projects-showflow",
+          title: 'ShowFlow',
+          description: "From Robust Single Concept to Condition-Free Multi-Concept Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ShowFlow/";
             },},{id: "projects-camo",
           title: 'CAMO',
           description: "Pioneering work on camouflaged object segmentation",
