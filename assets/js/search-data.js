@@ -650,6 +650,11 @@ ninja.data = [{
           description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camopp/";
+            },},{id: "projects-cpam-editing",
+          title: 'CPAM - Editing',
+          description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cpam/";
             },},{id: "projects-semi-supervised-video-instance-segmentation",
           title: 'Semi-Supervised Video Instance Segmentation',
           description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
