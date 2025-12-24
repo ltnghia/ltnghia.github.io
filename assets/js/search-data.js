@@ -614,7 +614,7 @@ ninja.data = [{
           title: 'EVENTA',
           description: "Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/EVENTA/";
+              window.location.href = "/projects/Eventa/";
             },},{id: "projects-forgedcalamity",
           title: 'ForgedCalamity',
           description: "Challenging synthetic disaster detection with cross-domain evaluation on unseen diffusion models.",
