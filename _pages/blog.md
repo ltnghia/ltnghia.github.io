@@ -29,17 +29,17 @@ nav_order: 7
 
 - **AI-Driven Analysis of Corporate Financial Health in Vietnam (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Sức Khỏe Tài Chính Doanh Nghiệp Việt Nam)**
 
-  - Minh-Thu Do. Co-supervised with Dr. Khanh-Duy Le
+  - Minh-Thu Do. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
 - **AI-Based Analysis and Assessment of University Admission Profiles (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Và Đánh Giá Hồ Sơ Ứng Tuyển Đại Học)**
 
-  - Thi-Hong-Hanh Nguyen. Co-supervised with Dr. Khanh-Duy Le
+  - Thi-Hong-Hanh Nguyen. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
 - **Application of Artificial Intelligence in Monitoring and Analyzing Traffic Flow at Ho Chi Minh City Intersections (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Giám Sát Và Phân Tích Lưu Lượng Giao Thông Ở Giao Lộ Thành Phố Hồ Chí Minh)**
 
-  - Mai-Duc-Duy Nguyen. Co-supervised with Dr. Khanh-Duy Le
+  - Mai-Duc-Duy Nguyen. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
 - **Efficient Multimodal Training for Composed Image Retrieval (Vietnamese: Huấn Luyện Đa Phương Thức Hiệu Quả Cho Truy Vấn Hình Ảnh Kết Hợp)**
@@ -49,17 +49,17 @@ nav_order: 7
 
 - **Image Generation Using Multimodal Deep Generative Models**
 
-  - Dinh-Khoi Vo. Co-supervised with Prof. Minh-Triet Tran
+  - Dinh-Khoi Vo. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Virtual Dressing Using Deep Generative Models**
 
-  - Minh-Tan Pham. Co-supervised with Prof. Minh-Triet Tran
+  - Minh-Tan Pham. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Interactive Image Generation Using Deep Generative Models**
 
-  - Duy-Khang Bui-Duong. Co-supervised with Prof. Minh-Triet Tran
+  - Duy-Khang Bui-Duong. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **News Retrieval Based on Retrieval-Augmented Thoughts (Vietnamese: Truy Vấn Tin Tức Dựa Trên Kỹ Thuật Suy Luận Tăng Cường Truy Xuất)**
@@ -108,7 +108,7 @@ nav_order: 7
 
 - **Revolutionizing Fashion Design with Generative AI**
 
-  - Nhu-Binh Nguyen-Truc, Nhu-Vinh Hoang. Co-supervised with Prof. Minh-Triet Tran
+  - Nhu-Binh Nguyen-Truc, Nhu-Vinh Hoang. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Interactive Modular Framework for Image Generation**
@@ -129,7 +129,7 @@ nav_order: 7
 
 - **Generative AI for Human Creativity**
 
-  - Trong-Vu Hoang, Quang-Binh Nguyen. Co-supervised with Prof. Minh-Triet Tran
+  - Trong-Vu Hoang, Quang-Binh Nguyen. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Interactive System for Text-to-Image Generation**
@@ -144,7 +144,7 @@ nav_order: 7
 
 - **Intelligent Concept Design System**
 
-  - Dinh-Khoi Vo, Hoang-Phuc Nguyen. Co-supervised with Prof. Minh-Triet Tran
+  - Dinh-Khoi Vo, Hoang-Phuc Nguyen. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Human Feedback in Enhancing Image Generation Models**
@@ -154,7 +154,7 @@ nav_order: 7
 
 - **Language-Guided Video Object Segmentation**
 
-  - Minh-Duy Phan, Minh-Huan Le. Co-supervised with Prof. Minh-Triet Tran
+  - Minh-Duy Phan, Minh-Huan Le. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **In-the-Wild Long Dance Sequence Generation With Diffusion Models**
@@ -170,19 +170,19 @@ nav_order: 7
 
 - **Multimodal Diffusion Models for Interior Design**
 
-  - Chi-Bien Chu, Minh-Hien Le. Co-supervised with Prof. Minh-Triet Tran
+  - Chi-Bien Chu, Minh-Hien Le. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Deep Fashion with Outfit Recommendation and Try-on**
 
-  - Khoi-Nguyen Nguyen-Ngoc, Thanh-Tung Phan-Nguyen. Co-supervised with Prof. Minh-Triet Tran
+  - Khoi-Nguyen Nguyen-Ngoc, Thanh-Tung Phan-Nguyen. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Enhancing Video Summarization with Context Awareness**
 
-  - Hai-Dang Huynh-Lam, Ngoc-Phuong Ho-Thi. Co-supervised with Prof. Minh-Triet Tran
+  - Hai-Dang Huynh-Lam, Ngoc-Phuong Ho-Thi. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [[Thesis]](https://arxiv.org/abs/2404.04564) [Slide]
 
 - **Self-Supervised Learning Approach for Digital Pathology Image Analysis**
-  - Gia-Bao Le, Van-Tien Nguyen. Co-supervised with Prof. Minh-Triet Tran
+  - Gia-Bao Le, Van-Tien Nguyen. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
