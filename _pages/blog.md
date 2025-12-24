@@ -12,19 +12,19 @@ nav_order: 7
 
 - **Research on Data Hiding Techniques for Authenticating AI-Generated Images (Vietnamese: Nghiên Cứu Các Giải Pháp Ẩn Dữ Liệu Cho Việc Xác Thực Hình Ảnh Do AI Sinh Ra)**
 
-  - Vu-Truong Le. Co-supervised with Dr. Thanh-Duc Chau
+  - Vu-Truong Le. Co-supervised with [Dr. Thanh-Duc Chau](https://www.linkedin.com/in/duc-chau-vn/)
   - [Thesis] [Slide]
 
 ## 2026
 
 - **Application of Artificial Intelligence in Analysis of Adverse Drug Events in Pharmacovigilance (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Biến Cố Bất Lợi Của Thuốc Trong Lĩnh Vực Cảnh Giác Dược)**
 
-  - Quynh-Chau Le-Tran. Co-supervised with Dr. Thi-Hong-Truc Phan
+  - Quynh-Chau Le-Tran. Co-supervised with [Dr. Thi-Hong-Truc Phan](https://fis.hcmus.edu.vn/en/members/ts-phan-thi-hong-truc/)
   - [Thesis] [Slide]
 
 - **Exploration and Prediction of Bioactive Natural Compounds Toward Cancer Drug Development Using Artificial Intelligence (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Khai Thác Và Dự Đoán Hoạt Tính Sinh Học Của Các Hợp Chất Tự Nhiên Hướng Tới Phát Triển Thuốc Điều Trị Ung Thư)s**
 
-  - Phi-Long Vo. Co-supervised with Dr. Thi-Hong-Truc Phan
+  - Phi-Long Vo. Co-supervised with [Dr. Thi-Hong-Truc Phan](https://fis.hcmus.edu.vn/en/members/ts-phan-thi-hong-truc/)
   - [Thesis] [Slide]
 
 - **AI-Driven Analysis of Corporate Financial Health in Vietnam (Vietnamese: Ứng Dụng Trí Tuệ Nhân Tạo Trong Phân Tích Sức Khỏe Tài Chính Doanh Nghiệp Việt Nam)**
