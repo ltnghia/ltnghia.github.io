@@ -629,7 +629,7 @@ ninja.data = [{
           title: 'PANDORA',
           description: "Pixel-wise attention dissolution and latent guidance for zero-shot object removal",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/PANDORA/";
+              window.location.href = "/projects/Pandora/";
             },},{id: "projects-shape2animal",
           title: 'Shape2Animal',
           description: "Creative animal generation from natural silhouettes",
