@@ -615,6 +615,11 @@ ninja.data = [{
           description: "Pioneering work on camouflaged object segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Camo/";
+            },},{id: "projects-camo",
+          title: 'CAMO++',
+          description: "Camouflaged instance segmentation in-the-wild",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CamoPP/";
             },},{id: "projects-cpam",
           title: 'CPAM',
           description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
@@ -655,11 +660,6 @@ ninja.data = [{
           description: "From Robust Single Concept to Condition-Free Multi-Concept Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ShowFlow/";
-            },},{id: "projects-camo",
-          title: 'CAMO++',
-          description: "Camouflaged instance segmentation in-the-wild",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/camopp/";
             },},{
         id: 'social-email',
         title: 'email',
