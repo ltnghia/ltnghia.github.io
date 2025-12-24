@@ -635,6 +635,11 @@ ninja.data = [{
           description: "Pixel-wise attention dissolution and latent guidance for zero-shot object removal",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Pandora/";
+            },},{id: "projects-semi-supervised-video-instance-segmentation",
+          title: 'Semi-Supervised Video Instance Segmentation',
+          description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Semi-Supervised/";
             },},{id: "projects-shape2animal",
           title: 'Shape2Animal',
           description: "Creative animal generation from natural silhouettes",
@@ -655,11 +660,6 @@ ninja.data = [{
           description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camopp/";
-            },},{id: "projects-semi-supervised-video-instance-segmentation",
-          title: 'Semi-Supervised Video Instance Segmentation',
-          description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/semi-supervised/";
             },},{
         id: 'social-email',
         title: 'email',
