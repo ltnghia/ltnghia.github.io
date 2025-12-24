@@ -3,7 +3,7 @@ layout: page
 title: CPAM
 description: Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing
 img: assets/img/cpam.png
-redirect: https://cpam-editing.vercel.app/
+redirect: https://vdkhoi20.github.io/CPAM/
 importance: 1
 category: Standard Projects
 related_publications: true
