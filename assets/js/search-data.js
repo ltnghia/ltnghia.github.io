@@ -650,8 +650,8 @@ ninja.data = [{
           description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camopp/";
-            },},{id: "projects-cpam-editing",
-          title: 'CPAM - Editing',
+            },},{id: "projects-cpam",
+          title: 'CPAM',
           description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cpam/";
