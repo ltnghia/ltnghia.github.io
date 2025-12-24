@@ -202,7 +202,7 @@ nav_order: 7
 
 - **In-the-Wild Long Dance Sequence Generation With Diffusion Models**
 
-  - Tuong-Vy Truong-Thuy, Gia-Cat Bui-Le. Co-supervised with MSc. Hai-Dang Nguyen
+  - Tuong-Vy Truong-Thuy, Gia-Cat Bui-Le. Co-supervised with [MSc. Hai-Dang Nguyen](https://scholar.google.com/citations?user=L5O1bnUAAAAJ&hl=vi)
   - [Thesis] [Slide]
 
 - **Text-to-4D Content Creation using Image Priors and Monocular Driver Videos**
