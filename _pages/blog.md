@@ -8,7 +8,7 @@ nav_order: 7
 
 # Thesis
 
-## X
+## Ph.D.
 
 - **Research on Data Hiding Techniques for Authenticating AI-Generated Images (Vietnamese: Nghiên Cứu Các Giải Pháp Ẩn Dữ Liệu Cho Việc Xác Thực Hình Ảnh Do AI Sinh Ra)**
 
