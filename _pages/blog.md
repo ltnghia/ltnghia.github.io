@@ -67,6 +67,23 @@ nav_order: 7
   - Tuyet-Hue Tran
   - [Thesis] [Slide]
 
+- **Mirror Object Generation**
+
+  - Xuan-Bach Mai, Duy-Phuc Nguyen. Co-supervised with [Assoc.Prof. Tam V. Nguyen](https://vantam.github.io/)
+  - [Thesis] [Slide]
+ 
+- **Controllable Image Generation**
+
+  - Hoang-Bach Ngo, Tri-Si Ngo. Co-supervised with [Assist.Prof. Hieu Le](https://scholar.google.com/citations?user=Bj9g-EEAAAAJ)
+  - [Thesis] [Slide]
+ 
+- **Medical Multimedia Retrieval**
+
+  - Duc-Tho Nguyen, Thanh-Tien Tran
+  - [Thesis] [Slide]
+ 
+    
+
 ## 2025
 
 - **Reconstruction and Modification of 3D Human Head Model (Vietnamese: Tái Tạo Và Chỉnh Sửa Mô Hình Mặt Người Ba Chiều)**
