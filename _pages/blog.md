@@ -109,7 +109,7 @@ nav_order: 7
  
 - **Event-based Multimedia Retrieval**
 
-  - Van-Phuc Phan, Minh-Tan Pham. Co-supervised with Dr. Toan-Thinh Truong
+  - Van-Phuc Phan, Minh-Tan Pham. Co-supervised with [Dr. Toan-Thinh Truong](https://scholar.google.com.vn/citations?user=O5Gg0jMAAAAJ&hl=en)
   - [Thesis] [Slide]
  
 - **Secured Multimedia System for Safeguarded Image Generation**
