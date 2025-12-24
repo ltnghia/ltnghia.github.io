@@ -610,6 +610,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-cpam",
+          title: 'CPAM',
+          description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Cpam/";
             },},{id: "projects-eventa",
           title: 'EVENTA',
           description: "Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels",
@@ -650,11 +655,6 @@ ninja.data = [{
           description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/camopp/";
-            },},{id: "projects-cpam",
-          title: 'CPAM',
-          description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cpam/";
             },},{id: "projects-semi-supervised-video-instance-segmentation",
           title: 'Semi-Supervised Video Instance Segmentation',
           description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
