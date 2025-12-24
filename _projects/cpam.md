@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CPAM - Editing
+title: CPAM
 description: Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing
 img: assets/img/cpam.png
 redirect: https://cpam-editing.vercel.app/
