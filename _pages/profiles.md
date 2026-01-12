@@ -39,7 +39,7 @@ nav_order: 5
 
 ### Master's students
 
-- Tuyet-Hue Tran (2023, Artificial Intelligence Program, G1)
+- Tuyet-Hue Tran (2023, Artificial Intelligence Program, G2)
 - [Dinh-Khoi Vo](https://scholar.google.com/citations?user=xtOY-m0AAAAJ) (2024, Artificial Intelligence Program, G1)
 - Minh-Tan Pham (2024, Artificial Intelligence Program, G1)
 - Duy-Khang Bui-Duong (2024, Artificial Intelligence Program, G1)
@@ -49,8 +49,9 @@ nav_order: 5
 - Phi-Long Vo (2024, Integrated Science Program, G2)
 - Thi-Hong-Hanh Nguyen (2024, Integrated Science Program, G2)
 - Mai-Duc-Duy Nguyen (2024, Integrated Science Program, G2)
-- [Trong-Vu Hoang](https://htrvu.github.io/) (2025, Artificial Intelligence Program)
-- Duy-Hoang Do-Nguyen (2025, Artificial Intelligence Program)
+- [Trong-Vu Hoang](https://htrvu.github.io/) (2025, Artificial Intelligence Program, G2)
+- Duy-Hoang Do-Nguyen (2025, Artificial Intelligence Program, G2)
+- Tan-Hiep To (2025, Computer Science Program, G2)
 
 ### Undergraduate students
 
