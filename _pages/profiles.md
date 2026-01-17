@@ -40,6 +40,7 @@ nav_order: 5
 ### Master's students
 
 - Tuyet-Hue Tran (2023, Artificial Intelligence Program, G2)
+- Anh-Dao Pham (2023, Artificial Intelligence Program, G2)
 - [Dinh-Khoi Vo](https://scholar.google.com/citations?user=xtOY-m0AAAAJ) (2024, Artificial Intelligence Program, G1)
 - Minh-Tan Pham (2024, Artificial Intelligence Program, G1)
 - Duy-Khang Bui-Duong (2024, Artificial Intelligence Program, G1)
@@ -66,6 +67,7 @@ nav_order: 5
 - Duc-Manh Phan (2022~2026, Honors Program)
 - Van-Hieu Huynh (2022~2026, Honors Program)
 - Ngoc-Dai Tran (2022~2026, Honors Program)
+- Thanh-Tuong Huynh (2022~2026, Honors Program)
 - Van-Phuc Phan (2022~2026, Honors Program)
 - Minh-Tan Pham (2022~2026, Honors Program)
 - Xuan-Bach Mai (2022~2026, Advanced Computer Science Program)
