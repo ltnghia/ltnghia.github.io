@@ -66,6 +66,11 @@ nav_order: 7
 
   - Tuyet-Hue Tran
   - [Thesis] [Slide]
+  - 
+- **Image Analysis Using External Contextual Information (Vietnamese: Phân Tích Hình Ảnh Sử Dụng Thông Tin Ngữ Cảnh Bên Ngoài)**
+
+  - Anh-Dao Pham
+  - [Thesis] [Slide]
 
 - **Mirror Object Generation**
 
