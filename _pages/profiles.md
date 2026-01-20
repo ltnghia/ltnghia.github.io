@@ -51,8 +51,10 @@ nav_order: 5
 - Thi-Hong-Hanh Nguyen (2024, Integrated Science Program, G2)
 - Mai-Duc-Duy Nguyen (2024, Integrated Science Program, G2)
 - [Trong-Vu Hoang](https://htrvu.github.io/) (2025, Artificial Intelligence Program, G2)
+- Minh-Quang Nguyen (2025, Artificial Intelligence Program, G2)
 - Duy-Hoang Do-Nguyen (2025, Artificial Intelligence Program, G2)
 - Tan-Hiep To (2025, Computer Science Program, G2)
+
 
 ### Undergraduate students
 
