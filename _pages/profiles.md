@@ -54,7 +54,7 @@ nav_order: 5
 - Minh-Quang Nguyen (2025, Artificial Intelligence Program, G2)
 - Duy-Hoang Do-Nguyen (2025, Artificial Intelligence Program, G2)
 - Tan-Hiep To (2025, Computer Science Program, G2)
-
+- Duy-Khang Nguyen (2025, Computer Science Program, G2)
 
 ### Undergraduate students
 
