@@ -90,6 +90,7 @@ nav_order: 5
 - Lam-Huy Nguyen-Ngoc (2023~2027, Advanced Computer Science Program)
 - Le-Hoang Bui (2023~2027, Advanced Computer Science Program)
 - Hoang-Nguyen Cao (2023~2027, Advanced Computer Science Program)
+- Le-Tran Nguyen (2025~2029, Advanced Computer Science Program)
 
 ---
 
