@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-VietFashion dataset paper is accepted to ICMR 2026.
+VietFashion dataset is accepted to ICMR 2026.
