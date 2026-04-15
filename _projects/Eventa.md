@@ -5,7 +5,7 @@ description: Event-Enriched Image Analysis project enriches images with event-le
 img: assets/img/eventa.jpg
 redirect: https://ltnghia.github.io/eventa/
 importance: 1
-category: Long-Term Projects
+category: Dataset Projects
 ---
 
 Every project has a beautiful feature showcase page.
