@@ -3,7 +3,7 @@ layout: about
 title: Home
 permalink: /
 subtitle: >
-  Senior Researcher & Lecturer at <a href="https://selab.hcmus.edu.vn/" target="_blank">SELAB</a> and <a href="https://www.fit.hcmus.edu.vn/en/" target="_blank">Faculty of IT</a>,
+  Lecturer at <a href="https://www.fit.hcmus.edu.vn/en/" target="_blank">Faculty of IT</a>, Senior Researcher at <a href="https://selab.hcmus.edu.vn/" target="_blank">SELAB</a>, and Head of <a href="https://www.facebook.com/profile.php?id=61570820990067/" target="_blank">MSLAB</a> 
   <br>
   <a href="https://en.hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM</a>.
 
@@ -24,7 +24,7 @@ latest_posts:
   enabled: false # Tắt mục blog
 ---
 
-Welcome to my homepage! I am a senior researcher and lecturer at [University of Science](https://en.hcmus.edu.vn/)'s [Software Engineering Laboratory](https://selab.hcmus.edu.vn/) and [Faculty of Information Technology](https://www.fit.hcmus.edu.vn/en/).
+Welcome to my homepage! I am a lecturer at [Faculty of Information Technology](https://www.fit.hcmus.edu.vn/en/), senior researcher at [Software Engineering Laboratory](https://selab.hcmus.edu.vn/), and head of [Multimedia Synergy Laboratory](https://www.facebook.com/profile.php?id=61570820990067/), [University of Science](https://en.hcmus.edu.vn/).
 
 I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at [University of Science](https://en.hcmus.edu.vn/), [John Von Neumann Institute](http://www.jvn.edu.vn/), and [National Institute of Informatics](https://www.nii.ac.jp/en/) in 2012, 2014, and 2018 respectively.
 
