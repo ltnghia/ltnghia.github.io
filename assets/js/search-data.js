@@ -628,6 +628,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-aas",
+          title: 'AAS',
+          description: "Fine-grained aquatic animal species dataset with 46 distinct categories",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AAS/";
             },},{id: "projects-camo",
           title: 'CAMO',
           description: "Pioneering work on camouflaged object segmentation",
@@ -653,6 +658,21 @@ ninja.data = [{
           description: "Challenging synthetic disaster detection with cross-domain evaluation on unseen diffusion models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ForgedCalamity/";
+            },},{id: "projects-gunnel",
+          title: 'GUNNEL',
+          description: "Multi-model fusion and guided mixup augmentation for robust aquatic animal instance segmentation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GUNNEL/";
+            },},{id: "projects-maskdiff",
+          title: 'MaskDiff',
+          description: "Modeling mask distribution with diffusion models for few-shot instance segmentation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MaskDiff/";
+            },},{id: "projects-nearbypatchcl",
+          title: 'NearbyPatchCL',
+          description: "Self-supervised patch-level classification in WSIs using nearby patch contrast",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/NearbyPatchCL/";
             },},{id: "projects-openforensics",
           title: 'OpenForensics',
           description: "Large-scale dataset for multi-face forgery segmentation in-the-wild",
@@ -678,6 +698,51 @@ ninja.data = [{
           description: "From Robust Single Concept to Condition-Free Multi-Concept Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ShowFlow/";
+            },},{id: "projects-sketchanimar",
+          title: 'SketchANIMAR',
+          description: "Fine-grained 3D animal model retrieval using hand-drawn sketch queries",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SketchANIMAR/";
+            },},{id: "projects-textanimar",
+          title: 'TextANIMAR',
+          description: "Natural language-based fine-grained retrieval for 3D animal models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TextANIMAR/";
+            },},{id: "projects-vietfashion",
+          title: 'VietFashion',
+          description: "Comprehensive dataset for Vietnamese fashion attribute recognition and retrieval",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VietFashion/";
+            },},{id: "projects-vofocd",
+          title: 'VoFoCD',
+          description: "Laryngeal image dataset for vocal fold classification and endoscopic analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VoFoCD/";
+            },},{id: "projects-acs-nnu-net",
+          title: 'ACS-nnU-Net',
+          description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/acs-nnu-net/";
+            },},{id: "projects-ekyc-df",
+          title: 'eKYC-DF',
+          description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eKYC-DF/";
+            },},{id: "projects-garmentsketch",
+          title: 'GarmentSketch',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/garmentsketch/";
+            },},{id: "projects-seeme",
+          title: 'SeeME',
+          description: "Retrieval-augmented framework for imaginative animal art generation from ambiguous silhouettes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/seeme/";
+            },},{id: "projects-tmp-aodai",
+          title: 'TMP-AoDai',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tmp-aodai/";
             },},{
         id: 'social-email',
         title: 'email',
