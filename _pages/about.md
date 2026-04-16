@@ -3,9 +3,7 @@ layout: about
 title: Home
 permalink: /
 subtitle: >
-  Lecturer at <a href="https://www.fit.hcmus.edu.vn/en/" target="_blank">Faculty of IT</a>, Senior Researcher at <a href="https://selab.hcmus.edu.vn/" target="_blank">SELAB</a>, and Head of <a href="https://www.facebook.com/profile.php?id=61570820990067/" target="_blank">MSLAB</a> 
-  <br>
-  <a href="https://en.hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM</a>.
+  Lecturer at <a href="https://www.fit.hcmus.edu.vn/en/" target="_blank">Faculty of IT</a>, Senior Researcher at <a href="https://selab.hcmus.edu.vn/" target="_blank">SELAB</a>, and Head of <a href="https://www.facebook.com/profile.php?id=61570820990067/" target="_blank">MSLAB</a>, <a href="https://en.hcmus.edu.vn/" target="_blank">University of Science, VNU-HCM</a>.
 
 profile:
   align: left
