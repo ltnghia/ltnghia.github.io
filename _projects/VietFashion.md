@@ -1,0 +1,18 @@
+---
+layout: page
+title: VietFashion
+description: Comprehensive dataset for Vietnamese fashion attribute recognition and retrieval
+img: assets/img/vietfashion.jpg
+redirect: https://ltnghia.github.io/publications/
+importance: 3
+category: Dataset Projects
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/vietfashion_preview.png" title="VietFashion Dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Preview of the VietFashion dataset.
+</div>

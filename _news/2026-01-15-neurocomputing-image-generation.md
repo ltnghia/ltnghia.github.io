@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 A paper about personalized image generation is accepted to Neurocomputing.
-

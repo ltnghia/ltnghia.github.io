@@ -66,7 +66,8 @@ nav_order: 7
 
   - Tuyet-Hue Tran
   - [Thesis] [Slide]
-  - 
+  -
+
 - **Image Analysis Using External Contextual Information (Vietnamese: Phân Tích Hình Ảnh Sử Dụng Thông Tin Ngữ Cảnh Bên Ngoài)**
 
   - Anh-Dao Pham
@@ -76,57 +77,57 @@ nav_order: 7
 
   - Xuan-Bach Mai, Duy-Phuc Nguyen. Co-supervised with [Assoc.Prof. Tam V. Nguyen](https://vantam.github.io/)
   - [Thesis] [Slide]
- 
+
 - **Controllable Image Generation**
 
   - Hoang-Bach Ngo, Tri-Si Ngo. Co-supervised with [Assist.Prof. Hieu Le](https://scholar.google.com/citations?user=Bj9g-EEAAAAJ)
   - [Thesis] [Slide]
- 
+
 - **Medical Multimedia Retrieval**
 
   - Duc-Tho Nguyen, Thanh-Tien Tran
   - [Thesis] [Slide]
- 
+
 - **Generative Al for Interactive Storytelling**
 
   - Minh-Loi Nguyen, Xuan-Vu Le. Co-supervised with [Assoc.Prof. Tam V. Nguyen](https://vantam.github.io/)
   - [Thesis] [Slide]
- 
+
 - **Agentic Image Generation**
 
   - Long-Bao Nguyen, Quang-Khai Le. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
- 
+
 - **Generative AI for Extended Reality**
 
   - Quoc-Duy Tran, Anh-Tuan Vo. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
- 
+
 - **Training-Free Sketch Generation**
 
   - Duy-Khang Do, Quang-Thinh Nguyen
   - [Thesis] [Slide]
- 
+
 - **Aesthetic-Aware Image Composition**
 
   - Duc-Manh Phan, Van-Hieu Huynh. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
- 
+
 - **Event-based Multimedia Retrieval**
 
   - Van-Phuc Phan, Minh-Tan Pham. Co-supervised with [Dr. Toan-Thinh Truong](https://scholar.google.com.vn/citations?user=O5Gg0jMAAAAJ&hl=en)
   - [Thesis] [Slide]
- 
+
 - **Secured Multimedia System for Safeguarded Image Generation**
 
   - Ngoc-Dai Tran, Thanh-Tuong Huynh. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
- 
+
 - **Medical Report Generation**
 
   - Ha-Hieu Pham. Co-supervised with [Assist.Prof. Hieu H. Pham](https://scholar.google.com/citations?user=mXcFcNkAAAAJ)
   - [Thesis] [Slide]
- 
+
 - **Development of Multimedia System for Comic Creation from Narrative Text**
 
   - Hoai-Thuong Nguyen. Co-supervised with MSc. Duy-Quang Tran
