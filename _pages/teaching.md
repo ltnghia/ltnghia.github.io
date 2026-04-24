@@ -10,6 +10,8 @@ nav_order: 6
 
 ### Master Program
 
+- **Summer 2026:**
+  - MTH083 - Advanced Artificial Intelligence Programming
 - **Spring 2026:**
   - MTH058 - Advanced Artificial Intelligence
   - MKHTH21 - Basic Machine Learning and Applications
@@ -86,6 +88,8 @@ nav_order: 6
 
 ### High-Quality Program
 
+- **Summer 2026:**
+  - CSC10003 - Object Oriented Programming
 - **Summer 2025:**
   - CSC10003 - Object Oriented Programming
 - **Autumn 2024:**
