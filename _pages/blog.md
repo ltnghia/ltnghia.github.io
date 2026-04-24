@@ -133,6 +133,11 @@ nav_order: 7
   - Ha-Hieu Pham. Co-supervised with [Assist.Prof. Hieu H. Pham](https://scholar.google.com/citations?user=mXcFcNkAAAAJ)
   - [Thesis] [Slide]
 
+- **Optimization Of High-Performance Machine Learning Models For Deployment On Resource-Limited Devices**
+
+  - Hai-Minh Phan. Co-supervised with [MSc. Hai-Dang Nguyen](https://scholar.google.com/citations?user=L5O1bnUAAAAJ&hl=en)
+  - [Thesis] [Slide]
+
 - **Development of Multimedia System for Comic Creation from Narrative Text**
 
   - Hoai-Thuong Nguyen. Co-supervised with MSc. Duy-Quang Tran
