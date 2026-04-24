@@ -128,7 +128,7 @@ nav_order: 7
   - Ngoc-Dai Tran, Thanh-Tuong Huynh. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
-- **Medical Report Generation**
+- **Data-Efficient Learning For Rare Disease Analysis In Chest X-Ray Imaging**
 
   - Ha-Hieu Pham. Co-supervised with [Assist.Prof. Hieu H. Pham](https://scholar.google.com/citations?user=mXcFcNkAAAAJ)
   - [Thesis] [Slide]
