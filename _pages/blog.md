@@ -42,9 +42,14 @@ nav_order: 7
   - Mai-Duc-Duy Nguyen. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
+- **Enhancing Information Retrieval Over Multimodal Documents Via Graph-Based Representations (Vietnamese: Cải Tiến Việc Truy Vấn Thông Tin Trên Tài Liệu Đa Thể Thức Với Cấu Trúc Đồ Thị)**
+
+  - Tuc-Mi Tran-Nguyen. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
+  - [Thesis] [Slide]
+    
 - **Efficient Multimodal Training for Composed Image Retrieval (Vietnamese: Huấn Luyện Đa Phương Thức Hiệu Quả Cho Truy Vấn Hình Ảnh Kết Hợp)**
 
-  - Duy-Bao Bui
+  - Duy-Bao Bui. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Image Generation Using Multimodal Deep Generative Models**
