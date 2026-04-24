@@ -3,7 +3,7 @@ layout: page
 title: VietFashion
 description: Comprehensive dataset for Vietnamese fashion attribute recognition and retrieval
 img: assets/img/vietfashion.jpg
-redirect: https://ltnghia.github.io/publications/
+redirect: https://hng0303.github.io/VietFashion
 importance: 3
 category: Dataset Projects
 ---
