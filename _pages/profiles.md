@@ -44,6 +44,7 @@ nav_order: 5
 - [Dinh-Khoi Vo](https://scholar.google.com/citations?user=xtOY-m0AAAAJ) (2024, Artificial Intelligence Program, G1)
 - Minh-Tan Pham (2024, Artificial Intelligence Program, G1)
 - Duy-Khang Bui-Duong (2024, Artificial Intelligence Program, G1)
+- Tuc-Mi Tran-Nguyen (2024, Artificial Intelligence Program, G1)
 - Duy-Bao Bui (2024, Computer Science Program, G2)
 - Minh-Thu Do (2024, Integrated Science Program, G2)
 - Quynh-Chau Le-Tran (2024, Integrated Science Program, G2)
