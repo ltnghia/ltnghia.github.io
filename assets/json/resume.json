@@ -136,8 +136,7 @@
   ],
   "volunteer": [
     {
-      "organization": "Academic Reviewer (Journals)",
-      "position": "Reviewer",
+      "position": "Journal Reviewer",
       "url": "",
       "startDate": "",
       "endDate": "",
@@ -154,8 +153,7 @@
       ]
     },
     {
-      "organization": "Academic Reviewer (Conferences)",
-      "position": "Reviewer",
+      "position": "Conference Reviewer",
       "url": "",
       "startDate": "",
       "endDate": "",
@@ -185,7 +183,16 @@
       ]
     },
     {
-      "organization": "Workshop & Challenge Organizer",
+      "position": "Area Chair",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "NeurIPS 2026"
+      ]
+    },
+    {
       "position": "Organizer",
       "url": "",
       "startDate": "",
@@ -198,8 +205,6 @@
         "2nd Workshop on Large Vision-Language Model Learning and Applications (LAVA), ACM MM, 2025",
         "1st Workshop on Ambiguous Object Analysis in Computer Vision (AOCV), ACM MM, 2025",
         "Event-Enriched Image Analysis (EVENTA) Challenge, ACM MM, 2025",
-        "Advancing Vision-Language AI for ENT Endoscopy Analysis (ENTRep) Challenge, ACM MM, 2025",
-        "Segmentation and Description of Space-occupying Lesions in Head and Neck (HeNeCT) Challenge, ACM MM, 2025"
       ]
     },
     {
