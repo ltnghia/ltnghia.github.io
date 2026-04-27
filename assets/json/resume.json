@@ -191,9 +191,7 @@
       "startDate": "",
       "endDate": "",
       "summary": "",
-      "highlights": [
-        "NeurIPS 2026"
-      ]
+      "highlights": ["NeurIPS 2026"]
     },
     {
       "organization": "",
@@ -208,7 +206,7 @@
         "1st Workshop on Large Vision-Language Model Learning and Applications (LAVA), ACCV, 2024",
         "2nd Workshop on Large Vision-Language Model Learning and Applications (LAVA), ACM MM, 2025",
         "1st Workshop on Ambiguous Object Analysis in Computer Vision (AOCV), ACM MM, 2025",
-        "Event-Enriched Image Analysis (EVENTA) Challenge, ACM MM, 2025",
+        "Event-Enriched Image Analysis (EVENTA) Challenge, ACM MM, 2025"
       ]
     },
     {

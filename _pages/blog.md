@@ -46,7 +46,7 @@ nav_order: 7
 
   - Tuc-Mi Tran-Nguyen. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
-    
+
 - **Efficient Multimodal Training for Composed Image Retrieval (Vietnamese: Huấn Luyện Đa Phương Thức Hiệu Quả Cho Truy Vấn Hình Ảnh Kết Hợp)**
 
   - Duy-Bao Bui. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
