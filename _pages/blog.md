@@ -120,12 +120,12 @@ nav_order: 7
 
 - **Event-based Multimedia Retrieval**
 
-  - Van-Phuc Phan, Minh-Tan Pham. Co-supervised with [Dr. Toan-Thinh Truong](https://scholar.google.com.vn/citations?user=O5Gg0jMAAAAJ&hl=en)
+  - Van-Phuc Phan, Minh-Tan Pham. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
 - **Secured Multimedia System for Safeguarded Image Generation**
 
-  - Ngoc-Dai Tran, Thanh-Tuong Huynh. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
+  - Ngoc-Dai Tran, Thanh-Tuong Huynh. Co-supervised with [Dr. Toan-Thinh Truong](https://scholar.google.com.vn/citations?user=O5Gg0jMAAAAJ&hl=en)
   - [Thesis] [Slide]
 
 - **Data-Efficient Learning For Rare Disease Analysis In Chest X-Ray Imaging**
