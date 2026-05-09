@@ -80,7 +80,6 @@ nav_order: 5
 - Duc-Tho Nguyen (2022~2026, Advanced Computer Science Program)
 - Thanh-Tien Tran (2022~2026, Advanced Computer Science Program)
 - Ha-Hieu Pham (2022~2026, High-Quality Program)
-- Hai-Minh Phan (2022~2026, High-Quality Program)
 - Hoai-Thuong Nguyen (2022~2026, Standard Program)
 - Hai-Dang Nguyen (2023~2027, High-Quality Program)
 - Thu-Hien Trinh-Thi (2023~2027, Honors Program)
