@@ -653,6 +653,11 @@ ninja.data = [{
           description: "Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Eventa/";
+            },},{id: "projects-focusdiff",
+          title: 'FocusDiff',
+          description: "A tuning-free framework for precise region-specific image manipulation based on refocusing cross-attention.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FocusDiff/";
             },},{id: "projects-forgedcalamity",
           title: 'ForgedCalamity',
           description: "Challenging synthetic disaster detection with cross-domain evaluation on unseen diffusion models.",
@@ -710,7 +715,7 @@ ninja.data = [{
               window.location.href = "/projects/TextANIMAR/";
             },},{id: "projects-vietfashion",
           title: 'VietFashion',
-          description: "Comprehensive dataset for Vietnamese fashion attribute recognition and retrieval",
+          description: "A new benchmark for sketch–text composed image retrieval centered on the Áo Dài, a traditional Vietnamese garment.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VietFashion/";
             },},{id: "projects-vofocd",
@@ -730,7 +735,7 @@ ninja.data = [{
               window.location.href = "/projects/eKYC-DF/";
             },},{id: "projects-garmentsketch",
           title: 'GarmentSketch',
-          description: "",
+          description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/garmentsketch/";
             },},{id: "projects-seeme",
