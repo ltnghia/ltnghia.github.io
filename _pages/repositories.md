@@ -12,12 +12,12 @@ nav_order: 4
     <div class="card h-100 rounded z-depth-1">
 
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" 
-                src="https://www.youtube.com/embed/BX-Edz7Z7ZY?si=D0riDgBQ55-ira3J" 
-                title="Demo 2" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
+        <iframe class="embed-responsive-item"
+                src="https://www.youtube.com/embed/BX-Edz7Z7ZY?si=D0riDgBQ55-ira3J"
+                title="Demo 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen>
         </iframe>
       </div>
@@ -33,12 +33,12 @@ nav_order: 4
     <div class="card h-100 rounded z-depth-1">
 
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" 
-                src="https://www.youtube.com/embed/uXpXmEbjg3M?si=O2y4LD7EWgUmJ5-E" 
-                title="Demo 1" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
+        <iframe class="embed-responsive-item"
+                src="https://www.youtube.com/embed/uXpXmEbjg3M?si=O2y4LD7EWgUmJ5-E"
+                title="Demo 1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen>
         </iframe>
       </div>
