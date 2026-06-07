@@ -32,7 +32,7 @@ The recommended approach for using **al-folio** is to first create your own site
    After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
 
 ```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
+git clone git@github.com:<your-username>/<your-repo-name>.git
 ```
 
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
@@ -51,8 +51,8 @@ You need to take the following steps to get `al-folio` up and running on your lo
 - Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
 
 ```bash
-$ docker compose pull
-$ docker compose up
+docker compose pull
+docker compose up
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
@@ -68,7 +68,7 @@ Now, feel free to customize the theme however you like (don't forget to change t
 Build and run a new docker image using:
 
 ```bash
-$ docker compose up --build
+docker compose up --build
 ```
 
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
@@ -154,7 +154,7 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 
 ```bash
-$ bundle exec jekyll build
+bundle exec jekyll build
 ```
 
 which will (re-)generate the static webpage in the `_site/` folder.
@@ -163,7 +163,7 @@ Then simply copy the contents of the `_site/` directory to your hosting server.
 If you also want to remove unused css classes from your file, run:
 
 ```bash
-$ purgecss -c purgecss.config.js
+purgecss -c purgecss.config.js
 ```
 
 which will replace the css files in the `_site/assets/css/` folder with the purged css files.
@@ -182,7 +182,7 @@ Firstly, from the deployment repo dir, checkout the git branch hosting your publ
 Then from the website sources dir (commonly your al-folio fork's clone):
 
 ```bash
-$ bundle exec jekyll build --destination $HOME/repo/publishing-source
+bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
 This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.

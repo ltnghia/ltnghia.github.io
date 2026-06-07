@@ -156,7 +156,7 @@ Depending on your specified footer behavior, the sign up form either will appear
 
 ## Removing content
 
-Since this template have a lot of content, you may want to remove some of it. The easiest way to achieve this and avoid merge conflicts when updating your code (as [pointed by CheariX ](https://github.com/alshedivat/al-folio/pull/2933#issuecomment-2571271117)) is to add the unwanted files to the `excludes` section in your `_config.yml` file instead of actually deleting them, for example:
+Since this template have a lot of content, you may want to remove some of it. The easiest way to achieve this and avoid merge conflicts when updating your code (as [pointed by CheariX](https://github.com/alshedivat/al-folio/pull/2933#issuecomment-2571271117)) is to add the unwanted files to the `excludes` section in your `_config.yml` file instead of actually deleting them, for example:
 
 ```yml
 excludes:
@@ -246,7 +246,7 @@ To add secrets for [lighthouse-badger](https://github.com/alshedivat/al-folio/ac
 
 Also In case you face the error: "Input required and not supplied: token" in the Lighthouse Badger action, this solution resolves it.
 
-### Personal Access Token (fine-grained) Permissions for Lighthouse Badger:
+### Personal Access Token (fine-grained) Permissions for Lighthouse Badger
 
 - **contents**: access: read and write
 - **metadata**: access: read-only

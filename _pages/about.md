@@ -28,7 +28,7 @@ I received my B.Sc (Honors Program), M.Sc, Ph.D in Computer of Science at [Unive
 
 I currently lead the **Multimedia Synergy Lab (MSLab)** to advance research at the crossroads of computer vision, multimodal intelligence, and generative AI. We study how machines can see, imagine, and reason about the world through synergistic integration of vision, language, and creativity. Our mission is to create systems that not only perceive reality but also generate meaningful and trustworthy multimedia content, bridging analysis, synthesis, and understanding.
 
-### 🔥 Research topics of interest:
+### 🔥 Research topics of interest
 
 - Visual Perception and Understanding
 - Multimodal and Context-Aware Learning
@@ -37,6 +37,6 @@ I currently lead the **Multimedia Synergy Lab (MSLab)** to advance research at t
 - Collaborative & Human-Centered AI Systems
 - Health Science
 
-### 🙋 Prospective Students:
+### 🙋 Prospective Students
 
 I am looking for motivated undergraduate/graduate students. Please send an email to **ltnghia [at] fit.hcmus.edu.vn** to discuss your research interests.
