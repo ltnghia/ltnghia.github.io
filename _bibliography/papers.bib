@@ -1,6 +1,16 @@
 ---
 ---
 
+@article{Vo2026TMM,
+  bibtex_show={true},
+  title={CPAM: Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing},
+  author={Dinh-Khoi Vo and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={IEEE Transactions on Multimedia (TMM)},
+  year={2026},
+  pdf={https://arxiv.org/abs/2506.18438},
+  abstract={Editing natural images using textual descriptions in text-to-image diffusion models remains a significant challenge, particularly in achieving consistent generation and handling complex, non-rigid objects. Existing methods often struggle to preserve textures and identity, require extensive fine-tuning, and exhibit limitations in editing specific spatial regions or objects while retaining background details. This paper proposes Context-Preserving Adaptive Manipulation (CPAM), a novel zero-shot framework for complicated, non-rigid real image editing. Specifically, we propose a preservation adaptation module that adjusts self-attention mechanisms to preserve and independently control the object and background effectively. This ensures that the objects' shapes, textures, and identities are maintained while keeping the background undistorted during the editing process using the mask guidance technique. Additionally, we develop a localized extraction module to mitigate the interference with the non-desired modified regions during conditioning in cross-attention mechanisms. We also introduce various mask-guidance strategies to facilitate diverse image manipulation tasks in a simple manner. Extensive experiments on our newly constructed Image Manipulation BenchmArk (IMBA), a robust benchmark dataset specifically designed for real image editing, demonstrate that our proposed method is the preferred choice among human raters, outperforming existing state-of-the-art editing techniques.}
+}
+
 @inproceedings{Vo2026ICCCI,
   abbr        = {ICCCI},
   bibtex_show = {true},
@@ -1578,16 +1588,6 @@
   year={2025},
   pdf={https://arxiv.org/abs/2506.18493},
   abstract={Customizing image generation remains a core challenge in controllable image synthesis. For single-concept generation, maintaining both identity preservation and prompt alignment is challenging. In multi-concept scenarios, relying solely on a prompt without additional conditions like layout boxes or semantic masks, often leads to identity loss and concept omission. In this paper, we introduce ShowFlow, a comprehensive framework designed to tackle these challenges. We propose ShowFlow-S for single-concept image generation, and ShowFlow-M for handling multiple concepts. ShowFlow-S introduces a KronA-WED adapter, which integrates a Kronecker adapter with weight and embedding decomposition, and employs a disentangled learning approach with a novel attention regularization objective to enhance single-concept generation. Building on this foundation, ShowFlow-M directly reuses the learned models from ShowFlow-S to support multi-concept generation without extra conditions, incorporating a Subject-Adaptive Matching Attention (SAMA) and a layout consistency strategy as the plug-and-play module. Extensive experiments and user studies validate ShowFlow's effectiveness, highlighting its potential in real-world applications like advertising and virtual dressing.}
-}
-
-@article{Vo2025CPAM,
-  bibtex_show={true},
-  title={CPAM: Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing},
-  author={Dinh-Khoi Vo and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2506.18438},
-  year={2025},
-  pdf={https://arxiv.org/abs/2506.18438},
-  abstract={Editing natural images using textual descriptions in text-to-image diffusion models remains a significant challenge, particularly in achieving consistent generation and handling complex, non-rigid objects. Existing methods often struggle to preserve textures and identity, require extensive fine-tuning, and exhibit limitations in editing specific spatial regions or objects while retaining background details. This paper proposes Context-Preserving Adaptive Manipulation (CPAM), a novel zero-shot framework for complicated, non-rigid real image editing. Specifically, we propose a preservation adaptation module that adjusts self-attention mechanisms to preserve and independently control the object and background effectively. This ensures that the objects' shapes, textures, and identities are maintained while keeping the background undistorted during the editing process using the mask guidance technique. Additionally, we develop a localized extraction module to mitigate the interference with the non-desired modified regions during conditioning in cross-attention mechanisms. We also introduce various mask-guidance strategies to facilitate diverse image manipulation tasks in a simple manner. Extensive experiments on our newly constructed Image Manipulation BenchmArk (IMBA), a robust benchmark dataset specifically designed for real image editing, demonstrate that our proposed method is the preferred choice among human raters, outperforming existing state-of-the-art editing techniques.}
 }
 
 @article{Le2017RegionSaliency,
