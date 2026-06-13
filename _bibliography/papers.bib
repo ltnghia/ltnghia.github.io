@@ -1,6 +1,93 @@
 ---
 ---
 
+@article{Pham2026TMPAoDai,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={TMP-AoDai: Benchmarking Tailored Multi-Pose Ao Dai Dataset for Traditional Vietnamese Fashion Generation},
+  author={Minh-Tan Pham and Duong-Duy-Khang Bui and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:},
+  year={2026},
+  pdf={},
+  project_page={},
+  abstract={We introduce TMP-AoDai, a novel dataset and benchmark, specifically curated for fashion generation with the Ao Dai, a traditional and culturally significant Vietnamese garment. Unlike existing fashion datasets that primarily focus on Western apparel, TMP-AoDai captures the complex geometry, rich textures, and diverse multi-pose variations of this Eastern national costume. The dataset comprises carefully annotated garment–pose pairs to evaluate generative models on preserving fine-grained material details and realistic draping across complex body configurations. To advance research in both generative fashion AI and cultural heritage, we benchmark state-of-the-art approaches on two tasks: virtual dressing and virtual try-on, leveraging diffusion models and multimodal large language models (MLLMs). Our experimental results reveal that MLLMs such as Gemini and Qwen substantially outperform specialized frameworks trained on Western clothing, highlighting their superior zero-shot generalization to culturally unique attire. TMP-AoDai dataset thus offers a rigorous and culturally meaningful testbed for advancing generative fashion AI, bridging costume generation technology with digital heritage preservation and creative applications.}
+}
+
+@article{Nguyen2026CogCanvas,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation},
+  author={Long-Bao Nguyen and Quang-Khai Le and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le },
+  journal={arXiv preprint arXiv:},
+  year={2026},
+  pdf={},
+  project_page={},
+  abstract={Multi-subject reference-based image generation requires jointly preserving multiple human identities, binding per-person objects and fashion items, and respecting a specified background scene, a regime where current diffusion models remain brittle. Existing benchmarks evaluate only one axis at a time and none jointly captures multi-identity composition with human-object interaction, background grounding, and spatial plausibility. We introduce CogCanvas, a benchmark of 1,952 curated reference images spanning 100 celebrity identities, 115 distinctive objects and fashion items, and 29 real-world background scenes including Vietnamese landmarks, from which we construct 1,361 compositional prompts covering 2--5 person group sizes. The curation pipeline combines DINOv2-based deduplication, two-stage aesthetic filtering, and automated derivation of structured interaction and position graphs that serve as ground-truth supervision. CogCanvas supports three tasks, reference-based multi-human-object generation (primary), text-to-image compositional generation, and reference retrieval, under a unified six-axis evaluation protocol. We introduce two metrics tailored to the multi-reference setting: BG-Sim, which scores background fidelity on SAM 3-masked regions via DINOv3 feature similarity, and Attr-VQA, which uses a multimodal LLM to verify per-subject attribute binding and inter-person interactions against the structured graphs. Benchmarking five SOTA methods alongside a training-free Flux-Kontext, SAM sequential-inpainting baseline reveals that every model degrades substantially as group size grows from 2 to 5, with near-complete failure on object/fashion binding beyond three subjects.}
+}
+
+@article{Mai2026PhysMirror,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={PhysMirror: Physics-Aware Mirror Object Generation},
+  author={Xuan-Bach Mai and Duy-Phuc Nguyen and Quoc-Van Le and Tam V. Nguyen and Thanh-Toan Do and Huu Le and Duong-Van Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:},
+  year={2026},
+  pdf={},
+  project_page={},
+  abstract={Synthesizing physically accurate mirror reflections remains a fundamental challenge for modern text-to-image diffusion models, which are increasingly critical for generating synthetic training data for embodied AI and robotic perception. These models typically struggle with strict geometric constraints, leading to hallucinations that degrade the utility of the synthetic data. To address this, we introduce a novel, end-to-end physics-aware generation framework namely PhysMirror that natively enforces projective geometry through explicit 3D spatial priors. Our method automatically lifts prompted objects into 3D meshes and constructs a lightweight, mathematically exact mirror scene within a simulated environment. By rendering this explicit 3D scene, we extract precise 2D conditioning elements, such as depth maps and segmentation maps, that serve as robust guiding signals for downstream diffusion models, guiding them to generate images with physically correct mirror reflections. Moreover, we introduce Mirror Consistency Score (MCS), reference-free, fully automated metric that quantifies physical correctness using dense feature matching and vanishing point convergence. Experimental results on our newly constructed MirrOB dataset demonstrate that our approach outperforms state-of-the-art baselines in reflection accuracy and physical realism, while maintaining strong text-to-image semantic alignment, providing a reliable pipeline for embodied AI data generation. }
+}
+
+@article{Nguyen2026PhysPlan,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization},
+  author={Minh-Loi Nguyen and Xuan-Vu Le and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:},
+  year={2026},
+  pdf={},
+  project_page={},
+  abstract={Video diffusion models (VDMs) have demonstrated remarkable capabilities in synthesizing high-fidelity, photorealistic video content. However, they fundamentally lack an intrinsic understanding of physical laws and frequently produce visually appealing but causally illogical sequences characterized by structural hallucinations and physically implausible dynamics. Injecting physical awareness via training-free test-time optimization is a promising alternative, yet existing methods rely on global gradient updates and rigid scheduling heuristics that inadvertently corrupt passive backgrounds and fail to model complex dynamic state changes. To address this, we propose PhysPlan, a novel training-free guidance framework that shifts the paradigm from stochastic visual interpolation to agentic physics simulation. First, a VLM operates as an iterative cognitive planner, decomposing complex textual prompts into a causal Chain-of-Visual-Thought to create a multimodal representation of kinematic trajectories and 3D depth geometries. Second, these signals drives an object-centric test-time optimization. Unlike prior training-free methods that rely on global gradients and rigid scheduling heuristics, PhysPlan introduces Object-Centric Gradient Routing to isolate kinematic modifications and completely lock the passive environment. Furthermore, our Kinetic Intensity Profiling dynamically parameterizes framework hyperparameters to accommodate the varying severity of physical deformations. Extensive evaluations on the PhyGenBench and Physics-IQ benchmarks demonstrate that PhysPlan significantly outperforms both foundational and controllable VDM baselines, offering a promising approach for improving the physical understanding of video generation.}
+}
+
+@article{Le2026GraphStory,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={GraphStory: Collaborative Story Writing through Event-Based Narrative Editing},
+  author={Xuan-Vu Le and Minh-Loi Nguyen and Khanh-Duy Le and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:},
+  year={2026},
+  pdf={},
+  project_page={},
+  abstract={Story writing is a popular yet complex creative activity that requires organization of ideas and iterative exploration, particularly during early-stage ideation. While many AI-based writing assistants have been developed, existing approaches primarily focus on generating long-form coherent text and improving user controllability during text production, providing limited support for brainstorming, connecting ideas, and validating alternative narrative flows. We present GraphStory, an interactive writing support system that leverages a graph-based representation to provide a comprehensive view of narrative structure and facilitate ideation. The system enables users to organize and connect plot points, explore alternative branches, and validate evolving narratives through an integrated story generation workflow. It further provides a structured interface to support efficient iteration over multiple story paths. Results from a user study with professional and semi-professional writers show that GraphStory reduces the effort of organizing narrative structures and better supports creativity and exploration compared to normal AI-based writing workflows.}
+}
+
+@article{Phan2026SceneCraft,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={SceneCraft: Interactive System for Image Editing via Scene Graph },
+  author={Duc-Manh Phan and Ngoc-Dai Tran and Duy-Khang Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:},
+  year={2026},
+  pdf={},
+  project_page={},
+  abstract={Recent advances in generative AI have enabled natural language-driven image editing, yet existing systems often fail in complex scenes with multiple interacting objects because they rely heavily on users crafting precise text prompts. To address the absence of structured control, we propose SceneCraft, a novel interactive framework that bridges user intent and model execution by representing images as editable scene graphs. Instead of guessing text prompts through trial and error, users interact directly with a visual graph to perform complex spatial and relational operations. These graph modifications are automatically translated into precise, context-aware editing prompts, effectively eliminating linguistic ambiguity. To ensure robust and diverse results, structured prompts are dispatched to multiple state-of-the-art generative models. Evaluations across diverse editing scenarios show that SceneCraft provides a more intuitive control mechanism, significantly reducing the cognitive burden of manual prompt engineering while generating outputs that users consistently rate as higher in quality and fidelity.}
+}
+
+@inproceedings{Pham2026MICCAI,
+  abbr={MICCAI},
+  bibtex_show={true},
+  title={RAREGen: Rare-Aware Reliable Chest X-ray Report Generation under Long-Tailed Distributions with Clinical Faithfulness},
+  author={Ha-Hieu Pham and Thanh-Huy Nguyen and Min Xu and Ulas Bagci and Trung-Nghia Le and Huy-Hieu Pham},
+  booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  year={2026},
+  note={(A Rank)},
+  pdf={},
+  poster={},
+  presentation={},
+  project_page={},
+  abstract={Automated chest X-ray (CXR) report generation can alleviate radiologist workload, yet clinical deployment requires reliable recognition of rare but actionable findings and robustness against hallucinated disease mentions that may lead to unnecessary interventions. This remains challenging because CXR corpora exhibit pronounced long-tailed distributions: under maximum-likelihood training, models learn frequent patterns well but systematically under-report tail conditions despite supporting visual evidence, while occasionally generating plausible yet unsupported rare findings under uncertainty. We propose RAREGen, a rare-aware reliable framework for long-tailed CXR report generation. At its core is a Rare-Aware Semantic Bottleneck (RASB) that constrains decoding through an explicit disease-structured representation. RASB is implemented as a multi-prototype Disease Knowledge Bank (DKB) with prior-adjusted top-k disease routing and uncertainty-aware gating, promoting visually supported rare findings while suppressing unsupported activations. To further reduce hallucination and omission, we introduce Contrastive Hallucination Suppression (CRHS), a hard-negative contrastive objective leveraging style-matched but disease-mismatched reports, including rare-sentence removal negatives, to strengthen cross-modal grounding. A three-stage curriculum progressively enforces bottleneck reliance and contrastive refinement to stabilize optimization. Built upon a standard encoder-decoder backbone, RAREGen improves rare-finding mention reliability and reduces hallucinated disease semantics without sacrificing overall report quality.}
+}
+
 @article{Vo2026TMM,
   abbr        = {TMM},
   bibtex_show={true},
@@ -10,6 +97,7 @@
   year={2026},
   note={(Q1, IF = 9.7 in 2025)},
   pdf={https://arxiv.org/abs/2506.18438},
+  project_page={https://vdkhoi20.github.io/CPAM/},
   abstract={Editing natural images using textual descriptions in text-to-image diffusion models remains a significant challenge, particularly in achieving consistent generation and handling complex, non-rigid objects. Existing methods often struggle to preserve textures and identity, require extensive fine-tuning, and exhibit limitations in editing specific spatial regions or objects while retaining background details. This paper proposes Context-Preserving Adaptive Manipulation (CPAM), a novel zero-shot framework for complicated, non-rigid real image editing. Specifically, we propose a preservation adaptation module that adjusts self-attention mechanisms to preserve and independently control the object and background effectively. This ensures that the objects' shapes, textures, and identities are maintained while keeping the background undistorted during the editing process using the mask guidance technique. Additionally, we develop a localized extraction module to mitigate the interference with the non-desired modified regions during conditioning in cross-attention mechanisms. We also introduce various mask-guidance strategies to facilitate diverse image manipulation tasks in a simple manner. Extensive experiments on our newly constructed Image Manipulation BenchmArk (IMBA), a robust benchmark dataset specifically designed for real image editing, demonstrate that our proposed method is the preferred choice among human raters, outperforming existing state-of-the-art editing techniques.}
 }
 
@@ -22,6 +110,7 @@
   year        = {2026},
   note        = {(B Rank)},
   pdf         = {},
+  project_page={https://vdkhoi20.github.io/FocusDiff/},
   abstract        = {Zero-shot text-guided diffusion has significantly advanced image editing; however, its practical usability remains constrained by three persistent challenges: prompt brittleness that requires meticulous prompt engineering, spillover edits that unintentionally affect non-target regions, and failures on small or cluttered objects caused by limited fine-grained supervision in training data. We propose FocusDiff (Target-Aware Refocusing for Tuning-Free Diffusion Editing), a tuning-free framework for precise and region-specific image manipulation based on refocusing cross-attention. Given a target region obtained through automated segmentation or manual selection, FocusDiff applies selective blurring to non-edit areas to guide attention toward the masked region while accurately transferring the object's identity, structure, and appearance to the edited output. Integrated context-preserving modules further ensure background fidelity and global coherence, enabling accurate edits from simple text prompts in a single pass. We also extend FocusDiff to 360-degree indoor panorama editing and demonstrate its effectiveness within virtual reality environments. Extensive experiments on our localized editing benchmark LIMB, comprising 30 multi-object images and 100 annotated examples including challenging small-object cases, show that FocusDiff outperforms existing zero-shot editors in text–image alignment and background preservation, achieving superior precision, photorealism, and usability.}
 }
 
@@ -34,6 +123,7 @@
   year        = {2026},
   note        = {(B Rank)},
   pdf         = {},
+  project_page={https://khangbdd.github.io/garmentsketch/},
   abstract        = {Fashion sketching is a cornerstone of design workflows, allowing rapid visualization of creative concepts prior to physical prototyping. Yet, progress in sketch-based fashion image synthesis has been hindered by the absence of large-scale, high-quality paired resources. To bridge this gap, we present GarmentSketch, a novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions. Captions were produced through a multi-stage pipeline that integrates multiple multimodal large language models (MLLMs) with human-in-the-loop refinement, ensuring both semantic accuracy and descriptive richness. We benchmark GarmentSketch on state-of-the-art generative models, providing baseline performance for sketch-guided text-to-image generation. Our experiments reveal both the promise and the current limitations of existing methods. By offering a comprehensive and richly annotated resource, GarmentSketch establishes a foundation for advancing sketch understanding, fine-grained fashion image generation, and creative human–AI collaboration in design.}
 }
 
@@ -60,7 +150,7 @@
   booktitle={International Conference on Multimedia Retrieval (ICMR)},
   year={2026},
   note={(B Rank)},
-  pdf={https://doi.org/10.1145/3805622.3810590},
+  pdf={https://arxiv.org/abs/2606.13427},
   poster={},
   presentation={},
   project_page={https://hng0303.github.io/VietFashion},
@@ -1533,6 +1623,7 @@
 
 @article{PhanNguyen2025KiseKloset,
   bibtex_show={true},
+  abbr={arXiv},
   title={KiseKloset for Fashion Retrieval and Recommendation},
   author={Thanh-Tung Phan-Nguyen and Khoi-Nguyen Nguyen-Ngoc and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2506.23471},
@@ -1543,6 +1634,7 @@
 
 @article{Tran2025InteractiveSegmentation,
   bibtex_show={true},
+  abbr={arXiv},
   title={Interactive Interface For Semantic Segmentation Dataset Synthesis},
   author={Ngoc-Do Tran and Minh-Tuan Huynh and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2506.23470},
@@ -1553,6 +1645,7 @@
 
 @article{Bui2025PrefPaint,
   bibtex_show={true},
+  abbr={arXiv},
   title={PrefPaint: Enhancing Medical Image Inpainting through Expert Human Feedback},
   author={Duy-Bao Bui and Hoang-Khang Nguyen and Thao Thi Phuong Dao and Kim Anh Phung and Tam V. Nguyen and Justin Zhan and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2506.21834},
@@ -1563,6 +1656,7 @@
 
 @article{Nguyen2025TaleForge,
   bibtex_show={true},
+  abbr={arXiv},
   title={TaleForge: Interactive Multimodal System for Personalized Story Creation},
   author={Minh-Loi Nguyen and Quang-Khai Le and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2506.21832},
@@ -1573,6 +1667,7 @@
 
 @article{Tran2025Shape2Animal,
   bibtex_show={true},
+  abbr={arXiv},
   title={Shape2Animal: Creative Animal Generation from Natural Silhouettes},
   author={Quoc-Duy Tran and Anh-Tuan Vo and Dinh-Khoi Vo and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2506.20616},
@@ -1584,16 +1679,19 @@
 
 @article{Hoang2025ShowFlow,
   bibtex_show={true},
+  abbr={arXiv},
   title={ShowFlow: From Robust Single Concept to Condition-Free Multi-Concept Generation},
   author={Trong-Vu Hoang and Quang-Binh Nguyen and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2506.18493},
   year={2025},
   pdf={https://arxiv.org/abs/2506.18493},
+  project_page={https://htrvu.github.io/showflow/},
   abstract={Customizing image generation remains a core challenge in controllable image synthesis. For single-concept generation, maintaining both identity preservation and prompt alignment is challenging. In multi-concept scenarios, relying solely on a prompt without additional conditions like layout boxes or semantic masks, often leads to identity loss and concept omission. In this paper, we introduce ShowFlow, a comprehensive framework designed to tackle these challenges. We propose ShowFlow-S for single-concept image generation, and ShowFlow-M for handling multiple concepts. ShowFlow-S introduces a KronA-WED adapter, which integrates a Kronecker adapter with weight and embedding decomposition, and employs a disentangled learning approach with a novel attention regularization objective to enhance single-concept generation. Building on this foundation, ShowFlow-M directly reuses the learned models from ShowFlow-S to support multi-concept generation without extra conditions, incorporating a Subject-Adaptive Matching Attention (SAMA) and a layout consistency strategy as the plug-and-play module. Extensive experiments and user studies validate ShowFlow's effectiveness, highlighting its potential in real-world applications like advertising and virtual dressing.}
 }
 
 @article{Le2017RegionSaliency,
   bibtex_show={true},
+  abbr={arXiv},
   title={Region-Based Multiscale Spatiotemporal Saliency for Video},
   author={Trung-Nghia Le and Akihiro Sugimoto},
   journal={arXiv preprint arXiv:1708.01589},
