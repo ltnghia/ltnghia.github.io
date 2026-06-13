@@ -9,7 +9,7 @@
   journal={arXiv preprint arXiv:},
   year={2026},
   pdf={},
-  project_page={},
+  
   dataset={https://huggingface.co/datasets/multimedia-synergy-lab/TMPAoDai},
   abstract={We introduce TMP-AoDai, a novel dataset and benchmark, specifically curated for fashion generation with the Ao Dai, a traditional and culturally significant Vietnamese garment. Unlike existing fashion datasets that primarily focus on Western apparel, TMP-AoDai captures the complex geometry, rich textures, and diverse multi-pose variations of this Eastern national costume. The dataset comprises carefully annotated garment–pose pairs to evaluate generative models on preserving fine-grained material details and realistic draping across complex body configurations. To advance research in both generative fashion AI and cultural heritage, we benchmark state-of-the-art approaches on two tasks: virtual dressing and virtual try-on, leveraging diffusion models and multimodal large language models (MLLMs). Our experimental results reveal that MLLMs such as Gemini and Qwen substantially outperform specialized frameworks trained on Western clothing, highlighting their superior zero-shot generalization to culturally unique attire. TMP-AoDai dataset thus offers a rigorous and culturally meaningful testbed for advancing generative fashion AI, bridging costume generation technology with digital heritage preservation and creative applications.}
 }
@@ -22,7 +22,7 @@
   journal={arXiv preprint arXiv:},
   year={2026},
   pdf={},
-  project_page={},
+  
   dataset={https://huggingface.co/datasets/multimedia-synergy-lab/CogCanvas},
   abstract={Multi-subject reference-based image generation requires jointly preserving multiple human identities, binding per-person objects and fashion items, and respecting a specified background scene, a regime where current diffusion models remain brittle. Existing benchmarks evaluate only one axis at a time and none jointly captures multi-identity composition with human-object interaction, background grounding, and spatial plausibility. We introduce CogCanvas, a benchmark of 1,952 curated reference images spanning 100 celebrity identities, 115 distinctive objects and fashion items, and 29 real-world background scenes including Vietnamese landmarks, from which we construct 1,361 compositional prompts covering 2--5 person group sizes. The curation pipeline combines DINOv2-based deduplication, two-stage aesthetic filtering, and automated derivation of structured interaction and position graphs that serve as ground-truth supervision. CogCanvas supports three tasks, reference-based multi-human-object generation (primary), text-to-image compositional generation, and reference retrieval, under a unified six-axis evaluation protocol. We introduce two metrics tailored to the multi-reference setting: BG-Sim, which scores background fidelity on SAM 3-masked regions via DINOv3 feature similarity, and Attr-VQA, which uses a multimodal LLM to verify per-subject attribute binding and inter-person interactions against the structured graphs. Benchmarking five SOTA methods alongside a training-free Flux-Kontext, SAM sequential-inpainting baseline reveals that every model degrades substantially as group size grows from 2 to 5, with near-complete failure on object/fashion binding beyond three subjects.}
 }
@@ -35,7 +35,7 @@
   journal={arXiv preprint arXiv:},
   year={2026},
   pdf={},
-  project_page={},
+  
   abstract={Synthesizing physically accurate mirror reflections remains a fundamental challenge for modern text-to-image diffusion models, which are increasingly critical for generating synthetic training data for embodied AI and robotic perception. These models typically struggle with strict geometric constraints, leading to hallucinations that degrade the utility of the synthetic data. To address this, we introduce a novel, end-to-end physics-aware generation framework namely PhysMirror that natively enforces projective geometry through explicit 3D spatial priors. Our method automatically lifts prompted objects into 3D meshes and constructs a lightweight, mathematically exact mirror scene within a simulated environment. By rendering this explicit 3D scene, we extract precise 2D conditioning elements, such as depth maps and segmentation maps, that serve as robust guiding signals for downstream diffusion models, guiding them to generate images with physically correct mirror reflections. Moreover, we introduce Mirror Consistency Score (MCS), reference-free, fully automated metric that quantifies physical correctness using dense feature matching and vanishing point convergence. Experimental results on our newly constructed MirrOB dataset demonstrate that our approach outperforms state-of-the-art baselines in reflection accuracy and physical realism, while maintaining strong text-to-image semantic alignment, providing a reliable pipeline for embodied AI data generation. }
 }
 
@@ -47,7 +47,7 @@
   journal={arXiv preprint arXiv:},
   year={2026},
   pdf={},
-  project_page={},
+  
   abstract={Video diffusion models (VDMs) have demonstrated remarkable capabilities in synthesizing high-fidelity, photorealistic video content. However, they fundamentally lack an intrinsic understanding of physical laws and frequently produce visually appealing but causally illogical sequences characterized by structural hallucinations and physically implausible dynamics. Injecting physical awareness via training-free test-time optimization is a promising alternative, yet existing methods rely on global gradient updates and rigid scheduling heuristics that inadvertently corrupt passive backgrounds and fail to model complex dynamic state changes. To address this, we propose PhysPlan, a novel training-free guidance framework that shifts the paradigm from stochastic visual interpolation to agentic physics simulation. First, a VLM operates as an iterative cognitive planner, decomposing complex textual prompts into a causal Chain-of-Visual-Thought to create a multimodal representation of kinematic trajectories and 3D depth geometries. Second, these signals drives an object-centric test-time optimization. Unlike prior training-free methods that rely on global gradients and rigid scheduling heuristics, PhysPlan introduces Object-Centric Gradient Routing to isolate kinematic modifications and completely lock the passive environment. Furthermore, our Kinetic Intensity Profiling dynamically parameterizes framework hyperparameters to accommodate the varying severity of physical deformations. Extensive evaluations on the PhyGenBench and Physics-IQ benchmarks demonstrate that PhysPlan significantly outperforms both foundational and controllable VDM baselines, offering a promising approach for improving the physical understanding of video generation.}
 }
 
@@ -59,7 +59,7 @@
   journal={arXiv preprint arXiv:},
   year={2026},
   pdf={},
-  project_page={},
+  
   abstract={Story writing is a popular yet complex creative activity that requires organization of ideas and iterative exploration, particularly during early-stage ideation. While many AI-based writing assistants have been developed, existing approaches primarily focus on generating long-form coherent text and improving user controllability during text production, providing limited support for brainstorming, connecting ideas, and validating alternative narrative flows. We present GraphStory, an interactive writing support system that leverages a graph-based representation to provide a comprehensive view of narrative structure and facilitate ideation. The system enables users to organize and connect plot points, explore alternative branches, and validate evolving narratives through an integrated story generation workflow. It further provides a structured interface to support efficient iteration over multiple story paths. Results from a user study with professional and semi-professional writers show that GraphStory reduces the effort of organizing narrative structures and better supports creativity and exploration compared to normal AI-based writing workflows.}
 }
 
@@ -71,7 +71,7 @@
   journal={arXiv preprint arXiv:},
   year={2026},
   pdf={},
-  project_page={},
+  
   abstract={Recent advances in generative AI have enabled natural language-driven image editing, yet existing systems often fail in complex scenes with multiple interacting objects because they rely heavily on users crafting precise text prompts. To address the absence of structured control, we propose SceneCraft, a novel interactive framework that bridges user intent and model execution by representing images as editable scene graphs. Instead of guessing text prompts through trial and error, users interact directly with a visual graph to perform complex spatial and relational operations. These graph modifications are automatically translated into precise, context-aware editing prompts, effectively eliminating linguistic ambiguity. To ensure robust and diverse results, structured prompts are dispatched to multiple state-of-the-art generative models. Evaluations across diverse editing scenarios show that SceneCraft provides a more intuitive control mechanism, significantly reducing the cognitive burden of manual prompt engineering while generating outputs that users consistently rate as higher in quality and fidelity.}
 }
 
@@ -84,9 +84,9 @@
   year={2026},
   note={(A Rank)},
   pdf={},
-  poster={},
-  presentation={},
-  project_page={},
+  
+  
+  
   abstract={Automated chest X-ray (CXR) report generation can alleviate radiologist workload, yet clinical deployment requires reliable recognition of rare but actionable findings and robustness against hallucinated disease mentions that may lead to unnecessary interventions. This remains challenging because CXR corpora exhibit pronounced long-tailed distributions: under maximum-likelihood training, models learn frequent patterns well but systematically under-report tail conditions despite supporting visual evidence, while occasionally generating plausible yet unsupported rare findings under uncertainty. We propose RAREGen, a rare-aware reliable framework for long-tailed CXR report generation. At its core is a Rare-Aware Semantic Bottleneck (RASB) that constrains decoding through an explicit disease-structured representation. RASB is implemented as a multi-prototype Disease Knowledge Bank (DKB) with prior-adjusted top-k disease routing and uncertainty-aware gating, promoting visually supported rare findings while suppressing unsupported activations. To further reduce hallucination and omission, we introduce Contrastive Hallucination Suppression (CRHS), a hard-negative contrastive objective leveraging style-matched but disease-mismatched reports, including rare-sentence removal negatives, to strengthen cross-modal grounding. A three-stage curriculum progressively enforces bottleneck reliance and contrastive refinement to stabilize optimization. Built upon a standard encoder-decoder backbone, RAREGen improves rare-finding mention reliability and reduces hallucinated disease semantics without sacrificing overall report quality.}
 }
 
@@ -138,9 +138,9 @@
   year={2026},
   note={(B Rank)},
   pdf={},
-  poster={},
-  presentation={},
-  project_page={},
+  
+  
+  
   abstract={This paper focuses on the study of distortion-aware joint optimization for robust watermark embedding and recovery in high-resolution images. By jointly optimizing an encoder, a differentiable distortion simulator, and a decoder, the method embeds a binary payload that withstands common geometric and signal-processing degradations, including JPEG compression, cropping, and Gaussian blur. Experiments on the CelebA-HQ dataset demonstrate a highly effective trade-off between visual fidelity and watermark robustness. The model achieves excellent baseline image quality (41.7 dB PSNR, 0.986 SSIM) and maintains high message recovery along with strong visual integrity (38.1 dB PSNR, 0.963 SSIM) even under significant distortions (JPEG compression of 50\%).}
 }
 
@@ -153,8 +153,8 @@
   year={2026},
   note={(B Rank)},
   pdf={https://arxiv.org/abs/2606.13427},
-  poster={},
-  presentation={},
+  presentation={https://www.youtube.com/watch?v=3lRAlMkPiGQ},
+  
   project_page={https://hng0303.github.io/VietFashion},
   abstract={Cultural garments pose a unique challenge for visual retrieval systems, as their identity often depends on subtle structural and symbolic details that are poorly captured by standard AI models. We introduce VietFashion, a new benchmark for sketch–text composed image retrieval centered on the Ao Dai, a traditional Vietnamese garment. VietFashion enables designers and researchers to retrieve culturally meaningful outfits using a combination of hand-drawn sketches, which convey garment structure, and textual descriptions, which encode cultural semantics. The dataset is initialized with 650 human-drawn sketches and expanded using generative models to produce over 21,000 photorealistic images with aligned captions. Textual prompts that describe detailed outfit attributes, which are extracted from fashion magazines to ensure authenticity and diversity. To better reflect the inherent ambiguity of design intent, VietFashion adopts a multi-target retrieval setting, where a single query may correspond to multiple valid results. We establish standardized evaluation protocols and benchmark state-of-the-art composed image retrieval methods. Experimental results reveal significant performance gaps in modeling fine-grained cultural semantics and multi-modal composition, positioning VietFashion as a challenging benchmark for fine-grained fashion retrieval. }
 }
@@ -181,8 +181,8 @@
   year={2026},
   note={(A Rank)},
   pdf={},
-  poster={},
-  presentation={},
+  
+  
   project_page={https://vdkhoi20.github.io/PANDORA},
   abstract={Removing objects from natural images remains a significant challenge due to strict visual consistency requirements and limited user interaction flexibility. Existing systems typically rely on single-modality interactions, struggling to adapt to complex, multi-object scenarios. In this demonstration, we present Clutter Erase, an interactive system for seamless multi-object removal. The system is powered by PANDORA, our zero-shot, diffusion-based object removal model. Clutter Erase supports diverse interaction modalities, including manual masking, prompt-based selection, click-based segmentation, and similar object search, enabling highly flexible and intuitive editing. By eliminating the need for iterative passes, the system empowers users to efficiently navigate and edit complex scenarios, such as removing dense or mass-similar objects, while iteratively exploring multiple optimal results. The project page is available at https://vdkhoi20.github.io/PANDORA.}
 }
@@ -196,8 +196,8 @@
   year={2026},
   note={(A Rank)},
   pdf={https://arxiv.org/abs/2603.27555},
-  poster={},
-  presentation={},
+  
+  
   project_page={https://vdkhoi20.github.io/PANDORA},
   abstract={Removing objects from natural images is challenging due to difficulty of synthesizing semantically coherent content while preserving background integrity. Existing methods often rely on fine-tuning, prompt engineering, or inference-time optimization, yet still suffer from texture inconsistency, rigid artifacts, weak foreground–background disentanglement, and poor scalability for multi-object removal. We propose a novel zero-shot object removal framework, namely PANDORA, that operates directly on pre-trained text-to-image diffusion models, requiring no fine-tuning, prompts, or optimization. We propose Pixel-wise Attention Dissolution to remove object by nullifying the most correlated attention keys for masked pixels, effectively eliminating the object from self-attention flow and allowing background context to dominate reconstruction. We further introduce Localized Attentional Disentanglement Guidance to steer denoising toward latent manifolds favorable to clean object removal. Together, these components enable precise, non-rigid, prompt-free, and scalable multi-object erasure in a single pass. Experiments demonstrate superior visual fidelity and semantic plausibility compared to state-of-the-art methods.}
 }
@@ -211,8 +211,8 @@
   year={2026},
   note={(A Rank, Oral)},
   pdf={https://arxiv.org/abs/2602.13430},
-  poster={},
-  presentation={},
+  
+  
   project_page={https://github.com/hieuphamha19/CXR_LT},
   abstract={Chest X-Ray (CXR) classification in clinical practice is often limited by imperfect supervision, arising from (i) extreme long-tailed multi-label disease distributions and (ii) missing annotations for rare or previously unseen findings. The CXR-LT 2026 challenge addresses these issues on a PadChest-based benchmark with a 36-class label space split into 30 in-distribution classes for training and 6 out-of-distribution (OOD) classes for zero-shot evaluation. We present task-specific solutions tailored to the distinct supervision regimes. For Task~1 (long-tailed multi-label classification), we adopt an imbalance-aware multi-label learning strategy to improve recognition of tail classes while maintaining stable performance on frequent findings. For Task~2 (zero-shot OOD recognition), we propose a prediction approach that produces scores for unseen disease categories without using any supervised labels or examples from the OOD classes during training. Evaluated with macro-averaged mean Average Precision (mAP), our method achieves strong performance on both tasks, ranking first on the public leaderboard of the development phase.}
 }
@@ -226,9 +226,9 @@
   year={2026},
   note={(A* Rank, Poster)},
   pdf={https://doi.org/10.1145/3772363.3798778},
-  poster={},
+  
   presentation={https://youtu.be/REMFQ3o8Vvc},
-  project_page={},
+  
   abstract={Parents often adapt stories when telling them to young children, yet most AI storytelling tools are designed for professional writers and provide limited support for controllability and safety in everyday family contexts. We present StoryCrafter, an AI-assisted storytelling system that represents narratives as editable graphs, enabling parents to re-author stories while retaining control over narrative structure and flow. Through a graph-based interface, parents can guide AI generation in a constrained and interpretable manner, supporting story adaptation without requiring writing expertise. StoryCrafter also integrates age-appropriate safeguards to promote safe and trustworthy storytelling. In a pilot study with five parents, we found that graph-based representations supported narrative reasoning, AI-generated suggestions were valued but required predictability, and safety mechanisms were essential for establishing trust. We discuss implications for designing AI storytelling tools that support parents as co-creative partners in child-centered settings.}
 }
 
