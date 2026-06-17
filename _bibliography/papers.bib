@@ -18,31 +18,34 @@
   bibtex_show={true},
   abbr={arXiv},
   title={CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation},
-  author={Long-Bao Nguyen and Quang-Khai Le and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le },
+  author={Long-Bao Nguyen* and Quang-Khai Le* and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le },
   journal={arXiv preprint arXiv:2606.15867},
   year={2026},
-  pdf={https://arxiv.org/abs/2606.15867},
+  pdf={https://arxiv.org/abs/2606.15867
+        
+        },
   dataset={https://huggingface.co/datasets/multimedia-synergy-lab/CogCanvas},
   abstract={Multi-subject reference-based image generation requires jointly preserving multiple human identities, binding per-person objects and fashion items, and respecting a specified background scene, a regime where current diffusion models remain brittle. Existing benchmarks evaluate only one axis at a time and none jointly captures multi-identity composition with human-object interaction, background grounding, and spatial plausibility. We introduce CogCanvas, a benchmark of 1,952 curated reference images spanning 100 celebrity identities, 115 distinctive objects and fashion items, and 29 real-world background scenes including Vietnamese landmarks, from which we construct 1,361 compositional prompts covering 2--5 person group sizes. The curation pipeline combines DINOv2-based deduplication, two-stage aesthetic filtering, and automated derivation of structured interaction and position graphs that serve as ground-truth supervision. CogCanvas supports three tasks, reference-based multi-human-object generation (primary), text-to-image compositional generation, and reference retrieval, under a unified six-axis evaluation protocol. We introduce two metrics tailored to the multi-reference setting: BG-Sim, which scores background fidelity on SAM 3-masked regions via DINOv3 feature similarity, and Attr-VQA, which uses a multimodal LLM to verify per-subject attribute binding and inter-person interactions against the structured graphs. Benchmarking five SOTA methods alongside a training-free Flux-Kontext, SAM sequential-inpainting baseline reveals that every model degrades substantially as group size grows from 2 to 5, with near-complete failure on object/fashion binding beyond three subjects.}
 }
 
-@article{Mai2026PhysMirror,
+@article{Mai2026IROS,
   bibtex_show={true},
-  abbr={arXiv},
+  abbr={IROS},
   title={PhysMirror: Physics-Aware Mirror Object Generation},
-  author={Xuan-Bach Mai and Duy-Phuc Nguyen and Quoc-Van Le and Tam V. Nguyen and Thanh-Toan Do and Huu Le and Duong-Van Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:},
+  author={Xuan-Bach Mai* and Duy-Phuc Nguyen* and Quoc-Van Le and Tam V. Nguyen and Thanh-Toan Do and Huu Le and Duong-Van Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2026},
+  note={(A Rank)},
   
   
   abstract={Synthesizing physically accurate mirror reflections remains a fundamental challenge for modern text-to-image diffusion models, which are increasingly critical for generating synthetic training data for embodied AI and robotic perception. These models typically struggle with strict geometric constraints, leading to hallucinations that degrade the utility of the synthetic data. To address this, we introduce a novel, end-to-end physics-aware generation framework namely PhysMirror that natively enforces projective geometry through explicit 3D spatial priors. Our method automatically lifts prompted objects into 3D meshes and constructs a lightweight, mathematically exact mirror scene within a simulated environment. By rendering this explicit 3D scene, we extract precise 2D conditioning elements, such as depth maps and segmentation maps, that serve as robust guiding signals for downstream diffusion models, guiding them to generate images with physically correct mirror reflections. Moreover, we introduce Mirror Consistency Score (MCS), reference-free, fully automated metric that quantifies physical correctness using dense feature matching and vanishing point convergence. Experimental results on our newly constructed MirrOB dataset demonstrate that our approach outperforms state-of-the-art baselines in reflection accuracy and physical realism, while maintaining strong text-to-image semantic alignment, providing a reliable pipeline for embodied AI data generation. }
 }
 
-@article{Nguyen2026PhysPlan,
+@inproceedings{Nguyen2026PhysPlan,
   bibtex_show={true},
   abbr={arXiv},
   title={Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization},
-  author={Minh-Loi Nguyen and Xuan-Vu Le and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  author={Minh-Loi Nguyen* and Xuan-Vu Le* and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:},
   year={2026},
   
@@ -54,7 +57,7 @@
   bibtex_show={true},
   abbr={arXiv},
   title={GraphStory: Collaborative Story Writing through Event-Based Narrative Editing},
-  author={Xuan-Vu Le and Minh-Loi Nguyen and Khanh-Duy Le and Minh-Triet Tran and Trung-Nghia Le},
+  author={Xuan-Vu Le* and Minh-Loi Nguyen* and Khanh-Duy Le and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2606.16102},
   year={2026},
   pdf={https://arxiv.org/abs/2606.16102},
@@ -65,7 +68,7 @@
   bibtex_show={true},
   abbr={arXiv},
   title={SceneCraft: Interactive System for Image Editing via Scene Graph },
-  author={Duc-Manh Phan and Ngoc-Dai Tran and Duy-Khang Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  author={Duc-Manh Phan* and Ngoc-Dai Tran* and Duy-Khang Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={arXiv preprint arXiv:2606.16103},
   year={2026},
   pdf={https://arxiv.org/abs/2606.16103},
@@ -147,7 +150,7 @@
   abbr={ICMR},
   bibtex_show={true},
   title={VietFashion: Benchmarking Sketch–Text Composed Image Retrieval for Cultural Outfits},
-  author={Hoang-Nguyen Cao and Le-Hoang Bui and Dinh-Khoi Vo and Minh-Triet Tran and Trung-Nghia Le},
+  author={Hoang-Nguyen Cao* and Le-Hoang Bui* and Dinh-Khoi Vo and Minh-Triet Tran and Trung-Nghia Le},
   booktitle={International Conference on Multimedia Retrieval (ICMR)},
   year={2026},
   note={(B Rank)},
@@ -513,6 +516,7 @@
   booktitle   = {International Symposium on Information and Communication Technology (SoICT)},
   year        = {2025},
   note        = {(Oral)}, 
+  project_page = {https://github.com/mf0212/EVENTA-Challange},
 }
 
 @inproceedings{Nguyen2025Vortex,
