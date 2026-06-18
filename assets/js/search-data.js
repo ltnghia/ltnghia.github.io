@@ -743,6 +743,11 @@ ninja.data = [{
           description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
           section: "Projects",handler: () => {
               window.location.href = "/projects/acs-nnu-net/";
+            },},{id: "projects-cogcanvas",
+          title: 'CogCanvas',
+          description: "A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cogcanvas/";
             },},{id: "projects-ekyc-df",
           title: 'eKYC-DF',
           description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
