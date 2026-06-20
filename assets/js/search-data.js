@@ -703,6 +703,11 @@ ninja.data = [{
           description: "Pixel-wise attention dissolution and latent guidance for zero-shot object removal",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Pandora/";
+            },},{id: "projects-physmirror",
+          title: 'PhysMirror',
+          description: "Physics-Aware Mirror Object Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhysMirror/";
             },},{id: "projects-semi-supervised-video-instance-segmentation",
           title: 'Semi-Supervised Video Instance Segmentation',
           description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
