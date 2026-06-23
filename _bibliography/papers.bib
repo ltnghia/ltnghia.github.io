@@ -6,14 +6,9 @@
   abbr={arXiv},
   title={CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation},
   author={Long-Bao Nguyen* and Quang-Khai Le* and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le },
-  journal={arXiv preprint arXiv:2606.15867
-
-},
+  journal={arXiv preprint arXiv:2606.15867},
   year={2026},
-  pdf={https://arxiv.org/abs/2606.15867
-
-
-        },
+  pdf={https://arxiv.org/abs/2606.15867},
   dataset={https://huggingface.co/datasets/multimedia-synergy-lab/CogCanvas},
   abstract={Multi-subject reference-based image generation requires jointly preserving multiple human identities, binding per-person objects and fashion items, and respecting a specified background scene, a regime where current diffusion models remain brittle. Existing benchmarks evaluate only one axis at a time and none jointly captures multi-identity composition with human-object interaction, background grounding, and spatial plausibility. We introduce CogCanvas, a benchmark of 1,952 curated reference images spanning 100 celebrity identities, 115 distinctive objects and fashion items, and 29 real-world background scenes including Vietnamese landmarks, from which we construct 1,361 compositional prompts covering 2--5 person group sizes. The curation pipeline combines DINOv2-based deduplication, two-stage aesthetic filtering, and automated derivation of structured interaction and position graphs that serve as ground-truth supervision. CogCanvas supports three tasks, reference-based multi-human-object generation (primary), text-to-image compositional generation, and reference retrieval, under a unified six-axis evaluation protocol. We introduce two metrics tailored to the multi-reference setting: BG-Sim, which scores background fidelity on SAM 3-masked regions via DINOv3 feature similarity, and Attr-VQA, which uses a multimodal LLM to verify per-subject attribute binding and inter-person interactions against the structured graphs. Benchmarking five SOTA methods alongside a training-free Flux-Kontext, SAM sequential-inpainting baseline reveals that every model degrades substantially as group size grows from 2 to 5, with near-complete failure on object/fashion binding beyond three subjects.}
 }
@@ -55,11 +50,9 @@
   abbr={arXiv},
   title={SceneCraft: Interactive System for Image Editing via Scene Graph },
   author={Duc-Manh Phan* and Ngoc-Dai Tran* and Duy-Khang Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2606.16103
-        },
+  journal={arXiv preprint arXiv:2606.16103},
   year={2026},
-  pdf={https://arxiv.org/abs/2606.16103
-        },
+  pdf={https://arxiv.org/abs/2606.16103},
   abstract={Recent advances in generative AI have enabled natural language-driven image editing, yet existing systems often fail in complex scenes with multiple interacting objects because they rely heavily on users crafting precise text prompts. To address the absence of structured control, we propose SceneCraft, a novel interactive framework that bridges user intent and model execution by representing images as editable scene graphs. Instead of guessing text prompts through trial and error, users interact directly with a visual graph to perform complex spatial and relational operations. These graph modifications are automatically translated into precise, context-aware editing prompts, effectively eliminating linguistic ambiguity. To ensure robust and diverse results, structured prompts are dispatched to multiple state-of-the-art generative models. Evaluations across diverse editing scenarios show that SceneCraft provides a more intuitive control mechanism, significantly reducing the cognitive burden of manual prompt engineering while generating outputs that users consistently rate as higher in quality and fidelity.}
 }
 
@@ -110,7 +103,7 @@
   pdf         = {https://arxiv.org/abs/2606.14035},
   year        = {2026},
   note        = {(B Rank)},
-project_page={https://vdkhoi20.github.io/FocusDiff/},
+  project_page={https://vdkhoi20.github.io/FocusDiff/},
   abstract        = {Zero-shot text-guided diffusion has significantly advanced image editing; however, its practical usability remains constrained by three persistent challenges: prompt brittleness that requires meticulous prompt engineering, spillover edits that unintentionally affect non-target regions, and failures on small or cluttered objects caused by limited fine-grained supervision in training data. We propose FocusDiff (Target-Aware Refocusing for Tuning-Free Diffusion Editing), a tuning-free framework for precise and region-specific image manipulation based on refocusing cross-attention. Given a target region obtained through automated segmentation or manual selection, FocusDiff applies selective blurring to non-edit areas to guide attention toward the masked region while accurately transferring the object's identity, structure, and appearance to the edited output. Integrated context-preserving modules further ensure background fidelity and global coherence, enabling accurate edits from simple text prompts in a single pass. We also extend FocusDiff to 360-degree indoor panorama editing and demonstrate its effectiveness within virtual reality environments. Extensive experiments on our localized editing benchmark LIMB, comprising 30 multi-object images and 100 annotated examples including challenging small-object cases, show that FocusDiff outperforms existing zero-shot editors in text–image alignment and background preservation, achieving superior precision, photorealism, and usability.}
 }
 
@@ -123,7 +116,7 @@ project_page={https://vdkhoi20.github.io/FocusDiff/},
   pdf         = {https://arxiv.org/abs/2606.14025},
   year        = {2026},
   note        = {(B Rank)},
-project_page={https://khangbdd.github.io/garmentsketch/},
+  project_page={https://khangbdd.github.io/garmentsketch/},
   abstract        = {Fashion sketching is a cornerstone of design workflows, allowing rapid visualization of creative concepts prior to physical prototyping. Yet, progress in sketch-based fashion image synthesis has been hindered by the absence of large-scale, high-quality paired resources. To bridge this gap, we present GarmentSketch, a novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions. Captions were produced through a multi-stage pipeline that integrates multiple multimodal large language models (MLLMs) with human-in-the-loop refinement, ensuring both semantic accuracy and descriptive richness. We benchmark GarmentSketch on state-of-the-art generative models, providing baseline performance for sketch-guided text-to-image generation. Our experiments reveal both the promise and the current limitations of existing methods. By offering a comprehensive and richly annotated resource, GarmentSketch establishes a foundation for advancing sketch understanding, fine-grained fashion image generation, and creative human–AI collaboration in design.}
 }
 
@@ -135,8 +128,6 @@ project_page={https://khangbdd.github.io/garmentsketch/},
   booktitle={International Conference on Knowledge-Based and Intelligent Information and Engineering Systems (KES)},
   year={2026},
   note={(B Rank)},
-
-
   abstract={This paper focuses on the study of distortion-aware joint optimization for robust watermark embedding and recovery in high-resolution images. By jointly optimizing an encoder, a differentiable distortion simulator, and a decoder, the method embeds a binary payload that withstands common geometric and signal-processing degradations, including JPEG compression, cropping, and Gaussian blur. Experiments on the CelebA-HQ dataset demonstrate a highly effective trade-off between visual fidelity and watermark robustness. The model achieves excellent baseline image quality (41.7 dB PSNR, 0.986 SSIM) and maintains high message recovery along with strong visual integrity (38.1 dB PSNR, 0.963 SSIM) even under significant distortions (JPEG compression of 50\%).}
 }
 
@@ -150,7 +141,7 @@ project_page={https://khangbdd.github.io/garmentsketch/},
   note={(B Rank)},
   pdf={https://arxiv.org/abs/2606.13427},
   presentation={https://www.youtube.com/watch?v=3lRAlMkPiGQ},
-project_page={https://hng0303.github.io/VietFashion},
+  project_page={https://hng0303.github.io/VietFashion},
   abstract={Cultural garments pose a unique challenge for visual retrieval systems, as their identity often depends on subtle structural and symbolic details that are poorly captured by standard AI models. We introduce VietFashion, a new benchmark for sketch–text composed image retrieval centered on the Ao Dai, a traditional Vietnamese garment. VietFashion enables designers and researchers to retrieve culturally meaningful outfits using a combination of hand-drawn sketches, which convey garment structure, and textual descriptions, which encode cultural semantics. The dataset is initialized with 650 human-drawn sketches and expanded using generative models to produce over 21,000 photorealistic images with aligned captions. Textual prompts that describe detailed outfit attributes, which are extracted from fashion magazines to ensure authenticity and diversity. To better reflect the inherent ambiguity of design intent, VietFashion adopts a multi-target retrieval setting, where a single query may correspond to multiple valid results. We establish standardized evaluation protocols and benchmark state-of-the-art composed image retrieval methods. Experimental results reveal significant performance gaps in modeling fine-grained cultural semantics and multi-modal composition, positioning VietFashion as a challenging benchmark for fine-grained fashion retrieval. }
 }
 
@@ -175,8 +166,7 @@ project_page={https://hng0303.github.io/VietFashion},
   booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
   year={2026},
   note={(A Rank)},
-
-project_page={https://vdkhoi20.github.io/PANDORA},
+  project_page={https://vdkhoi20.github.io/PANDORA},
   abstract={Removing objects from natural images remains a significant challenge due to strict visual consistency requirements and limited user interaction flexibility. Existing systems typically rely on single-modality interactions, struggling to adapt to complex, multi-object scenarios. In this demonstration, we present Clutter Erase, an interactive system for seamless multi-object removal. The system is powered by PANDORA, our zero-shot, diffusion-based object removal model. Clutter Erase supports diverse interaction modalities, including manual masking, prompt-based selection, click-based segmentation, and similar object search, enabling highly flexible and intuitive editing. By eliminating the need for iterative passes, the system empowers users to efficiently navigate and edit complex scenarios, such as removing dense or mass-similar objects, while iteratively exploring multiple optimal results. The project page is available at https://vdkhoi20.github.io/PANDORA.}
 }
 
@@ -189,7 +179,6 @@ project_page={https://vdkhoi20.github.io/PANDORA},
   year={2026},
   note={(A Rank)},
   pdf={https://arxiv.org/abs/2603.27555},
-
   project_page={https://vdkhoi20.github.io/PANDORA},
   abstract={Removing objects from natural images is challenging due to difficulty of synthesizing semantically coherent content while preserving background integrity. Existing methods often rely on fine-tuning, prompt engineering, or inference-time optimization, yet still suffer from texture inconsistency, rigid artifacts, weak foreground–background disentanglement, and poor scalability for multi-object removal. We propose a novel zero-shot object removal framework, namely PANDORA, that operates directly on pre-trained text-to-image diffusion models, requiring no fine-tuning, prompts, or optimization. We propose Pixel-wise Attention Dissolution to remove object by nullifying the most correlated attention keys for masked pixels, effectively eliminating the object from self-attention flow and allowing background context to dominate reconstruction. We further introduce Localized Attentional Disentanglement Guidance to steer denoising toward latent manifolds favorable to clean object removal. Together, these components enable precise, non-rigid, prompt-free, and scalable multi-object erasure in a single pass. Experiments demonstrate superior visual fidelity and semantic plausibility compared to state-of-the-art methods.}
 }
@@ -217,8 +206,8 @@ project_page={https://vdkhoi20.github.io/PANDORA},
   year={2026},
   note={(A* Rank, Poster)},
   pdf={https://doi.org/10.1145/3772363.3798778},
-presentation={https://youtu.be/REMFQ3o8Vvc},
-abstract={Parents often adapt stories when telling them to young children, yet most AI storytelling tools are designed for professional writers and provide limited support for controllability and safety in everyday family contexts. We present StoryCrafter, an AI-assisted storytelling system that represents narratives as editable graphs, enabling parents to re-author stories while retaining control over narrative structure and flow. Through a graph-based interface, parents can guide AI generation in a constrained and interpretable manner, supporting story adaptation without requiring writing expertise. StoryCrafter also integrates age-appropriate safeguards to promote safe and trustworthy storytelling. In a pilot study with five parents, we found that graph-based representations supported narrative reasoning, AI-generated suggestions were valued but required predictability, and safety mechanisms were essential for establishing trust. We discuss implications for designing AI storytelling tools that support parents as co-creative partners in child-centered settings.}
+  presentation={https://youtu.be/REMFQ3o8Vvc},
+  abstract={Parents often adapt stories when telling them to young children, yet most AI storytelling tools are designed for professional writers and provide limited support for controllability and safety in everyday family contexts. We present StoryCrafter, an AI-assisted storytelling system that represents narratives as editable graphs, enabling parents to re-author stories while retaining control over narrative structure and flow. Through a graph-based interface, parents can guide AI generation in a constrained and interpretable manner, supporting story adaptation without requiring writing expertise. StoryCrafter also integrates age-appropriate safeguards to promote safe and trustworthy storytelling. In a pilot study with five parents, we found that graph-based representations supported narrative reasoning, AI-generated suggestions were valued but required predictability, and safety mechanisms were essential for establishing trust. We discuss implications for designing AI storytelling tools that support parents as co-creative partners in child-centered settings.}
 }
 
 @article{Nguyen2026Neurocomputing,
