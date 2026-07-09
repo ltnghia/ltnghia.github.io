@@ -9,7 +9,7 @@
   booktitle={International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
   year={2026},
   pdf={},
-  abstract={}
+  abstract={Endoscopic image analysis is essential for clinical diagnosis in Ear, Nose, and Throat (ENT) medicine, but applying general-purpose Vision-Language Models (VLMs) to specialty domains often suffers from domain shift and medical hallucination, while full fine-tuning is computationally expensive and prone to catastrophic forgetting. We propose a unified two-module framework for ENT endoscopic report generation that combines a visual retrieval module over a corpus of expert-written reports with parameter-efficient Low-Rank Adaptation (LoRA) of a medical VLM. The two modules can be toggled independently, yielding four configurations, Direct, RAG, LoRA, and RAG+LoRA, that we evaluate on a 2{,}017-image clinical ENT dataset from Thong Nhat Hospital across three recent open-weight VLMs: MedGemma-4B-IT, MedGemma-1.5-4B-IT, and Gemma-4-E4B-IT. On the 397-image test set, RAG+LoRA achieves BLEU-1 of 0.484 and BERTScore of 0.913 on MedGemma-4B-IT, an 89% relative improvement over zero-shot inference, and outperforms either component in isolation. We further find that on a non-medical backbone, zero-shot retrieval alone outperforms LoRA fine-tuning, suggesting that retrieval can partially compensate for limited in-domain pretraining. A failure analysis attributes the residual gap to retrieval rather than generation, indicating pathology-aware retrieval as the next step.}
 }
 
 @inproceedings{Dang2026MAPR,
@@ -20,7 +20,7 @@
   booktitle={International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
   year={2026},
   pdf={},
-  abstract={}
+  abstract={This paper introduces ViFA-Council, a novel three-stage multi-agent system utilizing Large Language Models to tackle two culturally complex generative tasks: image outpainting and educational story generation based on traditional Vietnamese folk paintings. Current single-model generative pipelines frequently struggle with stylistic hallucinations and cultural misrepresentations because they lack mechanisms for cross-model critique. To investigate this issue, the proposed ViFA-Council framework orchestrates collaboration among three heterogeneous large language model families: GPT-4o, Gemini 3.1 Pro, and Claude Sonnet 4.6. It enforces rigorous cultural constraints through structured agent deliberation. This deliberation is mediated by task-specific JSON schemas that effectively bridge natural language discussions with diffusion-based image synthesis using Banana Pro. Our exploratory experiments and user study suggest that structured multi-agent deliberation is a promising direction for improving cultural fidelity and narrative coherence in culturally sensitive, low-resource artistic domains.}
 }
 
 @inproceedings{Dam2026MediaEval,
@@ -31,8 +31,20 @@
   booktitle={Multimedia Benchmark Workshop (MediaEval)},
   year={2026},
   pdf={https://2026.multimediaeval.com/paper17.pdf},
-  abstract={}
+  abstract={The clinical adoption of artificial intelligence in gastroenterology remains limited by the lack of interpretability in existing Visual Question Answering (VQA) systems. Although recent self-probing approaches can generate textual explanations, they often lack explicit grounding in relevant visual evidence. To address this limitation, we propose a boundary-guided multimodal reasoning framework for explainable gastrointestinal VQA. We employ a YOLO26-seg model to localize precise object boundaries around polyps and clinical instruments, preserving internal textures while highlighting diagnostically relevant regions. A fine-tuned Qwen3.5-4B model leverages these boundary-enhanced images to perform progressive visual reasoning, while a two-stage self-probing strategy combined with a Qwen3.5-35B-A3B explanation module produces coherent clinical justifications for the final predictions. Experiments on the Kvasir-VQA-x1 dataset demonstrate that the proposed framework improves both VQA performance and explanation quality compared with baseline methods and conventional visual grounding strategies, offering a more trustworthy approach to gastrointestinal decision support.}
   note={Third Place}
+}
+
+@article{Ngo2026AIBL,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Learning to Generate Multiple Objects from Dense and Occluded Layouts},
+  author={Bach-Hoang Ngo* and Si-Tri Ngo* and Hieu Le and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2607.03488},
+  year={2026},
+  pdf={https://arxiv.org/abs/2607.03488},
+  project_page={https://bachngoh.github.io/AIBL},
+  abstract={Text-to-image diffusion models fail to generate correct object counts in dense scenes, where overlapping instances collapse into indistinguishable structures despite appearing visually plausible. We identify this as instance ownership collapse: tokens from overlapping objects interact freely through attention, while heavily occluded instances receive weak supervision due to their small visible areas. We address this through layout-aware attention biases that softly bias token interactions toward region-consistent grouping and suppress cross-instance leakage, paired with an amodal-balanced loss that amplifies gradients for occluded objects based on their occlusion level. To enable systematic evaluation, we introduce OverlapDepth-45K, a benchmark of densely overlapping scenes with amodal supervision. Our approach substantially improves count accuracy and prevents instance merging while preserving image quality.}
 }
 
 @article{Nguyen2026CogCanvas,
@@ -98,6 +110,7 @@
   booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2026},
   note={(A Rank)},
+  pdf={https://arxiv.org/abs/2607.03470},
   project_page={https://duyphuc0701.github.io/PhysMirror/},
   abstract={Synthesizing physically accurate mirror reflections remains a fundamental challenge for modern text-to-image diffusion models, which are increasingly critical for generating synthetic training data for embodied AI and robotic perception. These models typically struggle with strict geometric constraints, leading to hallucinations that degrade the utility of the synthetic data. To address this, we introduce a novel, end-to-end physics-aware generation framework namely PhysMirror that natively enforces projective geometry through explicit 3D spatial priors. Our method automatically lifts prompted objects into 3D meshes and constructs a lightweight, mathematically exact mirror scene within a simulated environment. By rendering this explicit 3D scene, we extract precise 2D conditioning elements, such as depth maps and segmentation maps, that serve as robust guiding signals for downstream diffusion models, guiding them to generate images with physically correct mirror reflections. Moreover, we introduce Mirror Consistency Score (MCS), reference-free, fully automated metric that quantifies physical correctness using dense feature matching and vanishing point convergence. Experimental results on our newly constructed MirrOB dataset demonstrate that our approach outperforms state-of-the-art baselines in reflection accuracy and physical realism, while maintaining strong text-to-image semantic alignment, providing a reliable pipeline for embodied AI data generation. }
 }
