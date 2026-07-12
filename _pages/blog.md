@@ -82,12 +82,12 @@ nav_order: 7
   - Xuan-Bach Mai, Duy-Phuc Nguyen. Co-supervised with [Assoc.Prof. Tam V. Nguyen](https://vantam.github.io/)
   - [Thesis] [Slide]
 
-- **Controllable Image Generation**
+- **Controllable Image Generation for Dense Multi-Object Scenes**
 
   - Hoang-Bach Ngo, Tri-Si Ngo. Co-supervised with [Assist.Prof. Hieu Le](https://scholar.google.com/citations?user=Bj9g-EEAAAAJ)
   - [Thesis] [Slide]
 
-- **Medical Multimedia Retrieval**
+- **Semantic-Aware Multimedia Retrieval For Medical Image Analysis**
 
   - Duc-Tho Nguyen, Thanh-Tien Tran
   - [Thesis] [Slide]
@@ -102,22 +102,22 @@ nav_order: 7
   - Long-Bao Nguyen, Quang-Khai Le. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
-- **Generative AI for Extended Reality**
+- **AI-Assisted Creative Visual Interpretation and Generation**
 
   - Quoc-Duy Tran, Anh-Tuan Vo. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
-- **Training-Free Sketch Generation**
+- **Training-Free Vector Sketch Generation**
 
   - Duy-Khang Do, Quang-Thinh Nguyen
   - [Thesis] [Slide]
 
-- **Aesthetic-Aware Image Composition**
+- **AI-Assisted Visual Storytelling through Controllable Multimodal Content Generation**
 
   - Duc-Manh Phan, Van-Hieu Huynh. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
 
-- **Event-based Multimedia Retrieval**
+- **Knowledge-Grounded Multimodal Analysis of Event-Centric Images**
 
   - Van-Phuc Phan, Minh-Tan Pham. Co-supervised with [Dr. Khanh-Duy Le](https://scholar.google.com/citations?user=jSOYfjYAAAAJ&hl=en)
   - [Thesis] [Slide]
