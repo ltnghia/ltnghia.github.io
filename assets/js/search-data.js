@@ -708,6 +708,11 @@ ninja.data = [{
           description: "Physics-Aware Mirror Object Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhysMirror/";
+            },},{id: "projects-physmirror",
+          title: 'PhysMirror',
+          description: "Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PhysPlan/";
             },},{id: "projects-semi-supervised-video-instance-segmentation",
           title: 'Semi-Supervised Video Instance Segmentation',
           description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
@@ -728,6 +733,11 @@ ninja.data = [{
           description: "Fine-grained 3D animal model retrieval using hand-drawn sketch queries",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SketchANIMAR/";
+            },},{id: "projects-sketchbloom",
+          title: 'SketchBloom',
+          description: "Training-Free Vector Sketch Outpainting with Stroke-Level Style Control",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SketchBloom/";
             },},{id: "projects-textanimar",
           title: 'TextANIMAR',
           description: "Natural language-based fine-grained retrieval for 3D animal models",
