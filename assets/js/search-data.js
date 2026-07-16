@@ -708,8 +708,8 @@ ninja.data = [{
           description: "Physics-Aware Mirror Object Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhysMirror/";
-            },},{id: "projects-physmirror",
-          title: 'PhysMirror',
+            },},{id: "projects-physplan",
+          title: 'PhysPlan',
           description: "Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhysPlan/";
