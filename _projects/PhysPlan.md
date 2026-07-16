@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PhysMirror
+title: PhysPlan
 description: Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization
 img: assets/img/PhysPlan.jpg
 redirect: https://physplan.github.io/
