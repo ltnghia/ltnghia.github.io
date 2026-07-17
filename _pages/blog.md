@@ -94,7 +94,7 @@ nav_order: 7
 
 - **Generative Al for Interactive Storytelling**
 
-  - Minh-Loi Nguyen, Xuan-Vu Le. Co-supervised with [Assoc.Prof. Tam V. Nguyen](https://vantam.github.io/)
+  - Minh-Loi Nguyen, Xuan-Vu Le. Co-supervised with [Assoc.Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ)
   - [Thesis] [Slide]
 
 - **Agentic Image Generation**
