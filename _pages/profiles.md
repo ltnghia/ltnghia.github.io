@@ -82,7 +82,7 @@ nav_order: 5
 - Ha-Hieu Pham (2022~2026, High-Quality Program)
 - Hoai-Thuong Nguyen (2022~2026, Standard Program)
 - Hai-Dang Nguyen (2023~2027, High-Quality Program)
-- Thu-Hien Trinh-Thi (2023~2027, Honors Program)
+- Hien Trinh (2023~2027, Honors Program)
 - Tien-Dat Dam (2023~2027, Standard Program)
 - Thinh-Phuc Nguyen-Le (2023~2027, Advanced Computer Science Program)
 - Gia-Huy Dinh-Ho (2023~2027, Advanced Computer Science Program)
