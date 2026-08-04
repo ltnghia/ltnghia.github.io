@@ -7,10 +7,34 @@
   title={ShowFlow: From Robust Single Concept to Condition-Free Multi-Concept Generation},
   author={Trong-Vu Hoang and Quang-Binh Nguyen and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={Neurocomputing},
+  note={(Q1, IF = 6.7 in 2025)},
   year={2026},
   pdf={https://arxiv.org/abs/2506.18493},
   project_page={https://htrvu.github.io/showflow/},
   abstract={Customizing image generation remains a core challenge in controllable image synthesis. For single-concept generation, maintaining both identity preservation and prompt alignment is challenging. In multi-concept scenarios, relying solely on a prompt without additional conditions like layout boxes or semantic masks, often leads to identity loss and concept omission. In this paper, we introduce ShowFlow, a comprehensive framework designed to tackle these challenges. We propose ShowFlow-S for single-concept image generation, and ShowFlow-M for handling multiple concepts. ShowFlow-S introduces a KronA-WED adapter, which integrates a Kronecker adapter with weight and embedding decomposition, and employs a disentangled learning approach with a novel attention regularization objective to enhance single-concept generation. Building on this foundation, ShowFlow-M directly reuses the learned models from ShowFlow-S to support multi-concept generation without extra conditions, incorporating a Subject-Adaptive Matching Attention (SAMA) and a layout consistency strategy as the plug-and-play module. Extensive experiments and user studies validate ShowFlow's effectiveness, highlighting its potential in real-world applications like advertising and virtual dressing.}
+}
+
+@inproceedings{Kolakaluri2026CHIRA,
+  bibtex_show={true},
+  abbr={CHIRA},
+  title={Modality Matters in AI Mock Interviews: Experience, Physiology and Performance with a Three-LLM Interview Panel},
+  author={Kanishka Samrat Kolakaluri and Khanh-Duy Le and Trung-Nghia Le and Minh-Triet Tran and Tam V. Nguyen},
+  booktitle={International Conference on Computer-Human Interaction Research and Applications (CHIRA)},
+  note={(C Rank)},
+  year={2026},
+  pdf={},
+  abstract={Large language models have made automated interview practice broadly accessible, yet most deployed systems present the interviewer through a single channel, usually text. Whether the delivery modality itself changes how practice feels and how candidates perform remains poorly understood. We built InterviewAI, a mock-interview system in which a panel of three distinct LLM interviewers (Claude, GPT-4o and Gemini), each assigned a hidden competency focus, questions a candidate about their own r\'esum\'e under a competency-gated termination policy modelled on real hiring panels. The same panel can be delivered as a text chat, a voice-only interlocutor, or a lip-synced 3D avatar, and the system continuously records answer scores, webcam-based gaze behaviour, and heart activity estimated by remote photoplethysmography, with all biometric processing on-device. In a counterbalanced within-subjects study, thirty-eight participants completed a full interview in each modality. Spoken modalities were rated far more natural than text ($\chi^2(2)=10.38$, $p=.006$, Kendall's $W=.74$), but the embodied interviewer was also experienced as the most stressful ($p=.048$), while heart-rate elevation was largest in the voice-only condition. Panel-assigned answer scores were descriptively lowest for voice and comparable between text and avatar. Usability was rated excellent (SUS $M=91.6$), and modality preference split almost evenly. We discuss what these dissociations between experienced stress, physiological arousal and performance imply for the design of AI interview training, and release the system, which runs end-to-end on commodity hardware without API dependencies.}
+}
+
+@inproceedings{Tho2026MAPR,
+  bibtex_show={true},
+  abbr={MAPR},
+  title={Adapting Medical and General-Purpose Vision-Language Models for ENT Endoscopic Report Generation},
+  author={Duc-Tho Nguyen and Thanh-Tien Tran and Thao Thi Phuong Dao and Thanh Dinh Le and Trung-Nghia Le},
+  booktitle={International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
+  year={2026},
+  pdf={},
+  abstract={Endoscopic image analysis is essential for clinical diagnosis in Ear, Nose, and Throat (ENT) medicine, but applying general-purpose Vision-Language Models (VLMs) to specialty domains often suffers from domain shift and medical hallucination, while full fine-tuning is computationally expensive and prone to catastrophic forgetting. We propose a unified two-module framework for ENT endoscopic report generation that combines a visual retrieval module over a corpus of expert-written reports with parameter-efficient Low-Rank Adaptation (LoRA) of a medical VLM. The two modules can be toggled independently, yielding four configurations, Direct, RAG, LoRA, and RAG+LoRA, that we evaluate on a 2{,}017-image clinical ENT dataset from Thong Nhat Hospital across three recent open-weight VLMs: MedGemma-4B-IT, MedGemma-1.5-4B-IT, and Gemma-4-E4B-IT. On the 397-image test set, RAG+LoRA achieves BLEU-1 of 0.484 and BERTScore of 0.913 on MedGemma-4B-IT, an 89% relative improvement over zero-shot inference, and outperforms either component in isolation. We further find that on a non-medical backbone, zero-shot retrieval alone outperforms LoRA fine-tuning, suggesting that retrieval can partially compensate for limited in-domain pretraining. A failure analysis attributes the residual gap to retrieval rather than generation, indicating pathology-aware retrieval as the next step.}
 }
 
 @inproceedings{Tho2026MAPR,
