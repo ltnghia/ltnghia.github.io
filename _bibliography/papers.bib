@@ -13,6 +13,17 @@
   abstract={\noindent\textbf{Background and Objective:} Space-occupying lesions of the head and neck can obstruct the aerodigestive tract and involve critical neurovascular structures, potentially resulting in life-threatening complications such as sepsis or acute airway compromise. Despite their clinical importance, publicly available medical imaging benchmarks primarily focus on malignant tumors and largely overlook other clinically relevant lesion types. \noindent\textbf{Methods:} To address this limitation, we present 3D-HNSeg, a curated dataset of 204 head and neck CT scans with \textcolor{black}{expert manually annotated} voxel-wise 3D ground-truth of three lesion categories, including tumors, cysts, and abscesses. To address the substantial anatomical variability and heterogeneous appearance of these lesions, we propose TD-Mamba, a synergistic and spatially adaptive segmentation architecture. This model integrates Tri-oriented Dilated Mamba blocks for efficient multi-scale 3D contextual representation and Soft Signal-Adaptive Memory modules for token-wise feature refinement via adaptive memory gating. \noindent\textbf{Results:} Experiments on the 3D-HNSeg dataset demonstrate that TD-Mamba outperforms baseline methods, achieving a Dice Similarity Coefficient (DSC), mean Intersection over Union (mIoU), and 95th percentile Hausdorff Distance (HD95) of 36.31\%, 30.10\%, and 21.59mm, respectively. Ablation studies further validate the contribution of each architectural component. Although TD-Mamba improves over the evaluated baselines, its absolute segmentation performance remains substantially lower than inter-observer agreement, particularly for abscesses. Therefore, the model should be interpreted as a research baseline rather than an autonomous clinical solution. \noindent\textbf{Conclusion:} These results demonstrate the effectiveness of TD-Mamba as a strong baseline on the proposed 3D-HNSeg benchmark, supporting future research on automated head and neck lesion segmentation and related computer-assisted clinical applications. The dataset and source code are available at \url{https://github.com/drthaodao3101/3D-HNSeg}.}
 }
 
+@inproceedings{Phan2026CBMI,
+  abbr        = {CBMI},
+  bibtex_show = {true},
+  title       = {Towards Usable Interactive Video Retrieval: A Multimodal System for Event Search},
+  author      = {Hai-Minh Phan and Minh-Triet Tran and Trung-Nghia Le and Hai-Dang Nguyen},
+  booktitle   = {International Conference on Content-Based Multimedia Indexing (CBMI)},
+  year        = {2026},
+  note        = {(C Rank)},
+  abstract        = {}
+}
+
 @inproceedings{Nguyen2026FDSE,
   bibtex_show={true},
   abbr={FDSE},
@@ -854,6 +865,7 @@
   booktitle   = {International Conference on Content-Based Multimedia Indexing (CBMI)},
   year        = {2025},
   pdf         = {https://arxiv.org/abs/2506.21369},
+  note        = {(C Rank)},
   abstract        = {Generative art unlocks boundless creative possibilities, yet its full potential remains untapped due to the technical expertise required for advanced architectural concepts and computational workflows. To bridge this gap, we present GenFlow, a novel modular framework that empowers users of all skill levels to generate images with precision and ease. Featuring a node-based editor for seamless customization and an intelligent assistant powered by natural language processing, GenFlow transforms the complexity of workflow creation into an intuitive and accessible experience. By automating deployment processes and minimizing technical barriers, our framework makes cutting-edge generative art tools available to everyone. A user study demonstrated GenFlow's ability to optimize workflows, reduce task completion times, and enhance user understanding through its intuitive interface and adaptive features. These results position GenFlow as a groundbreaking solution that redefines accessibility and efficiency in the realm of generative art.}
 }
 
