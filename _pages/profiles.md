@@ -59,6 +59,32 @@ nav_order: 5
 
 ### Undergraduate students
 
+- Thinh-Phuc Nguyen-Le (2023~2027, Advanced Computer Science Program)
+- Gia-Huy Dinh-Ho (2023~2027, Advanced Computer Science Program)
+- Thanh-Hai Nguyen (2023~2027, Advanced Computer Science Program)
+- Le-Hoang Bui (2023~2027, Advanced Computer Science Program)
+- Hoang-Nguyen Cao (2023~2027, Advanced Computer Science Program)
+- Hien Trinh (2023~2027, Honors Program)
+- Gia-Huy Thai (2023~2027, Honors Program)
+- Duc-Tien Khong (2023~2027, Honors Program)
+- Hai-Dang Nguyen (2023~2027, High-Quality Program)
+- Nhat-Khoi Le (2023~2027, High-Quality Program)
+- Tien-Dat Dam (2023~2027, Standard Program)
+- Le-Tran Nguyen (2025~2029, Advanced Computer Science Program)
+
+---
+
+## Alumni
+
+### Master's students
+
+- Hoai-Danh Vo (2022~2025, Artificial Intelligence Program, G2)
+- Y-Hop Nguyen (2022~2025, Artificial Intelligence Program, G2)
+- Dien-Bao Trang (2022~2025, Artificial Intelligence Program, G2)
+- Duy-Dat Tran (2022, Computer Science Program, G2)
+
+### Undergraduate students
+
 - Minh-Loi Nguyen (2022~2026, Honors Program)
 - Xuan-Vu Le (2022~2026, Honors Program)
 - Quang-Khai Le (2022~2026, Honors Program)
@@ -81,29 +107,6 @@ nav_order: 5
 - Thanh-Tien Tran (2022~2026, Advanced Computer Science Program)
 - Ha-Hieu Pham (2022~2026, High-Quality Program)
 - Hoai-Thuong Nguyen (2022~2026, Standard Program)
-- Hai-Dang Nguyen (2023~2027, High-Quality Program)
-- Hien Trinh (2023~2027, Honors Program)
-- Tien-Dat Dam (2023~2027, Standard Program)
-- Thinh-Phuc Nguyen-Le (2023~2027, Advanced Computer Science Program)
-- Gia-Huy Dinh-Ho (2023~2027, Advanced Computer Science Program)
-- Thanh-Hai Nguyen (2023~2027, Advanced Computer Science Program)
-- Le-Hoang Bui (2023~2027, Advanced Computer Science Program)
-- Hoang-Nguyen Cao (2023~2027, Advanced Computer Science Program)
-- Le-Tran Nguyen (2025~2029, Advanced Computer Science Program)
-
----
-
-## Alumni
-
-### Master's students
-
-- Hoai-Danh Vo (2022~2025, Artificial Intelligence Program, G2)
-- Y-Hop Nguyen (2022~2025, Artificial Intelligence Program, G2)
-- Dien-Bao Trang (2022~2025, Artificial Intelligence Program, G2)
-- Duy-Dat Tran (2022, Computer Science Program, G2)
-
-### Undergraduate students
-
 - Nhu-Vinh Hoang (2021~2025, Advanced Computer Science Program)
 - Nhu-Binh Nguyen-Truc (2021~2025, Advanced Computer Science Program)
 - Huu-Phuc Huynh (2021~2025, Advanced Computer Science Program)
