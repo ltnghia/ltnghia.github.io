@@ -1,6 +1,17 @@
 ---
 ---
 
+@inproceedings{Nguyen2026SIGGRAPHASIA,
+  abbr        = {SIGGRAPH ASIA},
+  bibtex_show = {true},
+  title       = {SketchForge: Training-Free Scene-to-Vector Sketching via Decoupled Structure and Texture Optimization},
+  author      = {Quang-Thinh Nguyen* and Duy-Khang Do* and Hien Trinh and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia)},
+  year        = {2026},
+  note        = {(A* Rank), Technical Communications Track},
+  abstract        = {Converting a raster image into a resolution-independent, stroke-editable vector sketch while faithfully preserving both structural contours and tonal texture remains challenging: raster-space rendering pipelines are difficult to edit at the stroke level, while generation-from-scratch vectorization methods struggle to remain faithful to an arbitrary input image. We present SketchForge, a training-free framework that converts an input raster image into a resolution-independent SVG sketch through per-instance test-time optimization of Bézier curves, requiring no additional training or fine-tuning. Strokes are seeded via a contour and attention-guided initialization, then refined by a vector-native differentiable rendering pipeline that decouples structural contour strokes from free-form texture strokes under dedicated objectives, composited via multiply-blend layering. Extensive experiments show that SketchForge consistently outperforms existing vector-based baselines in structural fidelity and generation quality.}
+}
+
 @article{Dao2026CMPB,
   bibtex_show={true},
   abbr={CMPB},
@@ -295,7 +306,7 @@
   author={Dinh-Khoi Vo and Van-Loc Nguyen and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
   year={2026},
-  note={(A Rank)},
+  note={(A Rank), Demo Track},
   project_page={https://vdkhoi20.github.io/PANDORA},
   abstract={Removing objects from natural images remains a significant challenge due to strict visual consistency requirements and limited user interaction flexibility. Existing systems typically rely on single-modality interactions, struggling to adapt to complex, multi-object scenarios. In this demonstration, we present Clutter Erase, an interactive system for seamless multi-object removal. The system is powered by PANDORA, our zero-shot, diffusion-based object removal model. Clutter Erase supports diverse interaction modalities, including manual masking, prompt-based selection, click-based segmentation, and similar object search, enabling highly flexible and intuitive editing. By eliminating the need for iterative passes, the system empowers users to efficiently navigate and edit complex scenarios, such as removing dense or mass-similar objects, while iteratively exploring multiple optimal results. The project page is available at https://vdkhoi20.github.io/PANDORA.}
 }
