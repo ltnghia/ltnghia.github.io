@@ -25,7 +25,7 @@
   bibtex_show={true},
   abbr={FDSE},
   title={Context Matters: Contextual Multi-Turn Transformation for Jailbreaking Conversational Text-to-Image Systems},
-  author={Ngoc-Dai Tran and Thanh-Tuong Huynh and Toan-Thinh Truong and Trung-Nghia Le},
+  author={Ngoc-Dai Tran* and Thanh-Tuong Huynh* and Toan-Thinh Truong and Trung-Nghia Le},
   booktitle={International Conference on Future Data and Security Engineering (FDSE)},
   year={2026},
   abstract={Modern text-to-image (T2I) systems increasingly integrate conversational interfaces with memory mechanisms that enable iterative image refinement. While current safety pipelines employ sophisticated input and output moderation, they largely evaluate each interaction independently, creating a mismatch between stateful conversational memory and stateless safety filtering. In this paper, we show that this mismatch constitutes a critical security vulnerability. We propose Contextual Multi-Turn Transformation (CMTT), a jailbreak framework that distributes malicious intent across a natural multi-turn conversation rather than embedding it within a single prompt. CMTT proceeds in three stages: it first establishes benign semantic anchors, then refines them through human-like iterative interactions, and finally replaces them with prohibited concepts through localized editing instructions. This gradual transformation preserves conversational coherence while avoiding the abrupt semantic shifts that typically activate safety guardrails. Experiments on three frontier commercial T2I systems demonstrate substantial vulnerabilities, achieving attack success rates of 56.67% on Gemini-2.5-Flash-Image, 63.33% on GPT Image 2, and 74.44% on FLUX.1 Pro. Notably, self-harm emerges as a consistent blind spot, reaching 93.33% attack success on Grok. Our findings reveal fundamental limitations of stateless moderation in memory-enabled generative systems and motivate the development of context-aware safety mechanisms for future multimodal AI.}
@@ -35,7 +35,7 @@
   bibtex_show={true},
   abbr={FDSE},
   title={LiteForensicsNet: Lightweight Real-time Network for Deepfake Detection via Feature Fusion},
-  author={Hai-Dang Nguyen and Nhat-Khoi Le and Trung-Nghia Le},
+  author={Hai-Dang Nguyen* and Nhat-Khoi Le* and Trung-Nghia Le},
   booktitle={International Conference on Future Data and Security Engineering (FDSE)},
   year={2026},
   abstract={Deepfake detection faces a fundamental accuracy-efficiency tradeoff: transformer-based and CLIP-aligned models achieve near-perfect accuracy but demand 25-88M parameters and several GFLOPs, rendering them unsuitable for real-time or on-device deployment. We introduce LiteForensicsNet, a lightweight deepfake detection architecture built on the insight that generative models leave characteristic traces in two non-redundant signal domains simultaneously, global spectral anomalies in the frequency domain and local micro-textural inconsistencies in the spatial domain. We augment the standard RGB input with FFT magnitude and Local Binary Pattern (LBP) channels, then fuse all five channels through an SE-Enhanced Adapter that performs input-adaptive channel reweighting before a MobileNetV3-Small backbone. With only 1.52M parameters and 0.070 GFLOPs, LiteForensicsNet achieves 97.93\% accuracy and 99.71\% AUC on CIFAKE and 98.07\% accuracy and 99.57\% AUC on COCOFake, competitive with models 20$\times$ larger, at 420 images/sec on standard commodity hardware without specialised accelerators.}
@@ -92,7 +92,7 @@
   bibtex_show={true},
   abbr={Neurocomputing},
   title={ShowFlow: From Robust Single Concept to Condition-Free Multi-Concept Generation},
-  author={Trong-Vu Hoang and Quang-Binh Nguyen and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  author={Trong-Vu Hoang* and Quang-Binh Nguyen* and Thanh-Toan Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   journal={Neurocomputing},
   note={(Q1, IF = 6.7 in 2025)},
   year={2026},
@@ -117,18 +117,7 @@
   bibtex_show={true},
   abbr={MAPR},
   title={Adapting Medical and General-Purpose Vision-Language Models for ENT Endoscopic Report Generation},
-  author={Duc-Tho Nguyen and Thanh-Tien Tran and Thao Thi Phuong Dao and Thanh Dinh Le and Trung-Nghia Le},
-  booktitle={International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
-  year={2026},
-  
-  abstract={Endoscopic image analysis is essential for clinical diagnosis in Ear, Nose, and Throat (ENT) medicine, but applying general-purpose Vision-Language Models (VLMs) to specialty domains often suffers from domain shift and medical hallucination, while full fine-tuning is computationally expensive and prone to catastrophic forgetting. We propose a unified two-module framework for ENT endoscopic report generation that combines a visual retrieval module over a corpus of expert-written reports with parameter-efficient Low-Rank Adaptation (LoRA) of a medical VLM. The two modules can be toggled independently, yielding four configurations, Direct, RAG, LoRA, and RAG+LoRA, that we evaluate on a 2{,}017-image clinical ENT dataset from Thong Nhat Hospital across three recent open-weight VLMs: MedGemma-4B-IT, MedGemma-1.5-4B-IT, and Gemma-4-E4B-IT. On the 397-image test set, RAG+LoRA achieves BLEU-1 of 0.484 and BERTScore of 0.913 on MedGemma-4B-IT, an 89% relative improvement over zero-shot inference, and outperforms either component in isolation. We further find that on a non-medical backbone, zero-shot retrieval alone outperforms LoRA fine-tuning, suggesting that retrieval can partially compensate for limited in-domain pretraining. A failure analysis attributes the residual gap to retrieval rather than generation, indicating pathology-aware retrieval as the next step.}
-}
-
-@inproceedings{Tho2026MAPR,
-  bibtex_show={true},
-  abbr={MAPR},
-  title={Adapting Medical and General-Purpose Vision-Language Models for ENT Endoscopic Report Generation},
-  author={Duc-Tho Nguyen and Thanh-Tien Tran and Thao Thi Phuong Dao and Thanh Dinh Le and Trung-Nghia Le},
+  author={Duc-Tho Nguyen* and Thanh-Tien Tran* and Thao Thi Phuong Dao and Thanh Dinh Le and Trung-Nghia Le},
   booktitle={International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
   year={2026},
   
