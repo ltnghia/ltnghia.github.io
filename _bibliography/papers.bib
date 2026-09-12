@@ -1,6 +1,46 @@
 ---
 ---
 
+@inproceedings{Dinh2026ACOMPA,
+  bibtex_show={true},
+  abbr={ACOMPA},
+  title={MMQuiz: A Multimodal Quiz Generation Framework for Visual-Sparse Educational Materials},
+  author={Gia-Huy Dinh* and Thinh-Phuc Nguyen* and Thanh-Hai Nguyen* and Trung-Nghia Le},
+  booktitle={International Conference on Advanced Computing and Analytics (ACOMPA)},
+  year={2026},
+  abstract={Traditional quiz-based learning systems primarily rely on text-based formats, such as multiple-choice and fill-in-the-blank questions, which can limit engagement and memory retention in visual-sparse domains. While multimodal question generation has emerged to address this, existing methods are often constrained by a reliance on pre-existing images within source documents. This paper proposes MMQuiz, a novel framework for multimodal quiz generation augmented with AI-generated images. By leveraging state-of-the-art generative models, the system identifies key concepts within text-dense materials and produces context-relevant illustrative images to complement the text. This approach enables the creation of questions that require joint textual and visual reasoning, transforming the quiz generation process into a dynamic, adaptive experience. Experimental evaluations demonstrate that the proposed framework significantly enhances educational relevance, question diversity, and learner engagement compared to traditional text-only or retrieval-based methods.}
+}
+
+@inproceedings{Vo2026ACOMPA,
+  bibtex_show={true},
+  abbr={ACOMPA},
+  title={Event-Specific Image Generation with Multimodal Retrieval-Augmented Context},
+  author={Dinh-Khoi Vo and Hien Trinh and Thinh-Phuc Nguyen and Trung-Nghia Le},
+  booktitle={International Conference on Advanced Computing and Analytics (ACOMPA)},
+  year={2026},
+  abstract={Text-to-image (T2I) generation has achieved remarkable progress, yet conventional models frequently suffer from semantic and factual hallucination when synthesizing complex real-world events. For event-centric prompts, models may generate visually plausible images while distorting landmark structures, inventing unsupported scene details, or ignoring temporal and geographic constraints. We propose a training-free framework for event-specific image generation. Given a user query, our method retrieves structured event metadata and an anchor image, then converts the retrieved information into a tag-structured prompt for FLUX.1-Kontext. This design grounds generation in both factual event context and visual scene evidence, allowing transient event attributes to be injected while preserving landmark identity and spatial layout. Experiments on event scenarios derived from OpenEvents-V1 benchmark show that our method outperforms text-only prompting baselines in factual adherence and structural consistency.}
+}
+
+@inproceedings{Tran2026FDSE,
+  bibtex_show={true},
+  abbr={FDSE},
+  title={Context Matters: Contextual Multi-Turn Transformation for Jailbreaking Conversational Text-to-Image Systems},
+  author={Ngoc-Dai Tran and Thanh-Tuong Huynh and Toan-Thinh Truong and Trung-Nghia Le},
+  booktitle={International Conference on Future Data and Security Engineering (FDSE)},
+  year={2026},
+  abstract={Modern text-to-image (T2I) systems increasingly integrate conversational interfaces with memory mechanisms that enable iterative image refinement. While current safety pipelines employ sophisticated input and output moderation, they largely evaluate each interaction independently, creating a mismatch between stateful conversational memory and stateless safety filtering. In this paper, we show that this mismatch constitutes a critical security vulnerability. We propose Contextual Multi-Turn Transformation (CMTT), a jailbreak framework that distributes malicious intent across a natural multi-turn conversation rather than embedding it within a single prompt. CMTT proceeds in three stages: it first establishes benign semantic anchors, then refines them through human-like iterative interactions, and finally replaces them with prohibited concepts through localized editing instructions. This gradual transformation preserves conversational coherence while avoiding the abrupt semantic shifts that typically activate safety guardrails. Experiments on three frontier commercial T2I systems demonstrate substantial vulnerabilities, achieving attack success rates of 56.67% on Gemini-2.5-Flash-Image, 63.33% on GPT Image 2, and 74.44% on FLUX.1 Pro. Notably, self-harm emerges as a consistent blind spot, reaching 93.33% attack success on Grok. Our findings reveal fundamental limitations of stateless moderation in memory-enabled generative systems and motivate the development of context-aware safety mechanisms for future multimodal AI.}
+}
+
+@inproceedings{Nguyen2026FDSE,
+  bibtex_show={true},
+  abbr={FDSE},
+  title={LiteForensicsNet: Lightweight Real-time Network for Deepfake Detection via Feature Fusion},
+  author={Hai-Dang Nguyen and Nhat-Khoi Le and Trung-Nghia Le},
+  booktitle={International Conference on Future Data and Security Engineering (FDSE)},
+  year={2026},
+  abstract={Deepfake detection faces a fundamental accuracy-efficiency tradeoff: transformer-based and CLIP-aligned models achieve near-perfect accuracy but demand 25-88M parameters and several GFLOPs, rendering them unsuitable for real-time or on-device deployment. We introduce LiteForensicsNet, a lightweight deepfake detection architecture built on the insight that generative models leave characteristic traces in two non-redundant signal domains simultaneously, global spectral anomalies in the frequency domain and local micro-textural inconsistencies in the spatial domain. We augment the standard RGB input with FFT magnitude and Local Binary Pattern (LBP) channels, then fuse all five channels through an SE-Enhanced Adapter that performs input-adaptive channel reweighting before a MobileNetV3-Small backbone. With only 1.52M parameters and 0.070 GFLOPs, LiteForensicsNet achieves 97.93\% accuracy and 99.71\% AUC on CIFAKE and 98.07\% accuracy and 99.57\% AUC on COCOFake, competitive with models 20$\times$ larger, at 420 images/sec on standard commodity hardware without specialised accelerators.}
+}
+
 @inproceedings{Nguyen2026SIGGRAPHASIA,
   abbr        = {SIGGRAPH ASIA},
   bibtex_show = {true},
@@ -35,17 +75,6 @@
   abstract        = {}
 }
 
-@inproceedings{Nguyen2026FDSE,
-  bibtex_show={true},
-  abbr={FDSE},
-  title={LiteForensicsNet: Lightweight Real-time Network for Deepfake Detection via Feature Fusion},
-  author={Hai-Dang Nguyen and Nhat-Khoi Le and Trung-Nghia Le},
-  booktitle={International Conference on Future Data and Security Engineering (FDSE)},
-  year={2026},
-  
-  abstract={Deepfake detection faces a fundamental accuracy-efficiency tradeoff: transformer-based and CLIP-aligned models achieve near-perfect accuracy but demand 25-88M parameters and several GFLOPs, rendering them unsuitable for real-time or on-device deployment. We introduce LiteForensicsNet, a lightweight deepfake detection architecture built on the insight that generative models leave characteristic traces in two non-redundant signal domains simultaneously, global spectral anomalies in the frequency domain and local micro-textural inconsistencies in the spatial domain. We augment the standard RGB input with FFT magnitude and Local Binary Pattern (LBP) channels, then fuse all five channels through an SE-Enhanced Adapter that performs input-adaptive channel reweighting before a MobileNetV3-Small backbone. With only 1.52M parameters and 0.070 GFLOPs, LiteForensicsNet achieves 97.93\% accuracy and 99.71\% AUC on CIFAKE and 98.07\% accuracy and 99.57\% AUC on COCOFake, competitive with models 20$\times$ larger, at 420 images/sec on standard commodity hardware without specialised accelerators.}
-}
-
 @article{Tran2026Shape2Animal,
   bibtex_show={true},
   abbr={MultiMedia},
@@ -78,7 +107,7 @@
   title={Modality Matters in AI Mock Interviews: Experience, Physiology and Performance with a Three-LLM Interview Panel},
   author={Kanishka Samrat Kolakaluri and Tam V. Nguyen and Trung-Nghia Le and Minh-Triet Tran and Khanh-Duy Le},
   booktitle={International Conference on Computer-Human Interaction Research and Applications (CHIRA)},
-  note={(C Rank)},
+  note={(C Rank, Nominated for Best Student Paper)},
   year={2026},
   
   abstract={Large language models have made automated interview practice broadly accessible, yet most deployed systems present the interviewer through a single channel, usually text. Whether the delivery modality itself changes how practice feels and how candidates perform remains poorly understood. We built InterviewAI, a mock-interview system in which a panel of three distinct LLM interviewers (Claude, GPT-4o and Gemini), each assigned a hidden competency focus, questions a candidate about their own r\'esum\'e under a competency-gated termination policy modelled on real hiring panels. The same panel can be delivered as a text chat, a voice-only interlocutor, or a lip-synced 3D avatar, and the system continuously records answer scores, webcam-based gaze behaviour, and heart activity estimated by remote photoplethysmography, with all biometric processing on-device. In a counterbalanced within-subjects study, thirty-eight participants completed a full interview in each modality. Spoken modalities were rated far more natural than text ($\chi^2(2)=10.38$, $p=.006$, Kendall's $W=.74$), but the embodied interviewer was also experienced as the most stressful ($p=.048$), while heart-rate elevation was largest in the voice-only condition. Panel-assigned answer scores were descriptively lowest for voice and comparable between text and avatar. Usability was rated excellent (SUS $M=91.6$), and modality preference split almost evenly. We discuss what these dissociations between experienced stress, physiological arousal and performance imply for the design of AI interview training, and release the system, which runs end-to-end on commodity hardware without API dependencies.}
