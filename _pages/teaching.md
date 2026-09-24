@@ -36,6 +36,9 @@ nav_order: 6
 
 ### Advanced Program in Computer Science (APCS)
 
+- **Autumn 2026:**
+  - SC203 - Scientific Methods
+  - [CS419 - Introduction to Information Retrieval](https://sites.google.com/view/information-retrieval-2023/home)
 - **Spring 2026:**
   - WR227 - Technical Writing
 - **Autumn 2025:**
