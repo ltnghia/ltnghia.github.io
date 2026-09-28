@@ -1,14 +1,141 @@
 ---
 ---
 
-@inproceedings{Dinh2026ACOMPA,
+@article{Nguyen2026PhysPlan,
   bibtex_show={true},
-  abbr={ACOMPA},
-  title={MMQuiz: A Multimodal Quiz Generation Framework for Visual-Sparse Educational Materials},
-  author={Gia-Huy Dinh* and Thinh-Phuc Nguyen* and Thanh-Hai Nguyen* and Trung-Nghia Le},
-  booktitle={International Conference on Advanced Computing and Analytics (ACOMPA)},
+  abbr={arXiv},
+  title={Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization},
+  author={Minh-Loi Nguyen* and Xuan-Vu Le* and Thanh-Toan Do** and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le**},
+  journal={arXiv preprint arXiv:2609.13006},
   year={2026},
-  abstract={Traditional quiz-based learning systems primarily rely on text-based formats, such as multiple-choice and fill-in-the-blank questions, which can limit engagement and memory retention in visual-sparse domains. While multimodal question generation has emerged to address this, existing methods are often constrained by a reliance on pre-existing images within source documents. This paper proposes MMQuiz, a novel framework for multimodal quiz generation augmented with AI-generated images. By leveraging state-of-the-art generative models, the system identifies key concepts within text-dense materials and produces context-relevant illustrative images to complement the text. This approach enables the creation of questions that require joint textual and visual reasoning, transforming the quiz generation process into a dynamic, adaptive experience. Experimental evaluations demonstrate that the proposed framework significantly enhances educational relevance, question diversity, and learner engagement compared to traditional text-only or retrieval-based methods.}
+  pdf={https://arxiv.org/abs/2609.13006},
+  project_page={https://physplan.github.io},
+  abstract={Video diffusion models (VDMs) have demonstrated remarkable capabilities in synthesizing high-fidelity, photorealistic video content. However, they fundamentally lack an intrinsic understanding of physical laws and frequently produce visually appealing but causally illogical sequences characterized by structural hallucinations and physically implausible dynamics. Injecting physical awareness via training-free test-time optimization is a promising alternative, yet existing methods rely on global gradient updates and rigid scheduling heuristics that inadvertently corrupt passive backgrounds and fail to model complex dynamic state changes. To address this, we propose PhysPlan, a novel training-free guidance framework that shifts the paradigm from stochastic visual interpolation to agentic physics simulation. First, a VLM operates as an iterative cognitive planner, decomposing complex textual prompts into a causal Chain-of-Visual-Thought to create a multimodal representation of kinematic trajectories and 3D depth geometries. Second, these signals drives an object-centric test-time optimization. Unlike prior training-free methods that rely on global gradients and rigid scheduling heuristics, PhysPlan introduces Object-Centric Gradient Routing to isolate kinematic modifications and completely lock the passive environment. Furthermore, our Kinetic Intensity Profiling dynamically parameterizes framework hyperparameters to accommodate the varying severity of physical deformations. Extensive evaluations on the PhyGenBench and Physics-IQ benchmarks demonstrate that PhysPlan significantly outperforms both foundational and controllable VDM baselines, offering a promising approach for improving the physical understanding of video generation.}
+}
+
+@article{Nguyen2026CogCanvas,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation},
+  author={Long-Bao Nguyen* and Quang-Khai Le* and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2606.15867},
+  year={2026},
+  pdf={https://arxiv.org/abs/2606.15867},
+  project_page={https://longbaocoder2.github.io/cogcanvas/},
+  abstract={Multi-subject reference-based image generation requires jointly preserving multiple human identities, binding per-person objects and fashion items, and respecting a specified background scene, a regime where current diffusion models remain brittle. Existing benchmarks evaluate only one axis at a time and none jointly captures multi-identity composition with human-object interaction, background grounding, and spatial plausibility. We introduce CogCanvas, a benchmark of 1,952 curated reference images spanning 100 celebrity identities, 115 distinctive objects and fashion items, and 29 real-world background scenes including Vietnamese landmarks, from which we construct 1,361 compositional prompts covering 2--5 person group sizes. The curation pipeline combines DINOv2-based deduplication, two-stage aesthetic filtering, and automated derivation of structured interaction and position graphs that serve as ground-truth supervision. CogCanvas supports three tasks, reference-based multi-human-object generation (primary), text-to-image compositional generation, and reference retrieval, under a unified six-axis evaluation protocol. We introduce two metrics tailored to the multi-reference setting: BG-Sim, which scores background fidelity on SAM 3-masked regions via DINOv3 feature similarity, and Attr-VQA, which uses a multimodal LLM to verify per-subject attribute binding and inter-person interactions against the structured graphs. Benchmarking five SOTA methods alongside a training-free Flux-Kontext, SAM sequential-inpainting baseline reveals that every model degrades substantially as group size grows from 2 to 5, with near-complete failure on object/fashion binding beyond three subjects.}
+}
+
+@article{Le2026GraphStory,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={GraphStory: Collaborative Story Writing through Event-Based Narrative Editing},
+  author={Xuan-Vu Le* and Minh-Loi Nguyen* and Khanh-Duy Le and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2606.16102},
+  year={2026},
+  pdf={https://arxiv.org/abs/2606.16102},
+  abstract={Story writing is a popular yet complex creative activity that requires organization of ideas and iterative exploration, particularly during early-stage ideation. While many AI-based writing assistants have been developed, existing approaches primarily focus on generating long-form coherent text and improving user controllability during text production, providing limited support for brainstorming, connecting ideas, and validating alternative narrative flows. We present GraphStory, an interactive writing support system that leverages a graph-based representation to provide a comprehensive view of narrative structure and facilitate ideation. The system enables users to organize and connect plot points, explore alternative branches, and validate evolving narratives through an integrated story generation workflow. It further provides a structured interface to support efficient iteration over multiple story paths. Results from a user study with professional and semi-professional writers show that GraphStory reduces the effort of organizing narrative structures and better supports creativity and exploration compared to normal AI-based writing workflows.}
+}
+
+@article{Pham2026TMPAoDai,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={TMP-AoDai: Benchmarking Tailored Multi-Pose Ao Dai Dataset for Traditional Vietnamese Fashion Generation},
+  author={Minh-Tan Pham and Duong-Duy-Khang Bui and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:},
+  year={2026},
+  dataset={https://huggingface.co/datasets/multimedia-synergy-lab/TMPAoDai},
+  abstract={We introduce TMP-AoDai, a novel dataset and benchmark, specifically curated for fashion generation with the Ao Dai, a traditional and culturally significant Vietnamese garment. Unlike existing fashion datasets that primarily focus on Western apparel, TMP-AoDai captures the complex geometry, rich textures, and diverse multi-pose variations of this Eastern national costume. The dataset comprises carefully annotated garment–pose pairs to evaluate generative models on preserving fine-grained material details and realistic draping across complex body configurations. To advance research in both generative fashion AI and cultural heritage, we benchmark state-of-the-art approaches on two tasks: virtual dressing and virtual try-on, leveraging diffusion models and multimodal large language models (MLLMs). Our experimental results reveal that MLLMs such as Gemini and Qwen substantially outperform specialized frameworks trained on Western clothing, highlighting their superior zero-shot generalization to culturally unique attire. TMP-AoDai dataset thus offers a rigorous and culturally meaningful testbed for advancing generative fashion AI, bridging costume generation technology with digital heritage preservation and creative applications.}
+}
+
+@article{Phan2026SceneCraft,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={SceneCraft: Interactive System for Image Editing via Scene Graph },
+  author={Duc-Manh Phan* and Ngoc-Dai Tran* and Duy-Khang Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2606.16103},
+  year={2026},
+  pdf={https://arxiv.org/abs/2606.16103},
+  abstract={Recent advances in generative AI have enabled natural language-driven image editing, yet existing systems often fail in complex scenes with multiple interacting objects because they rely heavily on users crafting precise text prompts. To address the absence of structured control, we propose SceneCraft, a novel interactive framework that bridges user intent and model execution by representing images as editable scene graphs. Instead of guessing text prompts through trial and error, users interact directly with a visual graph to perform complex spatial and relational operations. These graph modifications are automatically translated into precise, context-aware editing prompts, effectively eliminating linguistic ambiguity. To ensure robust and diverse results, structured prompts are dispatched to multiple state-of-the-art generative models. Evaluations across diverse editing scenarios show that SceneCraft provides a more intuitive control mechanism, significantly reducing the cognitive burden of manual prompt engineering while generating outputs that users consistently rate as higher in quality and fidelity.}
+}
+
+@article{PhanNguyen2025KiseKloset,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={KiseKloset for Fashion Retrieval and Recommendation},
+  author={Thanh-Tung Phan-Nguyen and Khoi-Nguyen Nguyen-Ngoc and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2506.23471},
+  year={2025},
+  pdf={https://arxiv.org/abs/2506.23471},
+  abstract={The global fashion e-commerce industry has become integral to people's daily lives, leveraging technological advancements to offer personalized shopping experiences, primarily through recommendation systems that enhance customer engagement through personalized suggestions. To improve customers' experience in online shopping, we propose a novel comprehensive KiseKloset system for outfit retrieval, recommendation, and try-on. We explore two approaches for outfit retrieval: similar item retrieval and text feedback-guided item retrieval. Notably, we introduce a novel transformer architecture designed to recommend complementary items from diverse categories. Furthermore, we enhance the overall performance of the search pipeline by integrating approximate algorithms to optimize the search process. Additionally, addressing the crucial needs of online shoppers, we employ a lightweight yet efficient virtual try-on framework capable of real-time operation, memory efficiency, and maintaining realistic outputs compared to its predecessors. This virtual try-on module empowers users to visualize specific garments on themselves, enhancing the customers' experience and reducing costs associated with damaged items for retailers. We deployed our end-to-end system for online users to test and provide feedback, enabling us to measure their satisfaction levels. The results of our user study revealed that 84% of participants found our comprehensive system highly useful, significantly improving their online shopping experience.}
+}
+
+@article{Tran2025InteractiveSegmentation,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Interactive Interface For Semantic Segmentation Dataset Synthesis},
+  author={Ngoc-Do Tran and Minh-Tuan Huynh and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2506.23470},
+  year={2025},
+  pdf={https://arxiv.org/abs/2506.23470},
+  abstract={The global fashion e-commerce industry has become integral to people's daily lives, leveraging technological advancements to offer personalized shopping experiences, primarily through recommendation systems that enhance customer engagement through personalized suggestions. To improve customers' experience in online shopping, we propose a novel comprehensive KiseKloset system for outfit retrieval and recommendation. We explore two approaches for outfit retrieval: similar item retrieval and text feedback-guided item retrieval. Notably, we introduce a novel transformer architecture designed to recommend complementary items from diverse categories. Furthermore, we enhance the overall performance of the search pipeline by integrating approximate algorithms to optimize the search process. Additionally, addressing the crucial needs of online shoppers, we employ a lightweight yet efficient virtual try-on framework capable of real-time operation, memory efficiency, and maintaining realistic outputs compared to its predecessors. This virtual try-on module empowers users to visualize specific garments on themselves, enhancing the customers' experience and reducing costs associated with damaged items for retailers. We deployed our end-to-end system for online users to test and provide feedback,  enabling us to measure their satisfaction levels. The results of our user study revealed that 84% of participants found our comprehensive system highly useful, significantly improving their online shopping experience.}
+}
+
+@article{Bui2025PrefPaint,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={PrefPaint: Enhancing Medical Image Inpainting through Expert Human Feedback},
+  author={Duy-Bao Bui and Hoang-Khang Nguyen and Thao Thi Phuong Dao and Kim Anh Phung and Tam V. Nguyen and Justin Zhan and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2506.21834},
+  year={2025},
+  pdf={https://arxiv.org/abs/2506.21834},
+  abstract={Inpainting, the process of filling missing or corrupted image parts, has broad applications in medical imaging. However, generating anatomically accurate synthetic polyp images for clinical AI is a largely underexplored problem. In specialized fields like gastroenterology, inaccuracies in generated images can lead to false patterns and significant errors in downstream diagnosis. To ensure reliability, models require direct feedback from domain experts like oncologists. We propose PrefPaint, an interactive system that incorporates expert human feedback into Stable Diffusion Inpainting. By using D3PO instead of full RLHF, our approach bypasses the need for computationally expensive reward models, making it a highly practical choice for resource-constrained clinical settings. Furthermore, we introduce a streamlined web-based interface to facilitate this expert-in-the-loop training. Central to this platform is the Model Tree versioning interface, a novel HCI concept that visualizes the evolutionary progression of fine-tuned models. This interactive interface provides a smooth and intuitive user experience, making it easier to offer feedback and manage the fine-tuning process. User studies show that PrefPaint outperforms existing methods, reducing visual inconsistencies and generating highly realistic, anatomically accurate polyp images suitable for clinical AI applications.}
+}
+
+@article{Nguyen2025TaleForge,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={TaleForge: Interactive Multimodal System for Personalized Story Creation},
+  author={Minh-Loi Nguyen and Quang-Khai Le and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2506.21832},
+  year={2025},
+  pdf={https://arxiv.org/abs/2506.21832},
+  abstract={Storytelling is a deeply personal and creative process, yet existing methods often treat users as passive consumers, offering generic plots with limited personalization. This undermines engagement and immersion, especially where individual style or appearance is crucial. We introduce TaleForge, a personalized story-generation system that integrates large language models (LLMs) and text-to-image diffusion to embed users' facial images within both narratives and illustrations. TaleForge features three interconnected modules: Story Generation, where LLMs create narratives and character descriptions from user prompts; Personalized Image Generation, merging users' faces and outfit choices into character illustrations; and Background Generation, creating scene backdrops that incorporate personalized characters. A user study demonstrated heightened engagement and ownership when individuals appeared as protagonists. Participants praised the system's real-time previews and intuitive controls, though they requested finer narrative editing tools. TaleForge advances multimodal storytelling by aligning personalized text and imagery to create immersive, user-centric experiences.}
+}
+
+@inproceedings{Ngo2026AIBL,
+  bibtex_show={true},
+  abbr={NeurIPS},
+  title={Learning to Generate Multiple Objects from Dense and Occluded Layouts},
+  author={Bach-Hoang Ngo* and Si-Tri Ngo* and Hieu Le** and Trung-Nghia Le**},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2026},
+  pdf={https://arxiv.org/abs/2607.03488},
+  project_page={https://bachngoh.github.io/AIBL},
+  abstract={Text-to-image diffusion models fail to generate correct object counts in dense scenes, where overlapping instances collapse into indistinguishable structures despite appearing visually plausible. We identify this as instance ownership collapse: tokens from overlapping objects interact freely through attention, while heavily occluded instances receive weak supervision due to their small visible areas. We address this through layout-aware attention biases that softly bias token interactions toward region-consistent grouping and suppress cross-instance leakage, paired with an amodal-balanced loss that amplifies gradients for occluded objects based on their occlusion level. To enable systematic evaluation, we introduce OverlapDepth-45K, a benchmark of densely overlapping scenes with amodal supervision. Our approach substantially improves count accuracy and prevents instance merging while preserving image quality.}
+}
+
+@inproceedings{Nguyen2026SIGGRAPHASIA,
+  abbr        = {SIGGRAPH ASIA},
+  bibtex_show = {true},
+  title       = {SketchForge: Training-Free Scene-to-Vector Sketching via Decoupled Structure and Texture Optimization},
+  author      = {Quang-Thinh Nguyen* and Duy-Khang Do* and Hien Trinh and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia)},
+  year        = {2026},
+  note        = {(A* Rank), Technical Communications Track},
+  abstract    = {Converting a raster image into a resolution-independent, stroke-editable vector sketch while faithfully preserving both structural contours and tonal texture remains challenging: raster-space rendering pipelines are difficult to edit at the stroke level, while generation-from-scratch vectorization methods struggle to remain faithful to an arbitrary input image. We present SketchForge, a training-free framework that converts an input raster image into a resolution-independent SVG sketch through per-instance test-time optimization of Bézier curves, requiring no additional training or fine-tuning. Strokes are seeded via a contour and attention-guided initialization, then refined by a vector-native differentiable rendering pipeline that decouples structural contour strokes from free-form texture strokes under dedicated objectives, composited via multiply-blend layering. Extensive experiments show that SketchForge consistently outperforms existing vector-based baselines in structural fidelity and generation quality.}
+}
+
+@inproceedings{Mai2026IROS,
+  bibtex_show={true},
+  abbr={IROS},
+  title={PhysMirror: Physics-Aware Mirror Object Generation},
+  author={Xuan-Bach Mai* and Duy-Phuc Nguyen* and Quoc-Van Le and Tam V. Nguyen** and Thanh-Toan Do and Huu Le and Duong-Van Nguyen and Minh-Triet Tran and Trung-Nghia Le**},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2026},
+  note={(A Rank)},
+  pdf={https://arxiv.org/abs/2607.03470},
+  project_page={https://duyphuc0701.github.io/PhysMirror/},
+  abstract={Synthesizing physically accurate mirror reflections remains a fundamental challenge for modern text-to-image diffusion models, which are increasingly critical for generating synthetic training data for embodied AI and robotic perception. These models typically struggle with strict geometric constraints, leading to hallucinations that degrade the utility of the synthetic data. To address this, we introduce a novel, end-to-end physics-aware generation framework namely PhysMirror that natively enforces projective geometry through explicit 3D spatial priors. Our method automatically lifts prompted objects into 3D meshes and constructs a lightweight, mathematically exact mirror scene within a simulated environment. By rendering this explicit 3D scene, we extract precise 2D conditioning elements, such as depth maps and segmentation maps, that serve as robust guiding signals for downstream diffusion models, guiding them to generate images with physically correct mirror reflections. Moreover, we introduce Mirror Consistency Score (MCS), reference-free, fully automated metric that quantifies physical correctness using dense feature matching and vanishing point convergence. Experimental results on our newly constructed MirrOB dataset demonstrate that our approach outperforms state-of-the-art baselines in reflection accuracy and physical realism, while maintaining strong text-to-image semantic alignment, providing a reliable pipeline for embodied AI data generation. }
 }
 
 @inproceedings{Vo2026ACOMPA,
@@ -19,6 +146,16 @@
   booktitle={International Conference on Advanced Computing and Analytics (ACOMPA)},
   year={2026},
   abstract={Text-to-image (T2I) generation has achieved remarkable progress, yet conventional models frequently suffer from semantic and factual hallucination when synthesizing complex real-world events. For event-centric prompts, models may generate visually plausible images while distorting landmark structures, inventing unsupported scene details, or ignoring temporal and geographic constraints. We propose a training-free framework for event-specific image generation. Given a user query, our method retrieves structured event metadata and an anchor image, then converts the retrieved information into a tag-structured prompt for FLUX.1-Kontext. This design grounds generation in both factual event context and visual scene evidence, allowing transient event attributes to be injected while preserving landmark identity and spatial layout. Experiments on event scenarios derived from OpenEvents-V1 benchmark show that our method outperforms text-only prompting baselines in factual adherence and structural consistency.}
+}
+
+@inproceedings{Dinh2026ACOMPA,
+  bibtex_show={true},
+  abbr={ACOMPA},
+  title={MMQuiz: A Multimodal Quiz Generation Framework for Visual-Sparse Educational Materials},
+  author={Gia-Huy Dinh* and Thinh-Phuc Nguyen* and Thanh-Hai Nguyen* and Trung-Nghia Le},
+  booktitle={International Conference on Advanced Computing and Analytics (ACOMPA)},
+  year={2026},
+  abstract={Traditional quiz-based learning systems primarily rely on text-based formats, such as multiple-choice and fill-in-the-blank questions, which can limit engagement and memory retention in visual-sparse domains. While multimodal question generation has emerged to address this, existing methods are often constrained by a reliance on pre-existing images within source documents. This paper proposes MMQuiz, a novel framework for multimodal quiz generation augmented with AI-generated images. By leveraging state-of-the-art generative models, the system identifies key concepts within text-dense materials and produces context-relevant illustrative images to complement the text. This approach enables the creation of questions that require joint textual and visual reasoning, transforming the quiz generation process into a dynamic, adaptive experience. Experimental evaluations demonstrate that the proposed framework significantly enhances educational relevance, question diversity, and learner engagement compared to traditional text-only or retrieval-based methods.}
 }
 
 @inproceedings{Tran2026FDSE,
@@ -39,17 +176,6 @@
   booktitle={International Conference on Future Data and Security Engineering (FDSE)},
   year={2026},
   abstract={Deepfake detection faces a fundamental accuracy-efficiency tradeoff: transformer-based and CLIP-aligned models achieve near-perfect accuracy but demand 25-88M parameters and several GFLOPs, rendering them unsuitable for real-time or on-device deployment. We introduce LiteForensicsNet, a lightweight deepfake detection architecture built on the insight that generative models leave characteristic traces in two non-redundant signal domains simultaneously, global spectral anomalies in the frequency domain and local micro-textural inconsistencies in the spatial domain. We augment the standard RGB input with FFT magnitude and Local Binary Pattern (LBP) channels, then fuse all five channels through an SE-Enhanced Adapter that performs input-adaptive channel reweighting before a MobileNetV3-Small backbone. With only 1.52M parameters and 0.070 GFLOPs, LiteForensicsNet achieves 97.93\% accuracy and 99.71\% AUC on CIFAKE and 98.07\% accuracy and 99.57\% AUC on COCOFake, competitive with models 20$\times$ larger, at 420 images/sec on standard commodity hardware without specialised accelerators.}
-}
-
-@inproceedings{Nguyen2026SIGGRAPHASIA,
-  abbr        = {SIGGRAPH ASIA},
-  bibtex_show = {true},
-  title       = {SketchForge: Training-Free Scene-to-Vector Sketching via Decoupled Structure and Texture Optimization},
-  author      = {Quang-Thinh Nguyen* and Duy-Khang Do* and Hien Trinh and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  booktitle   = {ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia)},
-  year        = {2026},
-  note        = {(A* Rank), Technical Communications Track},
-  abstract    = {Converting a raster image into a resolution-independent, stroke-editable vector sketch while faithfully preserving both structural contours and tonal texture remains challenging: raster-space rendering pipelines are difficult to edit at the stroke level, while generation-from-scratch vectorization methods struggle to remain faithful to an arbitrary input image. We present SketchForge, a training-free framework that converts an input raster image into a resolution-independent SVG sketch through per-instance test-time optimization of Bézier curves, requiring no additional training or fine-tuning. Strokes are seeded via a contour and attention-guided initialization, then refined by a vector-native differentiable rendering pipeline that decouples structural contour strokes from free-form texture strokes under dedicated objectives, composited via multiply-blend layering. Extensive experiments show that SketchForge consistently outperforms existing vector-based baselines in structural fidelity and generation quality.}
 }
 
 @article{Dao2026CMPB,
@@ -145,88 +271,6 @@
   pdf={https://2026.multimediaeval.com/paper17.pdf},
   abstract={The clinical adoption of artificial intelligence in gastroenterology remains limited by the lack of interpretability in existing Visual Question Answering (VQA) systems. Although recent self-probing approaches can generate textual explanations, they often lack explicit grounding in relevant visual evidence. To address this limitation, we propose a boundary-guided multimodal reasoning framework for explainable gastrointestinal VQA. We employ a YOLO26-seg model to localize precise object boundaries around polyps and clinical instruments, preserving internal textures while highlighting diagnostically relevant regions. A fine-tuned Qwen3.5-4B model leverages these boundary-enhanced images to perform progressive visual reasoning, while a two-stage self-probing strategy combined with a Qwen3.5-35B-A3B explanation module produces coherent clinical justifications for the final predictions. Experiments on the Kvasir-VQA-x1 dataset demonstrate that the proposed framework improves both VQA performance and explanation quality compared with baseline methods and conventional visual grounding strategies, offering a more trustworthy approach to gastrointestinal decision support.},
   note={Third Place},
-}
-
-@inproceedings{Ngo2026AIBL,
-  bibtex_show={true},
-  abbr={NeurIPS},
-  title={Learning to Generate Multiple Objects from Dense and Occluded Layouts},
-  author={Bach-Hoang Ngo* and Si-Tri Ngo* and Hieu Le** and Trung-Nghia Le**},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2026},
-  pdf={https://arxiv.org/abs/2607.03488},
-  project_page={https://bachngoh.github.io/AIBL},
-  abstract={Text-to-image diffusion models fail to generate correct object counts in dense scenes, where overlapping instances collapse into indistinguishable structures despite appearing visually plausible. We identify this as instance ownership collapse: tokens from overlapping objects interact freely through attention, while heavily occluded instances receive weak supervision due to their small visible areas. We address this through layout-aware attention biases that softly bias token interactions toward region-consistent grouping and suppress cross-instance leakage, paired with an amodal-balanced loss that amplifies gradients for occluded objects based on their occlusion level. To enable systematic evaluation, we introduce OverlapDepth-45K, a benchmark of densely overlapping scenes with amodal supervision. Our approach substantially improves count accuracy and prevents instance merging while preserving image quality.}
-}
-
-@article{Nguyen2026CogCanvas,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation},
-  author={Long-Bao Nguyen* and Quang-Khai Le* and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2606.15867},
-  year={2026},
-  pdf={https://arxiv.org/abs/2606.15867},
-  project_page={https://longbaocoder2.github.io/cogcanvas/},
-  abstract={Multi-subject reference-based image generation requires jointly preserving multiple human identities, binding per-person objects and fashion items, and respecting a specified background scene, a regime where current diffusion models remain brittle. Existing benchmarks evaluate only one axis at a time and none jointly captures multi-identity composition with human-object interaction, background grounding, and spatial plausibility. We introduce CogCanvas, a benchmark of 1,952 curated reference images spanning 100 celebrity identities, 115 distinctive objects and fashion items, and 29 real-world background scenes including Vietnamese landmarks, from which we construct 1,361 compositional prompts covering 2--5 person group sizes. The curation pipeline combines DINOv2-based deduplication, two-stage aesthetic filtering, and automated derivation of structured interaction and position graphs that serve as ground-truth supervision. CogCanvas supports three tasks, reference-based multi-human-object generation (primary), text-to-image compositional generation, and reference retrieval, under a unified six-axis evaluation protocol. We introduce two metrics tailored to the multi-reference setting: BG-Sim, which scores background fidelity on SAM 3-masked regions via DINOv3 feature similarity, and Attr-VQA, which uses a multimodal LLM to verify per-subject attribute binding and inter-person interactions against the structured graphs. Benchmarking five SOTA methods alongside a training-free Flux-Kontext, SAM sequential-inpainting baseline reveals that every model degrades substantially as group size grows from 2 to 5, with near-complete failure on object/fashion binding beyond three subjects.}
-}
-
-@article{Pham2026TMPAoDai,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={TMP-AoDai: Benchmarking Tailored Multi-Pose Ao Dai Dataset for Traditional Vietnamese Fashion Generation},
-  author={Minh-Tan Pham and Duong-Duy-Khang Bui and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:},
-  year={2026},
-  dataset={https://huggingface.co/datasets/multimedia-synergy-lab/TMPAoDai},
-  abstract={We introduce TMP-AoDai, a novel dataset and benchmark, specifically curated for fashion generation with the Ao Dai, a traditional and culturally significant Vietnamese garment. Unlike existing fashion datasets that primarily focus on Western apparel, TMP-AoDai captures the complex geometry, rich textures, and diverse multi-pose variations of this Eastern national costume. The dataset comprises carefully annotated garment–pose pairs to evaluate generative models on preserving fine-grained material details and realistic draping across complex body configurations. To advance research in both generative fashion AI and cultural heritage, we benchmark state-of-the-art approaches on two tasks: virtual dressing and virtual try-on, leveraging diffusion models and multimodal large language models (MLLMs). Our experimental results reveal that MLLMs such as Gemini and Qwen substantially outperform specialized frameworks trained on Western clothing, highlighting their superior zero-shot generalization to culturally unique attire. TMP-AoDai dataset thus offers a rigorous and culturally meaningful testbed for advancing generative fashion AI, bridging costume generation technology with digital heritage preservation and creative applications.}
-}
-
-@article{Nguyen2026PhysPlan,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization},
-  author={Minh-Loi Nguyen* and Xuan-Vu Le* and Thanh-Toan Do** and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le**},
-  journal={arXiv preprint arXiv:2609.13006},
-  year={2026},
-  pdf={https://arxiv.org/abs/2609.13006},
-  project_page={https://physplan.github.io},
-  abstract={Video diffusion models (VDMs) have demonstrated remarkable capabilities in synthesizing high-fidelity, photorealistic video content. However, they fundamentally lack an intrinsic understanding of physical laws and frequently produce visually appealing but causally illogical sequences characterized by structural hallucinations and physically implausible dynamics. Injecting physical awareness via training-free test-time optimization is a promising alternative, yet existing methods rely on global gradient updates and rigid scheduling heuristics that inadvertently corrupt passive backgrounds and fail to model complex dynamic state changes. To address this, we propose PhysPlan, a novel training-free guidance framework that shifts the paradigm from stochastic visual interpolation to agentic physics simulation. First, a VLM operates as an iterative cognitive planner, decomposing complex textual prompts into a causal Chain-of-Visual-Thought to create a multimodal representation of kinematic trajectories and 3D depth geometries. Second, these signals drives an object-centric test-time optimization. Unlike prior training-free methods that rely on global gradients and rigid scheduling heuristics, PhysPlan introduces Object-Centric Gradient Routing to isolate kinematic modifications and completely lock the passive environment. Furthermore, our Kinetic Intensity Profiling dynamically parameterizes framework hyperparameters to accommodate the varying severity of physical deformations. Extensive evaluations on the PhyGenBench and Physics-IQ benchmarks demonstrate that PhysPlan significantly outperforms both foundational and controllable VDM baselines, offering a promising approach for improving the physical understanding of video generation.}
-}
-
-@article{Le2026GraphStory,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={GraphStory: Collaborative Story Writing through Event-Based Narrative Editing},
-  author={Xuan-Vu Le* and Minh-Loi Nguyen* and Khanh-Duy Le and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2606.16102},
-  year={2026},
-  pdf={https://arxiv.org/abs/2606.16102},
-  abstract={Story writing is a popular yet complex creative activity that requires organization of ideas and iterative exploration, particularly during early-stage ideation. While many AI-based writing assistants have been developed, existing approaches primarily focus on generating long-form coherent text and improving user controllability during text production, providing limited support for brainstorming, connecting ideas, and validating alternative narrative flows. We present GraphStory, an interactive writing support system that leverages a graph-based representation to provide a comprehensive view of narrative structure and facilitate ideation. The system enables users to organize and connect plot points, explore alternative branches, and validate evolving narratives through an integrated story generation workflow. It further provides a structured interface to support efficient iteration over multiple story paths. Results from a user study with professional and semi-professional writers show that GraphStory reduces the effort of organizing narrative structures and better supports creativity and exploration compared to normal AI-based writing workflows.}
-}
-
-@article{Phan2026SceneCraft,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={SceneCraft: Interactive System for Image Editing via Scene Graph },
-  author={Duc-Manh Phan* and Ngoc-Dai Tran* and Duy-Khang Do and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2606.16103},
-  year={2026},
-  pdf={https://arxiv.org/abs/2606.16103},
-  abstract={Recent advances in generative AI have enabled natural language-driven image editing, yet existing systems often fail in complex scenes with multiple interacting objects because they rely heavily on users crafting precise text prompts. To address the absence of structured control, we propose SceneCraft, a novel interactive framework that bridges user intent and model execution by representing images as editable scene graphs. Instead of guessing text prompts through trial and error, users interact directly with a visual graph to perform complex spatial and relational operations. These graph modifications are automatically translated into precise, context-aware editing prompts, effectively eliminating linguistic ambiguity. To ensure robust and diverse results, structured prompts are dispatched to multiple state-of-the-art generative models. Evaluations across diverse editing scenarios show that SceneCraft provides a more intuitive control mechanism, significantly reducing the cognitive burden of manual prompt engineering while generating outputs that users consistently rate as higher in quality and fidelity.}
-}
-
-@inproceedings{Mai2026IROS,
-  bibtex_show={true},
-  abbr={IROS},
-  title={PhysMirror: Physics-Aware Mirror Object Generation},
-  author={Xuan-Bach Mai* and Duy-Phuc Nguyen* and Quoc-Van Le and Tam V. Nguyen** and Thanh-Toan Do and Huu Le and Duong-Van Nguyen and Minh-Triet Tran and Trung-Nghia Le**},
-  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2026},
-  note={(A Rank)},
-  pdf={https://arxiv.org/abs/2607.03470},
-  project_page={https://duyphuc0701.github.io/PhysMirror/},
-  abstract={Synthesizing physically accurate mirror reflections remains a fundamental challenge for modern text-to-image diffusion models, which are increasingly critical for generating synthetic training data for embodied AI and robotic perception. These models typically struggle with strict geometric constraints, leading to hallucinations that degrade the utility of the synthetic data. To address this, we introduce a novel, end-to-end physics-aware generation framework namely PhysMirror that natively enforces projective geometry through explicit 3D spatial priors. Our method automatically lifts prompted objects into 3D meshes and constructs a lightweight, mathematically exact mirror scene within a simulated environment. By rendering this explicit 3D scene, we extract precise 2D conditioning elements, such as depth maps and segmentation maps, that serve as robust guiding signals for downstream diffusion models, guiding them to generate images with physically correct mirror reflections. Moreover, we introduce Mirror Consistency Score (MCS), reference-free, fully automated metric that quantifies physical correctness using dense feature matching and vanishing point convergence. Experimental results on our newly constructed MirrOB dataset demonstrate that our approach outperforms state-of-the-art baselines in reflection accuracy and physical realism, while maintaining strong text-to-image semantic alignment, providing a reliable pipeline for embodied AI data generation. }
 }
 
 @article{Tran2026PRL,
@@ -1666,6 +1710,17 @@
   abstract={This paper presents a method for detecting salient objects in a video where temporal information in addition to spatial information is fully taken into account. Following recent reports on the advantage of deep features over conventional hand-crafted features, we propose the SpatioTemporal deep Feature (STF feature) that utilizes local and global contexts over frames. With this feature, we compute the saliency map for each frame through supervised learning of the Random Forest. We then refine the saliency maps using our proposed Spa-tioTemporal Conditional Random Field (STCRF). STCRF is our extension of CRF toward the temporal domain and formulates relationship between neighboring regions both in a frame and over frames. STCRF leads to temporally consistent saliency maps over frames, contributing to detect boundaries of salient objects accurately and to reduce noise. Our intensive experiments using publicly available benchmark datasets confirm that our proposed method significantly outperforms state-of-the-art methods.}
 }
 
+@article{Le2017RegionSaliency,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Region-Based Multiscale Spatiotemporal Saliency for Video},
+  author={Trung-Nghia Le and Akihiro Sugimoto},
+  journal={arXiv preprint arXiv:1708.01589},
+  year={2017},
+  pdf={https://arxiv.org/abs/1708.01589},
+  abstract={Detecting salient objects from a video requires exploiting both spatial and temporal knowledge included in the video. We propose a novel region-based multiscale spatiotemporal saliency detection method for videos, where static features and dynamic features computed from the low and middle levels are combined together. Our method utilizes such combined features spatially over each frame and, at the same time, temporally across frames using consistency between consecutive frames. Saliency cues in our method are analyzed through a multiscale segmentation model, and fused across scale levels, yielding to exploring regions efficiently. An adaptive temporal window using motion information is also developed to combine saliency values of consecutive frames in order to keep temporal consistency across frames. Performance evaluation on several popular benchmark datasets validates that our method outperforms existing state-of-the-arts.}
+}
+
 @inproceedings{Le2015ContrastSaliency,
   abbr={PSIVT},
   bibtex_show={true},
@@ -1782,59 +1837,4 @@
   project_page={https://sites.google.com/view/ltnghia/research/vos},
 }
 
-%% ===================== PREPRINTS =====================
 
-@article{PhanNguyen2025KiseKloset,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={KiseKloset for Fashion Retrieval and Recommendation},
-  author={Thanh-Tung Phan-Nguyen and Khoi-Nguyen Nguyen-Ngoc and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2506.23471},
-  year={2025},
-  pdf={https://arxiv.org/abs/2506.23471},
-  abstract={The global fashion e-commerce industry has become integral to people's daily lives, leveraging technological advancements to offer personalized shopping experiences, primarily through recommendation systems that enhance customer engagement through personalized suggestions. To improve customers' experience in online shopping, we propose a novel comprehensive KiseKloset system for outfit retrieval, recommendation, and try-on. We explore two approaches for outfit retrieval: similar item retrieval and text feedback-guided item retrieval. Notably, we introduce a novel transformer architecture designed to recommend complementary items from diverse categories. Furthermore, we enhance the overall performance of the search pipeline by integrating approximate algorithms to optimize the search process. Additionally, addressing the crucial needs of online shoppers, we employ a lightweight yet efficient virtual try-on framework capable of real-time operation, memory efficiency, and maintaining realistic outputs compared to its predecessors. This virtual try-on module empowers users to visualize specific garments on themselves, enhancing the customers' experience and reducing costs associated with damaged items for retailers. We deployed our end-to-end system for online users to test and provide feedback, enabling us to measure their satisfaction levels. The results of our user study revealed that 84% of participants found our comprehensive system highly useful, significantly improving their online shopping experience.}
-}
-
-@article{Tran2025InteractiveSegmentation,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={Interactive Interface For Semantic Segmentation Dataset Synthesis},
-  author={Ngoc-Do Tran and Minh-Tuan Huynh and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2506.23470},
-  year={2025},
-  pdf={https://arxiv.org/abs/2506.23470},
-  abstract={The global fashion e-commerce industry has become integral to people's daily lives, leveraging technological advancements to offer personalized shopping experiences, primarily through recommendation systems that enhance customer engagement through personalized suggestions. To improve customers' experience in online shopping, we propose a novel comprehensive KiseKloset system for outfit retrieval and recommendation. We explore two approaches for outfit retrieval: similar item retrieval and text feedback-guided item retrieval. Notably, we introduce a novel transformer architecture designed to recommend complementary items from diverse categories. Furthermore, we enhance the overall performance of the search pipeline by integrating approximate algorithms to optimize the search process. Additionally, addressing the crucial needs of online shoppers, we employ a lightweight yet efficient virtual try-on framework capable of real-time operation, memory efficiency, and maintaining realistic outputs compared to its predecessors. This virtual try-on module empowers users to visualize specific garments on themselves, enhancing the customers' experience and reducing costs associated with damaged items for retailers. We deployed our end-to-end system for online users to test and provide feedback,  enabling us to measure their satisfaction levels. The results of our user study revealed that 84% of participants found our comprehensive system highly useful, significantly improving their online shopping experience.}
-}
-
-@article{Bui2025PrefPaint,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={PrefPaint: Enhancing Medical Image Inpainting through Expert Human Feedback},
-  author={Duy-Bao Bui and Hoang-Khang Nguyen and Thao Thi Phuong Dao and Kim Anh Phung and Tam V. Nguyen and Justin Zhan and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2506.21834},
-  year={2025},
-  pdf={https://arxiv.org/abs/2506.21834},
-  abstract={Inpainting, the process of filling missing or corrupted image parts, has broad applications in medical imaging. However, generating anatomically accurate synthetic polyp images for clinical AI is a largely underexplored problem. In specialized fields like gastroenterology, inaccuracies in generated images can lead to false patterns and significant errors in downstream diagnosis. To ensure reliability, models require direct feedback from domain experts like oncologists. We propose PrefPaint, an interactive system that incorporates expert human feedback into Stable Diffusion Inpainting. By using D3PO instead of full RLHF, our approach bypasses the need for computationally expensive reward models, making it a highly practical choice for resource-constrained clinical settings. Furthermore, we introduce a streamlined web-based interface to facilitate this expert-in-the-loop training. Central to this platform is the Model Tree versioning interface, a novel HCI concept that visualizes the evolutionary progression of fine-tuned models. This interactive interface provides a smooth and intuitive user experience, making it easier to offer feedback and manage the fine-tuning process. User studies show that PrefPaint outperforms existing methods, reducing visual inconsistencies and generating highly realistic, anatomically accurate polyp images suitable for clinical AI applications.}
-}
-
-@article{Nguyen2025TaleForge,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={TaleForge: Interactive Multimodal System for Personalized Story Creation},
-  author={Minh-Loi Nguyen and Quang-Khai Le and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
-  journal={arXiv preprint arXiv:2506.21832},
-  year={2025},
-  pdf={https://arxiv.org/abs/2506.21832},
-  abstract={Storytelling is a deeply personal and creative process, yet existing methods often treat users as passive consumers, offering generic plots with limited personalization. This undermines engagement and immersion, especially where individual style or appearance is crucial. We introduce TaleForge, a personalized story-generation system that integrates large language models (LLMs) and text-to-image diffusion to embed users' facial images within both narratives and illustrations. TaleForge features three interconnected modules: Story Generation, where LLMs create narratives and character descriptions from user prompts; Personalized Image Generation, merging users' faces and outfit choices into character illustrations; and Background Generation, creating scene backdrops that incorporate personalized characters. A user study demonstrated heightened engagement and ownership when individuals appeared as protagonists. Participants praised the system's real-time previews and intuitive controls, though they requested finer narrative editing tools. TaleForge advances multimodal storytelling by aligning personalized text and imagery to create immersive, user-centric experiences.}
-}
-
-@article{Le2017RegionSaliency,
-  bibtex_show={true},
-  abbr={arXiv},
-  title={Region-Based Multiscale Spatiotemporal Saliency for Video},
-  author={Trung-Nghia Le and Akihiro Sugimoto},
-  journal={arXiv preprint arXiv:1708.01589},
-  year={2017},
-  pdf={https://arxiv.org/abs/1708.01589},
-  abstract={Detecting salient objects from a video requires exploiting both spatial and temporal knowledge included in the video. We propose a novel region-based multiscale spatiotemporal saliency detection method for videos, where static features and dynamic features computed from the low and middle levels are combined together. Our method utilizes such combined features spatially over each frame and, at the same time, temporally across frames using consistency between consecutive frames. Saliency cues in our method are analyzed through a multiscale segmentation model, and fused across scale levels, yielding to exploring regions efficiently. An adaptive temporal window using motion information is also developed to combine saliency values of consecutive frames in order to keep temporal consistency across frames. Performance evaluation on several popular benchmark datasets validates that our method outperforms existing state-of-the-arts.}
-}
