@@ -774,6 +774,11 @@ ninja.data = [{
           description: "Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhysPlan/";
+            },},{id: "projects-savier",
+          title: 'Savier',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Savier/";
             },},{id: "projects-seeme",
           title: 'SeeME',
           description: "Retrieval-augmented framework for imaginative animal art generation from ambiguous silhouettes",
