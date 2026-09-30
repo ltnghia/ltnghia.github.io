@@ -809,6 +809,11 @@ ninja.data = [{
           description: "Training-Free Vector Sketch Outpainting with Stroke-Level Style Control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SketchBloom/";
+            },},{id: "projects-sketchdyn",
+          title: 'SketchDyn',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SketchDyn/";
             },},{id: "projects-tmp-aodai",
           title: 'TMP-AoDai',
           description: "",
