@@ -699,6 +699,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Context2Canvas/";
+            },},{id: "projects-countersketch",
+          title: 'CounterSketch',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CounterSketch/";
             },},{id: "projects-cpam",
           title: 'CPAM',
           description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
