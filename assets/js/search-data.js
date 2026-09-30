@@ -669,11 +669,6 @@ ninja.data = [{
           description: "Fine-grained aquatic animal species dataset with 46 distinct categories",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AAS/";
-            },},{id: "projects-acs-nnu-net",
-          title: 'ACS-nnU-Net',
-          description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ACS-nnU-Net/";
             },},{id: "projects-aibl",
           title: 'AIBL',
           description: "Dense Object Generation",
@@ -689,11 +684,6 @@ ninja.data = [{
           description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CamoPP/";
-            },},{id: "projects-cogcanvas",
-          title: 'CogCanvas',
-          description: "A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/CogCanvas/";
             },},{id: "projects-cpam",
           title: 'CPAM',
           description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
@@ -719,11 +709,6 @@ ninja.data = [{
           description: "Multi-model fusion and guided mixup augmentation for robust aquatic animal instance segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GUNNEL/";
-            },},{id: "projects-garmentsketch",
-          title: 'GarmentSketch',
-          description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/GarmentSketch/";
             },},{id: "projects-kingfisher",
           title: 'Kingfisher',
           description: "Fast Personalized Visual Autoregressive Generation",
@@ -789,11 +774,6 @@ ninja.data = [{
           description: "Training-Free Vector Sketch Outpainting with Stroke-Level Style Control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SketchBloom/";
-            },},{id: "projects-tmp-aodai",
-          title: 'TMP-AoDai',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/TMP-AoDai/";
             },},{id: "projects-textanimar",
           title: 'TextANIMAR',
           description: "Natural language-based fine-grained retrieval for 3D animal models",
@@ -809,11 +789,31 @@ ninja.data = [{
           description: "Laryngeal image dataset for vocal fold classification and endoscopic analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VoFoCD/";
+            },},{id: "projects-acs-nnu-net",
+          title: 'ACS-nnU-Net',
+          description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/acs-nnu-net/";
+            },},{id: "projects-cogcanvas",
+          title: 'CogCanvas',
+          description: "A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cogcanvas/";
             },},{id: "projects-ekyc-df",
           title: 'eKYC-DF',
           description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eKYC-DF/";
+            },},{id: "projects-garmentsketch",
+          title: 'GarmentSketch',
+          description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/garmentsketch/";
+            },},{id: "projects-tmp-aodai",
+          title: 'TMP-AoDai',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tmp-aodai/";
             },},{
         id: 'social-email',
         title: 'email',
