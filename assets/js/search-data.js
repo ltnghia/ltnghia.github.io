@@ -699,6 +699,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Context2Canvas/";
+            },},{id: "projects-cb-pfb",
+          title: 'CB-PFB',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Copfb/";
             },},{id: "projects-countersketch",
           title: 'CounterSketch',
           description: "",
