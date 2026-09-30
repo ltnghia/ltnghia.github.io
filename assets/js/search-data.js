@@ -759,6 +759,11 @@ ninja.data = [{
           description: "Self-supervised patch-level classification in WSIs using nearby patch contrast",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NearbyPatchCL/";
+            },},{id: "projects-omniscribble",
+          title: 'OmniScribble',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/OmniScribble/";
             },},{id: "projects-openforensics",
           title: 'OpenForensics',
           description: "Large-scale dataset for multi-face forgery segmentation in-the-wild",
