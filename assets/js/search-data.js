@@ -709,6 +709,11 @@ ninja.data = [{
           description: "Multi-model fusion and guided mixup augmentation for robust aquatic animal instance segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GUNNEL/";
+            },},{id: "projects-kingfisher",
+          title: 'Kingfisher',
+          description: "Fast Personalized Visual Autoregressive Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Kingfisher/";
             },},{id: "projects-maskdiff",
           title: 'MaskDiff',
           description: "Modeling mask distribution with diffusion models for few-shot instance segmentation",
