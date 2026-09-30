@@ -734,6 +734,11 @@ ninja.data = [{
           description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GarmentSketch/";
+            },},{id: "projects-guardchat",
+          title: 'GuardChat',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GuardChat/";
             },},{id: "projects-kingfisher",
           title: 'Kingfisher',
           description: "Fast Personalized Visual Autoregressive Generation",
