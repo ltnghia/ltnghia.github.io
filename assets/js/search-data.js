@@ -674,6 +674,11 @@ ninja.data = [{
           description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ACS-nnU-Net/";
+            },},{id: "projects-artvista",
+          title: 'ARtVista',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ARtVista/";
             },},{id: "projects-aibl",
           title: 'AIBL',
           description: "Dense Object Generation",
@@ -714,11 +719,21 @@ ninja.data = [{
           description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Cpam/";
+            },},{id: "projects-dm-vton",
+          title: 'DM-VTON',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DM-VTON/";
             },},{id: "projects-eventa",
           title: 'EVENTA',
           description: "Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Eventa/";
+            },},{id: "projects-fashsketch",
+          title: 'FashSketch',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FashSketch/";
             },},{id: "projects-focusdiff",
           title: 'FocusDiff',
           description: "A tuning-free framework for precise region-specific image manipulation based on refocusing cross-attention.",
@@ -739,6 +754,11 @@ ninja.data = [{
           description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GarmentSketch/";
+            },},{id: "projects-graphstory",
+          title: 'GraphStory',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GraphStory/";
             },},{id: "projects-guardchat",
           title: 'GuardChat',
           description: "",
@@ -784,11 +804,21 @@ ninja.data = [{
           description: "Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhysPlan/";
+            },},{id: "projects-prefpaint",
+          title: 'PrefPaint',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PrefPaint/";
             },},{id: "projects-savier",
           title: 'Savier',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Savier/";
+            },},{id: "projects-scenecraft",
+          title: 'SceneCraft',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SceneCraft/";
             },},{id: "projects-seeme",
           title: 'SeeME',
           description: "Retrieval-augmented framework for imaginative animal art generation from ambiguous silhouettes",
@@ -824,6 +854,16 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SketchDyn/";
+            },},{id: "projects-sketchforge",
+          title: 'SketchForge',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SketchForge/";
+            },},{id: "projects-synthlab",
+          title: 'SynthLab',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SynthLab/";
             },},{id: "projects-tmp-aodai",
           title: 'TMP-AoDai',
           description: "",
@@ -834,6 +874,11 @@ ninja.data = [{
           description: "Natural language-based fine-grained retrieval for 3D animal models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TextANIMAR/";
+            },},{id: "projects-vnculturevqa",
+          title: 'VNCultureVQA',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VNCultureVQA/";
             },},{id: "projects-vietfashion",
           title: 'VietFashion',
           description: "A new benchmark for sketch–text composed image retrieval centered on the Áo Dài, a traditional Vietnamese garment.",
@@ -849,6 +894,11 @@ ninja.data = [{
           description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eKYC-DF/";
+            },},{id: "projects-contra",
+          title: '¡CONTRA',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CONTRA/";
             },},{
         id: 'social-email',
         title: 'email',
