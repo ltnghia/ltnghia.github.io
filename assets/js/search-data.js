@@ -689,6 +689,11 @@ ninja.data = [{
           description: "Camouflaged instance segmentation in-the-wild",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CamoPP/";
+            },},{id: "projects-copfb",
+          title: 'CoPFB',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CoPFB/";
             },},{id: "projects-cogcanvas",
           title: 'CogCanvas',
           description: "A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation",
@@ -699,11 +704,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Context2Canvas/";
-            },},{id: "projects-cb-pfb",
-          title: 'CB-PFB',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Copfb/";
             },},{id: "projects-countersketch",
           title: 'CounterSketch',
           description: "",
