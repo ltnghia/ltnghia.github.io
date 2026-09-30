@@ -744,6 +744,11 @@ ninja.data = [{
           description: "Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhysPlan/";
+            },},{id: "projects-seeme",
+          title: 'SeeME',
+          description: "Retrieval-augmented framework for imaginative animal art generation from ambiguous silhouettes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SeeME/";
             },},{id: "projects-semi-supervised-video-instance-segmentation",
           title: 'Semi-Supervised Video Instance Segmentation',
           description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
@@ -769,6 +774,11 @@ ninja.data = [{
           description: "Training-Free Vector Sketch Outpainting with Stroke-Level Style Control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SketchBloom/";
+            },},{id: "projects-tmp-aodai",
+          title: 'TMP-AoDai',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TMP-AoDai/";
             },},{id: "projects-textanimar",
           title: 'TextANIMAR',
           description: "Natural language-based fine-grained retrieval for 3D animal models",
@@ -804,16 +814,6 @@ ninja.data = [{
           description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/garmentsketch/";
-            },},{id: "projects-seeme",
-          title: 'SeeME',
-          description: "Retrieval-augmented framework for imaginative animal art generation from ambiguous silhouettes",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/seeme/";
-            },},{id: "projects-tmp-aodai",
-          title: 'TMP-AoDai',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/tmp-aodai/";
             },},{
         id: 'social-email',
         title: 'email',
