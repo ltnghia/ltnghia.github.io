@@ -694,6 +694,11 @@ ninja.data = [{
           description: "A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CogCanvas/";
+            },},{id: "projects-context2canvas",
+          title: 'Context2Canvas',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Context2Canvas/";
             },},{id: "projects-cpam",
           title: 'CPAM',
           description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
