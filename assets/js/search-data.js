@@ -669,6 +669,11 @@ ninja.data = [{
           description: "Fine-grained aquatic animal species dataset with 46 distinct categories",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AAS/";
+            },},{id: "projects-aibl",
+          title: 'AIBL',
+          description: "Dense Object Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Aibl/";
             },},{id: "projects-camo",
           title: 'CAMO',
           description: "Pioneering work on camouflaged object segmentation",
