@@ -669,6 +669,11 @@ ninja.data = [{
           description: "Fine-grained aquatic animal species dataset with 46 distinct categories",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AAS/";
+            },},{id: "projects-acs-nnu-net",
+          title: 'ACS-nnU-Net',
+          description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ACS-nnU-Net/";
             },},{id: "projects-aibl",
           title: 'AIBL',
           description: "Dense Object Generation",
@@ -804,11 +809,6 @@ ninja.data = [{
           description: "Laryngeal image dataset for vocal fold classification and endoscopic analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VoFoCD/";
-            },},{id: "projects-acs-nnu-net",
-          title: 'ACS-nnU-Net',
-          description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/acs-nnu-net/";
             },},{id: "projects-ekyc-df",
           title: 'eKYC-DF',
           description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
