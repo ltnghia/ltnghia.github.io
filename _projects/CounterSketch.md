@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CounterSketch
-description: 
+description:
 img: assets/img/CounterSketch.jpg
 redirect: https://ltnghia.github.io/publications/
 importance: 1

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SketchDyn
-description: 
+description:
 img: assets/img/SketchDyn.jpg
 redirect: https://ltnghia.github.io/publications/
 importance: 1

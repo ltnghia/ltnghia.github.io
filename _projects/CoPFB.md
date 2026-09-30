@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CoPFB
-description: 
+description:
 img: assets/img/CoPFB.jpg
 redirect: https://ltnghia.github.io/publications/
 importance: 2

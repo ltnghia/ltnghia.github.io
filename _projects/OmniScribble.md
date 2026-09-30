@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OmniScribble
-description: 
+description:
 img: assets/img/OmniScribble.jpg
 redirect: https://ltnghia.github.io/publications/
 importance: 1
