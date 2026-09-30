@@ -709,6 +709,11 @@ ninja.data = [{
           description: "Multi-model fusion and guided mixup augmentation for robust aquatic animal instance segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GUNNEL/";
+            },},{id: "projects-garmentsketch",
+          title: 'GarmentSketch',
+          description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GarmentSketch/";
             },},{id: "projects-kingfisher",
           title: 'Kingfisher',
           description: "Fast Personalized Visual Autoregressive Generation",
@@ -809,11 +814,6 @@ ninja.data = [{
           description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eKYC-DF/";
-            },},{id: "projects-garmentsketch",
-          title: 'GarmentSketch',
-          description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/garmentsketch/";
             },},{
         id: 'social-email',
         title: 'email',
