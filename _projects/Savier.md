@@ -4,6 +4,6 @@ title: Savier
 description:
 img: assets/img/Savier.jpg
 redirect: https://ltnghia.github.io/publications/
-importance: 2
-category: Dataset Projects
+importance: 4
+category: Generative AI
 ---
