@@ -769,6 +769,11 @@ ninja.data = [{
           description: "A novel dataset comprising over 26,275 fashion sketches across 21 garment categories, each paired with detailed textual descriptions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GarmentSketch/";
+            },},{id: "projects-genflow",
+          title: 'GenFlow',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GenFlow/";
             },},{id: "projects-graphstory",
           title: 'GraphStory',
           description: "",
