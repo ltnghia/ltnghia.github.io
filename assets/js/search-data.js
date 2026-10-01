@@ -769,6 +769,11 @@ ninja.data = [{
           description: "Fast Personalized Visual Autoregressive Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Kingfisher/";
+            },},{id: "projects-magic-eyes",
+          title: 'Magic Eyes',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MagicEyes/";
             },},{id: "projects-maskdiff",
           title: 'MaskDiff',
           description: "Modeling mask distribution with diffusion models for few-shot instance segmentation",
@@ -779,6 +784,11 @@ ninja.data = [{
           description: "Rijndael and Elliptic Curve Cryptography (ECC) are applied to develop a mobile application for encrypting emails",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MobileEmailSecure/";
+            },},{id: "projects-mobile-visual-search",
+          title: 'Mobile Visual Search',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MobileVisualSearch/";
             },},{id: "projects-nearbypatchcl",
           title: 'NearbyPatchCL',
           description: "Self-supervised patch-level classification in WSIs using nearby patch contrast",
