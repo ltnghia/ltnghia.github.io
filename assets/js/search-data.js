@@ -774,6 +774,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GraphStory/";
+            },},{id: "projects-graphilosophy",
+          title: 'Graphilosophy',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Graphilosophy/";
             },},{id: "projects-guardchat",
           title: 'GuardChat',
           description: "",
