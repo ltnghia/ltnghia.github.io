@@ -889,6 +889,11 @@ ninja.data = [{
           description: "A new benchmark for sketch–text composed image retrieval centered on the Áo Dài, a traditional Vietnamese garment.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VietFashion/";
+            },},{id: "projects-in-place-virtual-jogging",
+          title: 'In-Place Virtual Jogging',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VirtualJogging/";
             },},{id: "projects-vofocd",
           title: 'VoFoCD',
           description: "Laryngeal image dataset for vocal fold classification and endoscopic analysis",
