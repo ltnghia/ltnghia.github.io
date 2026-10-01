@@ -814,6 +814,11 @@ ninja.data = [{
           description: "Fast Personalized Visual Autoregressive Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Kingfisher/";
+            },},{id: "projects-location-privacy-protection",
+          title: 'Location Privacy Protection',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LocationPrivacyProtection/";
             },},{id: "projects-magic-eyes",
           title: 'Magic Eyes',
           description: "",
