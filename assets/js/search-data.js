@@ -924,6 +924,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VideoMaskRCNN/";
+            },},{id: "projects-video-object-annotation",
+          title: 'Video Object Annotation',
+          description: "Interactive video object mask annotation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VideoObjectAnnotation/";
             },},{id: "projects-video-saliency-detection",
           title: 'Video Saliency Detection',
           description: "",
