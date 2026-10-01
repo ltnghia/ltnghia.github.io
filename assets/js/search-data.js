@@ -929,6 +929,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SketchForge/";
+            },},{id: "projects-spermatozoa-tracking",
+          title: 'Spermatozoa Tracking',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SpermatozoaTracking/";
             },},{id: "projects-synthlab",
           title: 'SynthLab',
           description: "",
