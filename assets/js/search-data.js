@@ -824,6 +824,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PrefPaint/";
+            },},{id: "projects-sesiv",
+          title: 'SESIV',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SESIV/";
             },},{id: "projects-savier",
           title: 'Savier',
           description: "",
@@ -899,6 +904,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VideoMaskRCNN/";
+            },},{id: "projects-video-saliency-detection",
+          title: 'Video Saliency Detection',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VideoSaliency/";
             },},{id: "projects-vietfashion",
           title: 'VietFashion',
           description: "A new benchmark for sketch–text composed image retrieval centered on the Áo Dài, a traditional Vietnamese garment.",
