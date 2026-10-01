@@ -5,6 +5,5 @@ description: Challenging synthetic disaster detection with cross-domain evaluati
 img: assets/img/ForgedCalamity.jpg
 redirect: https://forgedcalamity.github.io/
 importance: 2
-category: Dataset Projects
-related_publications: true
+category: Dataset
 ---
