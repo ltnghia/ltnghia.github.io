@@ -824,6 +824,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MobileVisualSearch/";
+            },},{id: "projects-mythragen",
+          title: 'MythraGen',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MythraGen/";
             },},{id: "projects-nearbypatchcl",
           title: 'NearbyPatchCL',
           description: "Self-supervised patch-level classification in WSIs using nearby patch contrast",
