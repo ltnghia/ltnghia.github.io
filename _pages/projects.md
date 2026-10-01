@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [Standard Projects, Dataset Projects, Dataset, Computer Vision, Natural Language Processing, Generative AI, Multimedia, Medical Imaging, Security]
+display_categories: [Dataset, Computer Vision, Natural Language Processing, Generative AI, Multimedia, Medical Imaging, Security]
 horizontal: false
 ---
 
