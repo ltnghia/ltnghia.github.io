@@ -824,6 +824,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LocationPrivacyProtection/";
+            },},{id: "projects-lookup-forensics",
+          title: 'Lookup Forensics',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LookupForensics/";
             },},{id: "projects-magic-eyes",
           title: 'Magic Eyes',
           description: "",
