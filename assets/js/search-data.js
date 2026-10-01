@@ -684,6 +684,11 @@ ninja.data = [{
           description: "Dense Object Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Aibl/";
+            },},{id: "projects-cpam",
+          title: 'CPAM',
+          description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CPAM/";
             },},{id: "projects-camo",
           title: 'CAMO',
           description: "Pioneering work on camouflaged object segmentation",
@@ -714,11 +719,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CounterSketch/";
-            },},{id: "projects-cpam",
-          title: 'CPAM',
-          description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Cpam/";
             },},{id: "projects-dm-vton",
           title: 'DM-VTON',
           description: "",
