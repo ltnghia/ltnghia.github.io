@@ -894,6 +894,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VNCultureVQA/";
+            },},{id: "projects-video-mask-r-cnn",
+          title: 'Video Mask R-CNN',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VideoMaskRCNN/";
             },},{id: "projects-vietfashion",
           title: 'VietFashion',
           description: "A new benchmark for sketch–text composed image retrieval centered on the Áo Dài, a traditional Vietnamese garment.",
