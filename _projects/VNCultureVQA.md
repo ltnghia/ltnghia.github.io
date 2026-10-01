@@ -4,6 +4,6 @@ title: VNCultureVQA
 description:
 img: assets/img/VNCultureVQA2.jpg
 redirect: https://ltnghia.github.io/projects/
-importance: 2
+importance: 1
 category: Dataset
 ---
