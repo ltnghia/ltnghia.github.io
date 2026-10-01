@@ -929,6 +929,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VideoSaliency/";
+            },},{id: "projects-video-self-annotation",
+          title: 'Video Self-Annotation',
+          description: "Video object interactive self-annotation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VideoSelfAnnotation/";
             },},{id: "projects-vietfashion",
           title: 'VietFashion',
           description: "A new benchmark for sketch–text composed image retrieval centered on the Áo Dài, a traditional Vietnamese garment.",
