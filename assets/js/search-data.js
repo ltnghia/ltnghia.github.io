@@ -894,6 +894,16 @@ ninja.data = [{
           description: "Natural language-based fine-grained retrieval for 3D animal models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TextANIMAR/";
+            },},{id: "projects-traffic-anomaly-detection",
+          title: 'Traffic Anomaly Detection',
+          description: "Anomaly detection in highway surveillance cameras",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TrafficAnomalyDetection/";
+            },},{id: "projects-traffic-flow-detection",
+          title: 'Traffic Flow Detection',
+          description: "Vehicle flow detection and counting",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TrafficFlowDetection/";
             },},{id: "projects-vnculturevqa",
           title: 'VNCultureVQA',
           description: "",
