@@ -744,6 +744,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DM-VTON/";
+            },},{id: "projects-dancefusion",
+          title: 'DanceFusion',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DanceFusion/";
             },},{id: "projects-eventa",
           title: 'EVENTA',
           description: "Event-Enriched Image Analysis project enriches images with event-level understanding to reveal story beyond pixels",
