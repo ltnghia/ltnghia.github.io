@@ -969,6 +969,11 @@ ninja.data = [{
           description: "Natural language-based fine-grained retrieval for 3D animal models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TextANIMAR/";
+            },},{id: "projects-token-fusion",
+          title: 'Token Fusion',
+          description: "Multi-level CLS token fusion for contrastive learning in endoscopy image classification",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TokenFusion/";
             },},{id: "projects-traffic-anomaly-detection",
           title: 'Traffic Anomaly Detection',
           description: "Anomaly detection in highway surveillance cameras",
