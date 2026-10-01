@@ -674,6 +674,11 @@ ninja.data = [{
           description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ACS-nnU-Net/";
+            },},{id: "projects-air",
+          title: 'AIR',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AIR/";
             },},{id: "projects-artvista",
           title: 'ARtVista',
           description: "",
