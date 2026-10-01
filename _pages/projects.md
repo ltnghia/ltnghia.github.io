@@ -8,7 +8,7 @@ display_categories: [Dataset, Computer Vision, Natural Language Processing, Gene
 horizontal: false
 ---
 
-Old projects are <a href="https://sites.google.com/view/ltnghia/research" target="_blank">Here</a>.
+<!-- Old projects are <a href="https://sites.google.com/view/ltnghia/research" target="_blank">Here</a>. -->
 
 <!-- pages/projects.md -->
 <div class="projects">
