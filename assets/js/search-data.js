@@ -679,6 +679,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ARtVista/";
+            },},{id: "projects-accident-detection",
+          title: 'Accident Detection',
+          description: "Accident detection in dashboard cameras",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AccidentDetection/";
             },},{id: "projects-aibl",
           title: 'AIBL',
           description: "Dense Object Generation",
