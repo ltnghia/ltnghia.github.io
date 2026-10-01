@@ -5,5 +5,5 @@ description: A novel dataset comprising over 26,275 fashion sketches across 21 g
 img: assets/img/GarmentSketch.jpg
 redirect: https://khangbdd.github.io/garmentsketch/
 importance: 3
-category: Dataset Projects
+category: Dataset
 ---
