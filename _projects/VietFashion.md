@@ -5,5 +5,5 @@ description: A new benchmark for sketch–text composed image retrieval centered
 img: assets/img/VietFashion.jpg
 redirect: https://hng0303.github.io/VietFashion
 importance: 3
-category: Dataset Projects
+category: Dataset
 ---
