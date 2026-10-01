@@ -776,7 +776,7 @@ ninja.data = [{
               window.location.href = "/projects/MaskDiff/";
             },},{id: "projects-mobile-email-secure",
           title: 'Mobile Email Secure',
-          description: "",
+          description: "Rijndael and Elliptic Curve Cryptography (ECC) are applied to develop a mobile application for encrypting emails",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MobileEmailSecure/";
             },},{id: "projects-nearbypatchcl",
