@@ -5,5 +5,5 @@ description: Laryngeal image dataset for vocal fold classification and endoscopi
 img: assets/img/vofocd.png
 redirect: https://github.com/kaylode/vofocd
 importance: 4
-category: Medical Imaging
+category: Dataset
 ---
