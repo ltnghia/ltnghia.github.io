@@ -41,7 +41,6 @@ nav_order: 5
 
 - Tuyet-Hue Tran (2023, Artificial Intelligence Program, G2)
 - Anh-Dao Pham (2023, Artificial Intelligence Program, G2)
-- [Dinh-Khoi Vo](https://scholar.google.com/citations?user=xtOY-m0AAAAJ) (2024, Artificial Intelligence Program, G1)
 - Minh-Tan Pham (2024, Artificial Intelligence Program, G1)
 - Duy-Khang Bui-Duong (2024, Artificial Intelligence Program, G1)
 - Tuc-Mi Tran-Nguyen (2024, Artificial Intelligence Program, G1)
@@ -53,7 +52,6 @@ nav_order: 5
 - Mai-Duc-Duy Nguyen (2024, Integrated Science Program, G2)
 - [Trong-Vu Hoang](https://htrvu.github.io/) (2025, Artificial Intelligence Program, G2)
 - Minh-Quang Nguyen (2025, Artificial Intelligence Program, G2)
-- Duy-Hoang Do-Nguyen (2025, Artificial Intelligence Program, G2)
 - Tan-Hiep To (2025, Computer Science Program, G2)
 - Duy-Khang Nguyen (2025, Computer Science Program, G2)
 
@@ -67,6 +65,8 @@ nav_order: 5
 - Hien Trinh (2023~2027, Honors Program)
 - Gia-Huy Thai (2023~2027, Honors Program)
 - Duc-Tien Khong (2023~2027, Honors Program)
+- Duy-Loi Do (2023~2027, Honors Program)
+- Phuc-Dinh-Quyen Nguyen (2023~2027, Honors Program)
 - Hai-Dang Nguyen (2023~2027, High-Quality Program)
 - Nhat-Khoi Le (2023~2027, High-Quality Program)
 - Tien-Dat Dam (2023~2027, Standard Program)
@@ -78,10 +78,13 @@ nav_order: 5
 
 ### Master's students
 
+- Duy-Hoang Do-Nguyen (2025-2026, Artificial Intelligence Program, G2)
+- [Dinh-Khoi Vo](https://scholar.google.com/citations?user=xtOY-m0AAAAJ) (2024~2026, Artificial Intelligence Program, G1)
+- Thi-Kieu-Anh Nguyen (2023~2026, Artificial Intelligence Program, G3)
 - Hoai-Danh Vo (2022~2025, Artificial Intelligence Program, G2)
 - Y-Hop Nguyen (2022~2025, Artificial Intelligence Program, G2)
 - Dien-Bao Trang (2022~2025, Artificial Intelligence Program, G2)
-- Duy-Dat Tran (2022, Computer Science Program, G2)
+- Duy-Dat Tran (2022~2025, Computer Science Program, G2)
 
 ### Undergraduate students
 
