@@ -5,6 +5,5 @@ description: A Benchmark for Evaluating Multi-Subject Reference-Based Image Gene
 img: assets/img/CogCanvas.jpg
 redirect: https://longbaocoder2.github.io/cogcanvas/
 importance: 1
-category: Dataset Projects
-related_publications: true
+category: Dataset
 ---
