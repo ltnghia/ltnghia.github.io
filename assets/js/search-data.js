@@ -799,6 +799,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GuardChat/";
+            },},{id: "projects-kidrisk",
+          title: 'KidRisk',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/KidRisk/";
             },},{id: "projects-kingfisher",
           title: 'Kingfisher',
           description: "Fast Personalized Visual Autoregressive Generation",
