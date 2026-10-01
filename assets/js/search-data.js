@@ -899,6 +899,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VNCultureVQA/";
+            },},{id: "projects-vehicle-re-identification",
+          title: 'Vehicle Re-Identification',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VehicleReId/";
             },},{id: "projects-video-mask-r-cnn",
           title: 'Video Mask R-CNN',
           description: "",
