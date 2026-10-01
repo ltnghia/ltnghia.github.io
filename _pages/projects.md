@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Projects of MSLab
 permalink: /projects/
 nav: true
 nav_order: 3
