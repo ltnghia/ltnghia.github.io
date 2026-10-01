@@ -894,11 +894,11 @@ ninja.data = [{
           description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eKYC-DF/";
-            },},{id: "projects-contra",
-          title: '¡CONTRA',
+            },},{id: "projects-icontra",
+          title: 'iCONTRA',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/CONTRA/";
+              window.location.href = "/projects/iCONTRA/";
             },},{
         id: 'social-email',
         title: 'email',
