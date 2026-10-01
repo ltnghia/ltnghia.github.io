@@ -1,6 +1,6 @@
 ---
 layout: page
-title: oCONTRA
+title: iCONTRA
 description:
 img: assets/img/iCONTRA.jpg
 redirect: https://github.com/vdkhoi20/iCONTRA
