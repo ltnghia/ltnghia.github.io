@@ -1,8 +1,8 @@
 ---
 layout: page
-title: ¡CONTRA
+title: oCONTRA
 description:
-img: assets/img/¡CONTRA.jpg
+img: assets/img/iCONTRA.jpg
 redirect: https://github.com/vdkhoi20/iCONTRA
 importance: 3
 category: Standard Projects
