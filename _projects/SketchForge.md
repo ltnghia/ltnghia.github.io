@@ -4,6 +4,6 @@ title: SketchForge
 description:
 img: assets/img/SketchForge.jpg
 redirect: https://ltnghia.github.io/projects/
-importance: 1
+importance: 3
 category: Generative AI
 ---
