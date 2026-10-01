@@ -894,8 +894,8 @@ ninja.data = [{
           description: "Large-scale deepfake dataset for identity-proofing and liveness detection systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eKYC-DF/";
-            },},{id: "projects-icontra",
-          title: 'iCONTRA',
+            },},{id: "projects-ocontra",
+          title: 'oCONTRA',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/iCONTRA/";
