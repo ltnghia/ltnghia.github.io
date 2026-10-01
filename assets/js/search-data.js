@@ -739,6 +739,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FashSketch/";
+            },},{id: "projects-fashionadv",
+          title: 'FashionAdv',
+          description: "Fashion-guided adversarial attack",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FashionAdv/";
             },},{id: "projects-focusdiff",
           title: 'FocusDiff',
           description: "A tuning-free framework for precise region-specific image manipulation based on refocusing cross-attention.",
