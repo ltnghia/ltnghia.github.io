@@ -689,11 +689,6 @@ ninja.data = [{
           description: "Accident detection in dashboard cameras",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AccidentDetection/";
-            },},{id: "projects-adversarial-purification",
-          title: 'Adversarial Purification',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/AdversarialPurification/";
             },},{id: "projects-aegisai",
           title: 'AegisAI',
           description: "",
@@ -894,6 +889,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Placeholder1/";
+            },},{id: "projects-placeholder",
+          title: 'Placeholder',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Placeholder2/";
             },},{id: "projects-prefpaint",
           title: 'PrefPaint',
           description: "",
