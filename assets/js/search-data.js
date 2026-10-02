@@ -844,11 +844,6 @@ ninja.data = [{
           description: "Modeling mask distribution with diffusion models for few-shot instance segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MaskDiff/";
-            },},{id: "projects-master-vein-attack",
-          title: 'Master Vein Attack',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/MasterVeinAttack/";
             },},{id: "projects-mobile-email-secure",
           title: 'Mobile Email Secure',
           description: "Rijndael and Elliptic Curve Cryptography (ECC) are applied to develop a mobile application for encrypting emails",
@@ -894,6 +889,11 @@ ninja.data = [{
           description: "Physics-Aware Video Generation via Agentic Planning and Graph-Guided Optimization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PhysPlan/";
+            },},{id: "projects-placeholder",
+          title: 'Placeholder',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Placeholder1/";
             },},{id: "projects-prefpaint",
           title: 'PrefPaint',
           description: "",
