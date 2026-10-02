@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Master Vein Attack
+title: Placeholder
 description: 
 img: assets/img/Placeholder_Project.jpg
 redirect: https://ltnghia.github.io/projects/
-importance: 2
-category: Security
+importance: 1
+category: fun
 ---
