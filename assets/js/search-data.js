@@ -739,6 +739,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Context2Canvas/";
+            },},{id: "projects-corecalib",
+          title: 'CoreCalib',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CoreCalib/";
             },},{id: "projects-countersketch",
           title: 'CounterSketch',
           description: "",
