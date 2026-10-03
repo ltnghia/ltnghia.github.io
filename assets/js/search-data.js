@@ -1014,11 +1014,6 @@ ninja.data = [{
           description: "Vehicle flow detection and counting",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TrafficFlowDetection/";
-            },},{id: "projects-vg-cap",
-          title: 'VG-Cap',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/VG-Cap/";
             },},{id: "projects-vides",
           title: 'VIDES',
           description: "",
