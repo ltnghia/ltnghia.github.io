@@ -754,6 +754,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DM-VTON/";
+            },},{id: "projects-danceduo",
+          title: 'DanceDuo',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DanceDuo/";
             },},{id: "projects-dancefusion",
           title: 'DanceFusion',
           description: "",
@@ -844,6 +849,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LookupForensics/";
+            },},{id: "projects-mmecon-vnnews",
+          title: 'MMEcon-VNNews',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MMEcon-VNNews/";
             },},{id: "projects-magic-eyes",
           title: 'Magic Eyes',
           description: "",
@@ -1014,6 +1024,11 @@ ninja.data = [{
           description: "Vehicle flow detection and counting",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TrafficFlowDetection/";
+            },},{id: "projects-vg-cap",
+          title: 'VG-Cap',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VG-Cap/";
             },},{id: "projects-vides",
           title: 'VIDES',
           description: "",
