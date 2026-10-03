@@ -839,6 +839,11 @@ ninja.data = [{
           description: "Fast Personalized Visual Autoregressive Generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Kingfisher/";
+            },},{id: "projects-lhf",
+          title: 'LHF',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LHF/";
             },},{id: "projects-location-privacy-protection",
           title: 'Location Privacy Protection',
           description: "",
