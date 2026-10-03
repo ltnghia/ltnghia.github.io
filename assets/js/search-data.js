@@ -779,6 +779,11 @@ ninja.data = [{
           description: "Challenging synthetic disaster detection with cross-domain evaluation on unseen diffusion models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ForgedCalamity/";
+            },},{id: "projects-gear",
+          title: 'Gear',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GEAR/";
             },},{id: "projects-gunnel",
           title: 'GUNNEL',
           description: "Multi-model fusion and guided mixup augmentation for robust aquatic animal instance segmentation",
@@ -1009,6 +1014,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VehicleReId/";
+            },},{id: "projects-vifa-council",
+          title: 'ViFA-Council',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ViFA-Council/";
             },},{id: "projects-video-mask-r-cnn",
           title: 'Video Mask R-CNN',
           description: "",
