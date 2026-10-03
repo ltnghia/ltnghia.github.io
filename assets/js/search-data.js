@@ -839,6 +839,11 @@ ninja.data = [{
           description: "Modeling mask distribution with diffusion models for few-shot instance segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MaskDiff/";
+            },},{id: "projects-medrt-sfseg",
+          title: 'MedRT-SFSeg',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MedRT-SFSeg/";
             },},{id: "projects-mobile-email-secure",
           title: 'Mobile Email Secure',
           description: "Rijndael and Elliptic Curve Cryptography (ECC) are applied to develop a mobile application for encrypting emails",
@@ -1004,6 +1009,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VehicleReId/";
+            },},{id: "projects-vifa-council",
+          title: 'ViFA-Council',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ViFA-Council/";
             },},{id: "projects-video-mask-r-cnn",
           title: 'Video Mask R-CNN',
           description: "",
