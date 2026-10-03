@@ -934,11 +934,6 @@ ninja.data = [{
           description: "Retrieval-augmented framework for imaginative animal art generation from ambiguous silhouettes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SeeME/";
-            },},{id: "projects-semi-supervised-video-instance-segmentation",
-          title: 'Semi-Supervised Video Instance Segmentation',
-          description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Semi-Supervised/";
             },},{id: "projects-shape2animal",
           title: 'Shape2Animal',
           description: "Creative animal generation from natural silhouettes",
@@ -1009,6 +1004,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VNCultureVQA/";
+            },},{id: "projects-semi-supervised-video-instance-segmentation",
+          title: 'Semi-Supervised Video Instance Segmentation',
+          description: "Semi-supervised video instance segmentation in CVPR DAVIS Challenge series",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VOS/";
             },},{id: "projects-vehicle-re-identification",
           title: 'Vehicle Re-Identification',
           description: "",
