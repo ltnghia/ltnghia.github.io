@@ -1009,11 +1009,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VehicleReId/";
-            },},{id: "projects-vifa-council",
-          title: 'ViFA-Council',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ViFA-Council/";
             },},{id: "projects-video-mask-r-cnn",
           title: 'Video Mask R-CNN',
           description: "",
