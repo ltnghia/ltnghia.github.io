@@ -989,6 +989,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TMP-AoDai/";
+            },},{id: "projects-taleforge",
+          title: 'TaleForge',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TaleForge/";
             },},{id: "projects-textanimar",
           title: 'TextANIMAR',
           description: "Natural language-based fine-grained retrieval for 3D animal models",
@@ -1009,6 +1014,16 @@ ninja.data = [{
           description: "Vehicle flow detection and counting",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TrafficFlowDetection/";
+            },},{id: "projects-vg-cap",
+          title: 'VG-Cap',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VG-Cap/";
+            },},{id: "projects-vides",
+          title: 'VIDES',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VIDES/";
             },},{id: "projects-vnculturevqa",
           title: 'VNCultureVQA',
           description: "",
