@@ -674,6 +674,11 @@ ninja.data = [{
           description: "Efficient 3D brain tumor segmentation with Axial-Coronal-Sagittal embedding",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ACS-nnU-Net/";
+            },},{id: "projects-aibl",
+          title: 'AIBL',
+          description: "Dense Object Generation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AIBL/";
             },},{id: "projects-air",
           title: 'AIR',
           description: "",
@@ -694,11 +699,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AegisAI/";
-            },},{id: "projects-aibl",
-          title: 'AIBL',
-          description: "Dense Object Generation",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Aibl/";
             },},{id: "projects-cpam",
           title: 'CPAM',
           description: "Context-Preserving Adaptive Manipulation for Zero-Shot Real Image Editing",
