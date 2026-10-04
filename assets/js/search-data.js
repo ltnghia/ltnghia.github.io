@@ -811,7 +811,7 @@ ninja.data = [{
               window.location.href = "/projects/GarmentSketch/";
             },},{id: "projects-genflow",
           title: 'GenFlow',
-          description: "",
+          description: "Coming soon",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GenFlow/";
             },},{id: "projects-graphstory",
