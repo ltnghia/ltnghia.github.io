@@ -841,7 +841,7 @@ ninja.data = [{
               window.location.href = "/projects/Kingfisher/";
             },},{id: "projects-lhf",
           title: 'LHF',
-          description: "",
+          description: "Coming soon",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LHF/";
             },},{id: "projects-location-privacy-protection",
