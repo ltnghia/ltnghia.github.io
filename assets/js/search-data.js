@@ -795,7 +795,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/ForgedCalamity/";
             },},{id: "projects-gear",
-          title: 'Gear',
+          title: 'GEAR',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GEAR/";
