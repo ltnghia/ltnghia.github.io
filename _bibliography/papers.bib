@@ -178,6 +178,16 @@
   abstract={Deepfake detection faces a fundamental accuracy-efficiency tradeoff: transformer-based and CLIP-aligned models achieve near-perfect accuracy but demand 25-88M parameters and several GFLOPs, rendering them unsuitable for real-time or on-device deployment. We introduce LiteForensicsNet, a lightweight deepfake detection architecture built on the insight that generative models leave characteristic traces in two non-redundant signal domains simultaneously, global spectral anomalies in the frequency domain and local micro-textural inconsistencies in the spatial domain. We augment the standard RGB input with FFT magnitude and Local Binary Pattern (LBP) channels, then fuse all five channels through an SE-Enhanced Adapter that performs input-adaptive channel reweighting before a MobileNetV3-Small backbone. With only 1.52M parameters and 0.070 GFLOPs, LiteForensicsNet achieves 97.93\% accuracy and 99.71\% AUC on CIFAKE and 98.07\% accuracy and 99.57\% AUC on COCOFake, competitive with models 20$\times$ larger, at 420 images/sec on standard commodity hardware without specialised accelerators.}
 }
 
+@inproceedings{Tran2026FDSE,
+  bibtex_show={true},
+  abbr={FDSE},
+  title={When Relevant Context Hurts: An Empirical Study of Context Selection for Knowledge-Enriched Image Captioning},
+  author={Mai-Khiem Tran and Trung-Nghia Le and Tam V. Nguyen and Minh-Triet Tran},
+  booktitle={International Conference on Future Data and Security Engineering (FDSE)},
+  year={2026},
+  abstract={Knowledge-enriched image captioning conditions a caption generator on retrieved text so the caption can name entities, places, and dates not visible in the image. Which passage to retrieve is usually decided by semantic relevance. We ask how well relevance predicts the actual usefulness of a passage, measured on the caption it produces. We first reproduce utility-oriented evidence selection for multimodal question answering with floor, random, and oracle controls, and find that relevance and utility already dissociate there: gold evidence can perform significantly worse than no evidence. We then build a utility-labeled benchmark from WikiWeb2M in which every one of 20 candidate passages per image is scored by the change in caption quality it induces in a fixed generator, with leakage control, hard negatives mined by three retrievers, and a page-grounded faithfulness judge. Across 1,000 images and 20,000 candidate passages, relevance is essentially uncorrelated with utility (within-pool Spearman ρ = 0.03). Passages from related pages are the most harmful source, worse than random text, because the generator imports facts about a different instance—leading to severe entity hallucinations—and the cross-modal retriever selects such passages so often that it performs worse than random selection. Training-free utility estimators improve on relevance but recover under 10% of the oracle’s headroom over random selection at K=1, whereas the image’s own section recovers 77%. These results suggest that identifying passages about the exact depicted instance, not relevance, is the bottleneck; confirming this at larger scale is left to future work.}
+}
+
 @article{Dao2026MTAP,
   bibtex_show={true},
   abbr={MTAP},
