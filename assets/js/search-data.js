@@ -859,6 +859,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MMEcon-VNNews/";
+            },},{id: "projects-mmquiz",
+          title: 'MMQuiz',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MMQuiz/";
             },},{id: "projects-magic-eyes",
           title: 'Magic Eyes',
           description: "",
