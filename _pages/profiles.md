@@ -62,6 +62,8 @@ nav_order: 5
 - Thanh-Hai Nguyen (2023~2027, Advanced Computer Science Program)
 - Le-Hoang Bui (2023~2027, Advanced Computer Science Program)
 - Hoang-Nguyen Cao (2023~2027, Advanced Computer Science Program)
+- Minh-Khoa Nguyen (2023~2027, Advanced Computer Science Program)
+- Vinh-Thuan Le (2023~2027, Advanced Computer Science Program)
 - Hien Trinh (2023~2027, Honors Program)
 - Gia-Huy Thai (2023~2027, Honors Program)
 - Duc-Tien Khong (2023~2027, Honors Program)
