@@ -126,6 +126,126 @@
   abstract={Storytelling is a deeply personal and creative process, yet existing methods often treat users as passive consumers, offering generic plots with limited personalization. This undermines engagement and immersion, especially where individual style or appearance is crucial. We introduce TaleForge, a personalized story-generation system that integrates large language models (LLMs) and text-to-image diffusion to embed users' facial images within both narratives and illustrations. TaleForge features three interconnected modules: Story Generation, where LLMs create narratives and character descriptions from user prompts; Personalized Image Generation, merging users' faces and outfit choices into character illustrations; and Background Generation, creating scene backdrops that incorporate personalized characters. A user study demonstrated heightened engagement and ownership when individuals appeared as protagonists. Participants praised the system's real-time previews and intuitive controls, though they requested finer narrative editing tools. TaleForge advances multimodal storytelling by aligning personalized text and imagery to create immersive, user-centric experiences.}
 }
 
+@inproceedings{Tran2026AegisAI,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {AegisAI: Designing Defense-in-Depth Safety for Conversational Text-to-Image Generation},
+  author      = {Ngoc-Dai Tran* and Thanh-Tuong Huynh* and Hien Trinh and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  note        = {(Oral)}, 
+  abstract    = {Conversational text-to-image systems retain dialogue history, while many safety mechanisms evaluate individual prompts. We investigate this mismatch by evaluating seven representative text guardrails on the existing 10,000-conversation GuardChat benchmark, comparing final-prompt and full-dialogue inputs. Most guards show substantially higher attack success rates with conversational context, revealing a context-dependent safety gap that motivates multi-stage protection. We present AegisAI, model-agnostic middleware combining conversation-level input screening with independent post-generation visual moderation. It decouples the safety corridor from the generator and provides autonomous deployment with an acceptance gate that validates generated outputs before exposure. A within-subjects study with 20 users shows comparable overall usability, with costs in responsiveness and benign over-refusal. Participants rated policy-specific refusals as clear and reported greater willingness to adopt the guarded system. We derive five design implications for usable safety in conversational generative interfaces.}
+}
+
+@inproceedings{Dinh2026GEAR,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {GEAR: Generative Editing for Scene-Conditioned Outfit Retrieval for VR Travel},
+  author      = {Gia-Huy Dinh* and Phuc Nguyen* and Thanh-Hai Nguyen* and Lam-Huy Nguyen-Ngoc and Hoang-Bach Nguyen-Phan and Nam-Quan Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  note        = {(Oral)}, 
+  abstract    = {In virtual environments, choosing appropriate outfits requires contextual harmony with surrounding scenes, yet bridging the visual gap between 3D ambient views and catalog garment assets remains challenging. This paper investigates scene-conditioned outfit retrieval for interactive 3D environments, where a user's egocentric view serves as the retrieval signal. We present GEAR (Generative Editing for Asset Retrieval), a framework that bridges the cross-domain gap by synthesizing intermediate visual queries rather than predicting direct compatibility. GEAR uses a vision-language model to describe suitable clothing from a captured scene, employs an instruction-guided diffusion model to render the concept onto a standardized reference character, and utilizes the cropped clothing region to retrieve existing 2D outfit assets via embedding similarity. An interactive Unity prototype demonstrates real-time scene capture, asset retrieval, and in-engine 3D avatar fitting. We benchmark GEAR against direct visual similarity, aesthetic scoring, and VLM-based reranking on a controlled dataset using automated Swiss-system pairwise judgments, where GEAR achieves competitive top-ranked performance (mean Elo@5 of 1012.75 and top-10 overlap of 0.180) alongside 0.539 pairwise agreement. Furthermore, a user study across 20 virtual travel scenes demonstrates that GEAR achieves the highest overall participant preference in both visual appeal (34.5\%) and contextual suitability (34.5\%).}
+}
+
+@inproceedings{Dam2026CoreCalib,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {Density-Aware Calibration for Resource-Efficient Medical Vision-Language Models},
+  author      = {Tien-Dat Dam and Huu-Thuan Huynh and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  note        = {(Oral)}, 
+  project_page = {https://magnusdtd.github.io/CoreCalib/},
+  abstract    = {Medical vision-language models (VLMs) show promise for clinical image understanding, but their computational and memory requirements hinder deployment on resource-constrained clinical hardware. Post-training quantization (PTQ) offers a practical compression strategy without retraining, yet its effectiveness depends strongly on the calibration data. We propose CoreCalib, a training-free and quantizer-agnostic framework for constructing compact calibration sets that preserve the target medical VQA distribution. CoreCalib stratifies data by clinical question class, identifies representative visual modes using frozen DINOv2 features with UMAP and HDBSCAN, and expands selected images into class-balanced question-answer pairs. On Kvasir-VQA-x1, we evaluate CoreCalib with MASQuant, GPTQ, and QIG using a fixed 128-pair budget. CoreCalib achieves the best METEOR with all three quantizers and the best ROUGE-L with MASQuant and GPTQ. With W4A8 MASQuant, it improves METEOR from 0.5672 with COCO calibration to 0.6234, recovering approximately 41\% of the degradation relative to BF16. These results support CoreCalib as a data-centric component for resource-efficient medical VLM deployment.}
+}
+
+@inproceedings{Do2026SketchVera,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {Training-Free Structured Color Sketch Vectorization via Dual-Branch Optimization},
+  author      = {Duy-Khang Do* and Quang-Thinh Nguyen* and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  note        = {(Oral)}, 
+  abstract    = {Converting a color raster image into a structured color sketch requires preserving salient object structures while simplifying appearance into coherent vector regions rather than reconstructing photorealistic detail. Existing image vectorization methods primarily reconstruct color and texture, often producing overly detailed or fragmented representations unsuitable for sketching. We present SketchVera, a training-free framework for raster-to-sketch vectorization that decomposes the task into complementary structure and appearance representations. Given an RGB image, SketchVera derives structural edge and dense image targets and initializes two specialized vector branches. The structure branch employs contour-guided attention to place strokes along salient boundaries, while the texture branch uses layer-wise vector initialization to capture coherent regions. The branches are optimized independently and fused to produce the final sketch. This asymmetric design preserves salient contours while maintaining coherent visual information and reducing fragmented primitives. Experiments demonstrate that SketchVera achieves a favorable balance of structural fidelity, visual quality, and vector compactness compared with representative image vectorization methods.}
+}
+
+@inproceedings{Le2026WPAD,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {Wildlife Presentation Attack Detection with Object Detector and Vision-Language Models},
+  author      = {Viet Quoc Dat Le and John Caporale and Jieping Zeng and Trung-Nghia Le and Tam V. Nguyen},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  note        = {(Oral)}, 
+  abstract    = {Automated wildlife camera traps rely on lightweight object detectors to process large volumes of imagery, but appearance-based detection cannot reliably distinguish live animals from physical replicas, printed photographs, or screen replays. We introduce a benchmark for wildlife Presentation Attack Detection (PAD), containing 4,509 images across seven species and multiple presentation-attack types. We systematically compare three verification strategies: standalone object detection, detector-guided VLM verification on cropped regions, and full-frame VLM verification with positional grounding. Across six VLMs, full-frame evaluation consistently improves recall by avoiding upstream detector misses, reaching up to 98.67\%, while crop-based evaluation can provide higher precision for some models by emphasizing fine-grained object cues. These complementary behaviors reveal a trade-off between localized visual detail and scene-level contextual evidence. We further identify three recurring failure modes: detector-induced recall loss, context loss caused by cropping, and language-driven reasoning that is insufficiently grounded in visible evidence. The results highlight spatial framing as an important design factor for VLM-based wildlife PAD.}
+}
+
+@inproceedings{Tran2026InfoPathRAG,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {InfoPathRAG: Hierarchical Graph-Based Retrieval for Infographics},
+  author      = {Nguyen Tuc My Tran and Trung-Nghia Le and Minh-Triet Tran},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  note        = {(Oral)}, 
+  project_page = {https://github.com/iammytran/InfoPathRAG},
+  abstract    = {Multimodal retrieval over infographics is challenging because relevant evidence is distributed across dense, heterogeneous, and non-linear layouts. Retrieving an entire infographic preserves global context but can dilute localized evidence, whereas fine-grained retrieval requires meaningful document regions. We propose InfoPathRAG, a hierarchical retrieval framework that represents each infographic as a tree-structured graph with three levels: root, tile, and fact. The root preserves global context, tiles capture localized visual regions, and facts provide fine-grained textual evidence. We introduce Multi-Entry Hierarchical Retrieval (MEHR), which retrieves candidate roots and tiles through complementary entry points, expands only their descendant facts, and reranks candidate paths using relevance signals from all three levels. On the InfoVQA benchmark, InfoPathRAG achieves 89.97\% Recall@3 and 85.73\% MRR@10, outperforming the reproduced LILaC baseline by approximately 11 and 12 percentage points, respectively.}
+}
+
+@inproceedings{Trinh2026CounterSketch,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {CounterSketch: Physics-Grounded Counterfactual Reasoning for Sketch-to-Video Generation},
+  author      = {Hien Trinh* and Tan-Hiep To* and Dinh-Khoi Vo and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  abstract    = {Counterfactual sketch animation asks how a scene depicted by a static sketch would evolve under a hypothetical intervention. Given a sketch and a natural-language ``What if...?'' question, the system must infer both the visual changes induced by the intervention and their physical consequences. We present CounterSketch, a physics-grounded framework transforming counterfactual queries into physically plausible sketch animations. CounterSketch couples VLM-guided scene grounding, physics-driven counterfactual event-chain reasoning, constraint-based trajectory generation, and trajectory verification. Specifically, the system decomposes the intervention into a causal sequence of physical transitions to construct an updated scene graph. A constraint-driven solver computes continuous object dynamics, which undergo rigorous validation against physical, geometric, and semantic rules. The verified trajectories are projected into object-level image-space motion bounding boxes to guide downstream sketch-video synthesis. Decoupling physical reasoning from visual rendering produces explicit, causally grounded trajectories that can be used to condition downstream sketch-video synthesis. Experiments on CounterSketchBench (80 questions) show that physics-grounded trajectories give stronger motion guidance than direct VLM prediction.}
+}
+
+@inproceedings{2026,
+  abbr        = {ThaiSOICTSAVIER},
+  bibtex_show = {true},
+  title       = {SAVIER: Source-Anchored Visual Inspection and Evidence-Guided Repair for Vietnamese Cultural Text-to-Image Generation},
+  author      = {Gia-Huy Thai* and Duc-Tien Khong* and Trung-Nghia Le},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  project_page = {https://oxyzgiahuy.github.io/savier/},
+  abstract    = {Text-to-image models can render plausible Vietnamese scenes while missing cues that identify a focal cultural entity or details explicitly requested by the user. We present SAVIER, a training-free, one-pass repair framework that addresses these requirements separately. An offline, human-verified visual contract links each entity to source-supported cues, while a fixed photograph bank provides visual conditioning. During repair, a Curator separates cultural evidence from prompt-preservation requirements, a prompt-blind Observer describes the initial image, and a Refiner proposes bounded positive corrections. We evaluate the complete pipeline on 50 prompts of ViCuP dataset using SDXL and FLUX.1-dev. Relative to saved Culture-TRIP expansions, SAVIER raises VLM-judged visual-contract fulfillment from 55.6 to 69.6 on SDXL and from 59.1 to 67.3 on FLUX. These results evaluate the complete repair and reference-conditioned generation pipeline rather than an isolated causal effect of the agents.}
+}
+
+@inproceedings{Nguyen2026NanoNet,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {NanoNet: Ultra-Lightweight Network for MRI Brain Tumor Classification toward Edge AI},
+  author      = {Le-Tran Nguyen and Huu-Thuan Huynh and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  project_page = {https://leetranwyng.github.io/nanonet-page/},
+  abstract    = {Automated brain tumor classification from magnetic resonance imaging (MRI) can support accessible medical image analysis, but conventional deep learning models often exceed the resource budgets of highly constrained edge-AI platforms. We present NanoNet, an ultra-lightweight convolutional neural network designed for resource-constrained MRI classification and motivated by future edge-AI applications. Inspired by MobileNetV2, NanoNet substantially reduces network depth, channel capacity, expansion ratios, and final feature dimensionality, resulting in only five inverted residual blocks and 8,132 parameters. We further investigate dependency-aware structured pruning, knowledge distillation, and INT8 quantization-aware training for additional compression. Experiments on the BRISC 2025 benchmark show that NanoNet achieves 92.8\% accuracy with 8,132 parameters and 0.0105 GFLOPs. At the same computational cost, it outperforms 70\%-pruned MobileNetV2 by 2.9 percentage points while using 58.6\% fewer parameters. Its INT8 TensorFlow Lite model requires only 27.7~KB of storage, demonstrating strong potential for future edge-AI deployment.}
+}
+
+@inproceedings{Nguyen2026EdgeStyleGAN,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {EdgeStyleGAN: Hardware-aware StyleGAN Implementation Compatible with Edge Devices},
+  author      = {Minh-Quang Nguyen and Minh-Thien Nguyen and Thanh-Bao Ho and Trung-Nghia Le and Huu-Thuan Huynh},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  abstract    = {While Generative Adversarial Networks are essential for high-quality image synthesis, their deployment on resource-constrained edge devices is hindered by high parameter counts and extreme floating-point computational demands. To address the challenges, we propose EdgeStyleGAN, a hardware-software co-design that reduces model size, eliminates floating-point operations, and optimizes memory traffic without sacrificing perceptual quality. Our approach introduces a 16-bit symmetric integer quantization scheme to ensure numerical stability throughout the synthesis process. To mitigate the degradation typically caused by quantization, we implement a Knowledge Distillation training enhanced by Relative High-Frequency tracking and a discriminator weakening strategy that includes label smoothing and a warm-up phase. We further design a hardware architecture that utilizes reconfigurable dataflows to maximize on-chip data reuse and minimize memory access latency. Experimental results demonstrate that our system reduces the model size by approximately 50\% from 35MB to 18MB and achieves a Fréchet Inception Distance (FID) of 9.939, successfully producing high-quality 1024x1024 images directly on edge hardware.}
+}
+
+@inproceedings{Le2026CoPFB,
+  abbr        = {SOICT},
+  bibtex_show = {true},
+  title       = {Content-Preserving Feature Blending for Training-Free Style Personalization},
+  author      = {Le-Hoang Bui* and Hoang-Nguyen Cao* and Trung-Nghia Le and Minh-Triet Tran and Dinh-Khoi Vo},
+  booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
+  year        = {2026},
+  abstract    = {Reference-based style personalization transfers the appearance of a style prompt while preserving the object and scene specified by an object prompt. In visual autoregressive models, dominant style features can also transfer object and spatial information, causing content leakage. We propose Content-Preserving Principal Feature Blending (CoPFB), a training-free method that estimates a low-rank content basis from a clean generation branch and removes its aligned component from the style residual. CoPFB applies rank-one blending at early scales ($R_1$--$R_2$), weaker content-projected injection at later scales ($R_3$--$R_5$), and no injection afterward. On the Parti evaluation set with 190 object prompts and 10 style prompts (1,900 combinations), CoPFB achieves the highest prompt-fidelity and harmonic scores while maintaining competitive style fidelity, without fine-tuning or learnable parameters.}
+}
+
 @inproceedings{Ngo2026AIBL,
   bibtex_show={true},
   abbr={NeurIPS},
