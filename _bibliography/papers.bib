@@ -25,6 +25,18 @@
   abstract    = {While diffusion models excel at photorealistic image extension, outpainting sparse sketch and line art while preserving stroke-level structural coherence and stylistic identity remains an open challenge. Existing approaches either collapse contour structures into grayscale approximations or are restricted to generation-from-scratch paradigms. We present SketchBloom, a training-free framework for text-guided sketch outpainting that uses pretrained raster outpainting and style-transfer modules as replaceable guidance, while performing per-instance test-time optimization to synthesize the final result in the vector sketch domain. Given an input sketch, a text prompt describing the outpainted scene, and an optional reference style image, SketchBloom transfers the reference's visual identity (stroke width, color, and texture distribution) via an adaptive latent blending mechanism that provides explicit control over the structure-texture trade-off without any model retraining. To produce a resolution-independent Scalable Vector Graphic (SVG) composed of optimized Bézier curves, we introduce a vector-native structured differentiable rendering pipeline. This pipeline efficiently decouples structural contour strokes from free-form texture strokes through dedicated optimization objectives, ultimately compositing them via a novel multiply-blend layering scheme. Experiments on LineArtOut-1K, our newly curated benchmark of 1,024 input--style combinations, demonstrate that SketchBloom outperforms the evaluated vector-based baselines in perceptual, semantic, and structural fidelity metrics.}
 }
 
+@inproceedings{LeMMM2027,
+  abbr        = {MMM},
+  bibtex_show = {true},
+  title       = {Directional Dual-Head Supervision for Real-Time Source-Free Polyp Segmentation},
+  author      = {Hai-Dang Nguyen* and Nhat-Khoi Le* and Huu-Thuan Huynh and Minh-Triet Tran and Trung-Nghia Le},
+  booktitle   = {International Conference on Multimedia Modeling (MMM)},
+  year        = {2027},
+  note        = {(B Rank)},
+  project_page={https://danielnguyen-05.github.io/MedRT-SFOD/},
+  abstract    = {Source-free domain adaptation (SFDA) is critical for medical image segmentation as it enables model adaptation to unlabeled target domains without compromising source data privacy. However, its effectiveness is often hindered by confirmation bias, where self-training models struggle with small polyps, foreground hallucinations, and imprecise contours. We propose MedRT-SFSeg, a real-time SFDA framework based on a dual-head O2O/O2M YOLO segmentation architecture. We introduce Mask-DHF to fuse precision- and recall-oriented predictions into stable pseudo-instances, and DURR, which exploits pixel-level disagreement for signed boundary routing to expand or shrink masks while recovering missed instances and suppressing hallucinations. Seg-MARD further regularizes feature representations through mask-guided region-stratified sampling. Experiments on bidirectional adaptation between Kvasir-SEG and CVC-ClinicDB show that MedRT-SFSeg achieves 80.43\%/80.77\% Dice and 5.53/8.44 mm ASD, respectively. It improves the non-adapted baseline by 7.7 and 9.8 Dice points while retaining more than 62 FPS end-to-end. These results suggest that segmentation-aware dual-head fusion can improve pseudo-label quality while preserving real-time inference.}
+}
+
 @article{Nguyen2026PhysPlan,
   bibtex_show={true},
   abbr={arXiv},
