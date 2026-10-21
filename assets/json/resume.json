@@ -168,6 +168,7 @@
         "ICLR",
         "ICML",
         "AAAI",
+        "AAMAS",
         "CHI",
         "MICCAI",
         "ECCV",
@@ -175,6 +176,7 @@
         "ICME",
         "ICMR",
         "AVSS",
+        "MMM",
         "PSIVT",
         "SAC",
         "SoICT",
@@ -191,7 +193,9 @@
       "startDate": "",
       "endDate": "",
       "summary": "",
-      "highlights": ["NeurIPS 2026"]
+      "highlights": ["NeurIPS 2026", 
+                     "ICML 2027"
+                    ]
     },
     {
       "organization": "",
