@@ -33,7 +33,7 @@
   booktitle   = {International Conference on Multimedia Modeling (MMM)},
   year        = {2027},
   note        = {(B Rank)},
-  project_page={https://danielnguyen-05.github.io/MedRT-SFOD/},
+  project_page={https://danielnguyen-05.github.io/MedRT-SFSeg/},
   abstract    = {Source-free domain adaptation (SFDA) is critical for medical image segmentation as it enables model adaptation to unlabeled target domains without compromising source data privacy. However, its effectiveness is often hindered by confirmation bias, where self-training models struggle with small polyps, foreground hallucinations, and imprecise contours. We propose MedRT-SFSeg, a real-time SFDA framework based on a dual-head O2O/O2M YOLO segmentation architecture. We introduce Mask-DHF to fuse precision- and recall-oriented predictions into stable pseudo-instances, and DURR, which exploits pixel-level disagreement for signed boundary routing to expand or shrink masks while recovering missed instances and suppressing hallucinations. Seg-MARD further regularizes feature representations through mask-guided region-stratified sampling. Experiments on bidirectional adaptation between Kvasir-SEG and CVC-ClinicDB show that MedRT-SFSeg achieves 80.43\%/80.77\% Dice and 5.53/8.44 mm ASD, respectively. It improves the non-adapted baseline by 7.7 and 9.8 Dice points while retaining more than 62 FPS end-to-end. These results suggest that segmentation-aware dual-head fusion can improve pseudo-label quality while preserving real-time inference.}
 }
 
@@ -236,7 +236,7 @@
   author      = {Le-Tran Nguyen and Huu-Thuan Huynh and Minh-Triet Tran and Trung-Nghia Le},
   booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
   year        = {2026},
-  project_page = {https://leetranwyng.github.io/nanonet-page/},
+  project_page = {https://leetranwyng.github.io/nanonet/},
   abstract    = {Automated brain tumor classification from magnetic resonance imaging (MRI) can support accessible medical image analysis, but conventional deep learning models often exceed the resource budgets of highly constrained edge-AI platforms. We present NanoNet, an ultra-lightweight convolutional neural network designed for resource-constrained MRI classification and motivated by future edge-AI applications. Inspired by MobileNetV2, NanoNet substantially reduces network depth, channel capacity, expansion ratios, and final feature dimensionality, resulting in only five inverted residual blocks and 8,132 parameters. We further investigate dependency-aware structured pruning, knowledge distillation, and INT8 quantization-aware training for additional compression. Experiments on the BRISC 2025 benchmark show that NanoNet achieves 92.8\% accuracy with 8,132 parameters and 0.0105 GFLOPs. At the same computational cost, it outperforms 70\%-pruned MobileNetV2 by 2.9 percentage points while using 58.6\% fewer parameters. Its INT8 TensorFlow Lite model requires only 27.7~KB of storage, demonstrating strong potential for future edge-AI deployment.}
 }
 
