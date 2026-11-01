@@ -267,6 +267,7 @@
   author={Bach-Hoang Ngo* and Si-Tri Ngo* and Hieu Le** and Trung-Nghia Le**},
   booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2026},
+  note        = {(A* Rank)},
   pdf={https://arxiv.org/abs/2607.03488},
   project_page={https://bachngoh.github.io/AIBL},
   abstract={Text-to-image diffusion models fail to generate correct object counts in dense scenes, where overlapping instances collapse into indistinguishable structures despite appearing visually plausible. We identify this as instance ownership collapse: tokens from overlapping objects interact freely through attention, while heavily occluded instances receive weak supervision due to their small visible areas. We address this through layout-aware attention biases that softly bias token interactions toward region-consistent grouping and suppress cross-instance leakage, paired with an amodal-balanced loss that amplifies gradients for occluded objects based on their occlusion level. To enable systematic evaluation, we introduce OverlapDepth-45K, a benchmark of densely overlapping scenes with amodal supervision. Our approach substantially improves count accuracy and prevents instance merging while preserving image quality.}
