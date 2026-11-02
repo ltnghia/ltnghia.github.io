@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Placeholder
-description: 
+description:
 img: assets/img/Placeholder_Project.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 1

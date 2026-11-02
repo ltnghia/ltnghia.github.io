@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ADOF
-description: 
+description:
 img: assets/img/ADOF.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 2

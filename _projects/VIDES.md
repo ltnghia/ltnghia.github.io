@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VIDES
-description: 
+description:
 img: assets/img/VIDES.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 4

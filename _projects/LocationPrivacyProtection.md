@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Location Privacy Protection
-description: 
+description:
 img: assets/img/LocationPrivacyProtection.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 2

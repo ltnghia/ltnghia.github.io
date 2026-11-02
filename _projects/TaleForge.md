@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TaleForge
-description: 
+description:
 img: assets/img/TaleForge.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 2

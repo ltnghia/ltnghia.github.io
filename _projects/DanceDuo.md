@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DanceDuo
-description: 
+description:
 img: assets/img/DanceDuo.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 2

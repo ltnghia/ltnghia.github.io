@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spermatozoa Tracking
-description: 
+description:
 img: assets/img/SpermatozoaTracking.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 2

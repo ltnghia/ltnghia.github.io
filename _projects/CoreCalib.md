@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CoreCalib
-description: 
+description:
 img: assets/img/CoreCalib.jpg
 redirect: https://magnusdtd.github.io/CoreCalib/
 importance: 2

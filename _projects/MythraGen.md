@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MythraGen
-description: 
+description:
 img: assets/img/MythraGen.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 4

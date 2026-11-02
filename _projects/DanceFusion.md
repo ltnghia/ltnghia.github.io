@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DanceFusion
-description: 
+description:
 img: assets/img/DanceFusion.jpg
 redirect: https://github.com/trgvy23/DanceFusion
 importance: 4

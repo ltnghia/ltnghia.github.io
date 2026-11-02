@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lookup Forensics
-description: 
+description:
 img: assets/img/LookupForensics.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 4

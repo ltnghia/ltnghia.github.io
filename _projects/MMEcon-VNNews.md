@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MMEcon-VNNews
-description: 
+description:
 img: assets/img/MMEcon-VNNews.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 5

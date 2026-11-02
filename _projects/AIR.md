@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AIR
-description: 
+description:
 img: assets/img/AIR.jpg
 redirect: https://ltnghia.github.io/projects/
 importance: 2

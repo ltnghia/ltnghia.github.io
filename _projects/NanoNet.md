@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NanoNet
-description: 
+description:
 img: assets/img/NanoNet.jpg
 redirect: https://leetranwyng.github.io/nanonet/
 importance: 2
