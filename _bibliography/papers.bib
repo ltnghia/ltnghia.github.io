@@ -37,6 +37,17 @@
   abstract    = {Source-free domain adaptation (SFDA) is critical for medical image segmentation as it enables model adaptation to unlabeled target domains without compromising source data privacy. However, its effectiveness is often hindered by confirmation bias, where self-training models struggle with small polyps, foreground hallucinations, and imprecise contours. We propose MedRT-SFSeg, a real-time SFDA framework based on a dual-head O2O/O2M YOLO segmentation architecture. We introduce Mask-DHF to fuse precision- and recall-oriented predictions into stable pseudo-instances, and DURR, which exploits pixel-level disagreement for signed boundary routing to expand or shrink masks while recovering missed instances and suppressing hallucinations. Seg-MARD further regularizes feature representations through mask-guided region-stratified sampling. Experiments on bidirectional adaptation between Kvasir-SEG and CVC-ClinicDB show that MedRT-SFSeg achieves 80.43\%/80.77\% Dice and 5.53/8.44 mm ASD, respectively. It improves the non-adapted baseline by 7.7 and 9.8 Dice points while retaining more than 62 FPS end-to-end. These results suggest that segmentation-aware dual-head fusion can improve pseudo-label quality while preserving real-time inference.}
 }
 
+@inproceedings{TranMMM2027,
+  abbr        = {MMM},
+  bibtex_show = {true},
+  title       = {Grounding Betrays Hallucination: Attention as an Internal Faithfulness Signal in Multimodal Models},
+  author      = {Mai-Khiem Tran and Trung-Nghia Le and Tam V. Nguyen and Minh-Triet Tran},
+  booktitle   = {International Conference on Multimedia Modeling (MMM)},
+  year        = {2027},
+  note        = {(B Rank)},
+  abstract    = {Frozen large multimodal models (LMMs) contain word-topixel attention that supports visual grounding, but it is unknown whether this signal remains faithful when the model hallucinates. We reframe FLMM’s grounding from a segmentation output into an internal faithfulness check and test whether attention distinguishes present from absent claims. Across seven benchmarks and three frozen backbones, a linear probe over just 32 attention heads, requiring no mask decoder, external model, or LMM gradient, achieves 0.961-0.968 AUROC, matching a dedicated 3B external verifier (0.971) at essentially no extra inference cost. On the model’s own hallucinated affirmations, the probe retains 0.868-0.915 AUROC and, at 50% coverage, reduces hallucination rates from 17.5-32.1% to 3.8-7.0%. Layer ablation confirms that the signal is sparse and concentrated in a contiguous mid-network band. It also transfers zero-shot from POPE to LVIS (0.925-0.964), while different claim types rely on distinct attention heads. These results show that attention-derived grounding provides a reusable, localizable, and essentially free hallucination detector for frozen LMMs.}
+}
+
 @article{Nguyen2026PhysPlan,
   bibtex_show={true},
   abbr={arXiv},
