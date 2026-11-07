@@ -21,6 +21,7 @@
   booktitle   = {Winter Conference on Applications of Computer Vision (WACV)},
   year        = {2027},
   note        = {(A Rank)},
+  pdf         = {https://arxiv.org/abs/2611.00245},
   project_page={https://khangcntn123.github.io/SketchBloom/},
   abstract    = {While diffusion models excel at photorealistic image extension, outpainting sparse sketch and line art while preserving stroke-level structural coherence and stylistic identity remains an open challenge. Existing approaches either collapse contour structures into grayscale approximations or are restricted to generation-from-scratch paradigms. We present SketchBloom, a training-free framework for text-guided sketch outpainting that uses pretrained raster outpainting and style-transfer modules as replaceable guidance, while performing per-instance test-time optimization to synthesize the final result in the vector sketch domain. Given an input sketch, a text prompt describing the outpainted scene, and an optional reference style image, SketchBloom transfers the reference's visual identity (stroke width, color, and texture distribution) via an adaptive latent blending mechanism that provides explicit control over the structure-texture trade-off without any model retraining. To produce a resolution-independent Scalable Vector Graphic (SVG) composed of optimized Bézier curves, we introduce a vector-native structured differentiable rendering pipeline. This pipeline efficiently decouples structural contour strokes from free-form texture strokes through dedicated optimization objectives, ultimately compositing them via a novel multiply-blend layering scheme. Experiments on LineArtOut-1K, our newly curated benchmark of 1,024 input--style combinations, demonstrate that SketchBloom outperforms the evaluated vector-based baselines in perceptual, semantic, and structural fidelity metrics.}
 }
@@ -33,6 +34,7 @@
   booktitle   = {International Conference on Multimedia Modeling (MMM)},
   year        = {2027},
   note        = {(B Rank)},
+  pdf         = {https://arxiv.org/abs/2611.00238},
   project_page={https://danielnguyen-05.github.io/MedRT-SFSeg/},
   abstract    = {Source-free domain adaptation (SFDA) is critical for medical image segmentation as it enables model adaptation to unlabeled target domains without compromising source data privacy. However, its effectiveness is often hindered by confirmation bias, where self-training models struggle with small polyps, foreground hallucinations, and imprecise contours. We propose MedRT-SFSeg, a real-time SFDA framework based on a dual-head O2O/O2M YOLO segmentation architecture. We introduce Mask-DHF to fuse precision- and recall-oriented predictions into stable pseudo-instances, and DURR, which exploits pixel-level disagreement for signed boundary routing to expand or shrink masks while recovering missed instances and suppressing hallucinations. Seg-MARD further regularizes feature representations through mask-guided region-stratified sampling. Experiments on bidirectional adaptation between Kvasir-SEG and CVC-ClinicDB show that MedRT-SFSeg achieves 80.43\%/80.77\% Dice and 5.53/8.44 mm ASD, respectively. It improves the non-adapted baseline by 7.7 and 9.8 Dice points while retaining more than 62 FPS end-to-end. These results suggest that segmentation-aware dual-head fusion can improve pseudo-label quality while preserving real-time inference.}
 }
@@ -46,6 +48,17 @@
   year        = {2027},
   note        = {(B Rank)},
   abstract    = {Frozen large multimodal models (LMMs) contain word-topixel attention that supports visual grounding, but it is unknown whether this signal remains faithful when the model hallucinates. We reframe FLMM’s grounding from a segmentation output into an internal faithfulness check and test whether attention distinguishes present from absent claims. Across seven benchmarks and three frozen backbones, a linear probe over just 32 attention heads, requiring no mask decoder, external model, or LMM gradient, achieves 0.961-0.968 AUROC, matching a dedicated 3B external verifier (0.971) at essentially no extra inference cost. On the model’s own hallucinated affirmations, the probe retains 0.868-0.915 AUROC and, at 50% coverage, reduces hallucination rates from 17.5-32.1% to 3.8-7.0%. Layer ablation confirms that the signal is sparse and concentrated in a contiguous mid-network band. It also transfers zero-shot from POPE to LVIS (0.925-0.964), while different claim types rely on distinct attention heads. These results show that attention-derived grounding provides a reusable, localizable, and essentially free hallucination detector for frozen LMMs.}
+}
+
+@article{Trinh2026OmniScribble,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={OmniScribble: Mixed-Initiative Authoring of Animated Sketches through Inspectable and Repairable AI Decisions},
+  author={Hien Trinh and Tan-Hiep To and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2611.04284},
+  year={2026},
+  pdf={https://arxiv.org/abs/2611.04284},
+  abstract={AI-assisted creative tools reduce the effort of authoring content, but delegating creative decisions to AI can make it difficult for authors to understand, correct, or redirect work. We present OmniScribble, a system for animating multi-object sketches that treats object decomposition and motion planning as editable artifacts. Rather than generating animation end-to-end, OmniScribble presents AI proposals at verification checkpoints, where authors can accept, repair, or regenerate them. Both manual and AI-assisted authoring operate on the intermediate representation and rendering pipeline, allowing us to isolate AI delegation. In a within-subject study with eight participants, AI-assisted authoring yielded a median within-participant reduction in completion time of 71.4\%, while perceived control and motion-intent alignment remained high. Interaction traces and interviews show that participants adapted to AI errors by repairing local issues, regenerating mismatches, and accepting proposals. These findings suggest that inspectable, repairable delegation enables generative automation while maintaining control over the outcome.}
 }
 
 @article{Nguyen2026PhysPlan,
@@ -180,6 +193,7 @@
   booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
   year        = {2026},
   note        = {(Oral)}, 
+  pdf         = {https://arxiv.org/abs/2611.00684},
   project_page = {https://magnusdtd.github.io/CoreCalib/},
   abstract    = {Medical vision-language models (VLMs) show promise for clinical image understanding, but their computational and memory requirements hinder deployment on resource-constrained clinical hardware. Post-training quantization (PTQ) offers a practical compression strategy without retraining, yet its effectiveness depends strongly on the calibration data. We propose CoreCalib, a training-free and quantizer-agnostic framework for constructing compact calibration sets that preserve the target medical VQA distribution. CoreCalib stratifies data by clinical question class, identifies representative visual modes using frozen DINOv2 features with UMAP and HDBSCAN, and expands selected images into class-balanced question-answer pairs. On Kvasir-VQA-x1, we evaluate CoreCalib with MASQuant, GPTQ, and QIG using a fixed 128-pair budget. CoreCalib achieves the best METEOR with all three quantizers and the best ROUGE-L with MASQuant and GPTQ. With W4A8 MASQuant, it improves METEOR from 0.5672 with COCO calibration to 0.6234, recovering approximately 41\% of the degradation relative to BF16. These results support CoreCalib as a data-centric component for resource-efficient medical VLM deployment.}
 }
@@ -225,6 +239,7 @@
   author      = {Hien Trinh* and Tan-Hiep To* and Dinh-Khoi Vo and Tam V. Nguyen and Minh-Triet Tran and Trung-Nghia Le},
   booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
   year        = {2026},
+  pdf         = {https://arxiv.org/abs/2611.04244},
   project_page = {https://tanhiep-to.github.io/CounterSketch},
   abstract    = {Counterfactual sketch animation asks how a scene depicted by a static sketch would evolve under a hypothetical intervention. Given a sketch and a natural-language ``What if...?'' question, the system must infer both the visual changes induced by the intervention and their physical consequences. We present CounterSketch, a physics-grounded framework transforming counterfactual queries into physically plausible sketch animations. CounterSketch couples VLM-guided scene grounding, physics-driven counterfactual event-chain reasoning, constraint-based trajectory generation, and trajectory verification. Specifically, the system decomposes the intervention into a causal sequence of physical transitions to construct an updated scene graph. A constraint-driven solver computes continuous object dynamics, which undergo rigorous validation against physical, geometric, and semantic rules. The verified trajectories are projected into object-level image-space motion bounding boxes to guide downstream sketch-video synthesis. Decoupling physical reasoning from visual rendering produces explicit, causally grounded trajectories that can be used to condition downstream sketch-video synthesis. Experiments on CounterSketchBench (80 questions) show that physics-grounded trajectories give stronger motion guidance than direct VLM prediction.}
 }
@@ -236,6 +251,7 @@
   author      = {Gia-Huy Thai* and Duc-Tien Khong* and Trung-Nghia Le},
   booktitle   = {International Symposium on Information and Communication Technology (SOICT)},
   year        = {2026},
+  pdf         = {https://arxiv.org/abs/2611.00722},
   project_page = {https://oxyzgiahuy.github.io/savier/},
   abstract    = {Text-to-image models can render plausible Vietnamese scenes while missing cues that identify a focal cultural entity or details explicitly requested by the user. We present SAVIER, a training-free, one-pass repair framework that addresses these requirements separately. An offline, human-verified visual contract links each entity to source-supported cues, while a fixed photograph bank provides visual conditioning. During repair, a Curator separates cultural evidence from prompt-preservation requirements, a prompt-blind Observer describes the initial image, and a Refiner proposes bounded positive corrections. We evaluate the complete pipeline on 50 prompts of ViCuP dataset using SDXL and FLUX.1-dev. Relative to saved Culture-TRIP expansions, SAVIER raises VLM-judged visual-contract fulfillment from 55.6 to 69.6 on SDXL and from 59.1 to 67.3 on FLUX. These results evaluate the complete repair and reference-conditioned generation pipeline rather than an isolated causal effect of the agents.}
 }
@@ -292,6 +308,7 @@
   booktitle   = {ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia)},
   year        = {2026},
   note        = {(A* Rank), Technical Communications Track},
+  pdf         = {https://arxiv.org/abs/2611.00253},
   project_page={https://khangcntn123.github.io/SketchForge},
   abstract    = {Converting a raster image into a resolution-independent, stroke-editable vector sketch while faithfully preserving both structural contours and tonal texture remains challenging: raster-space rendering pipelines are difficult to edit at the stroke level, while generation-from-scratch vectorization methods struggle to remain faithful to an arbitrary input image. We present SketchForge, a training-free framework that converts an input raster image into a resolution-independent SVG sketch through per-instance test-time optimization of Bézier curves, requiring no additional training or fine-tuning. Strokes are seeded via a contour and attention-guided initialization, then refined by a vector-native differentiable rendering pipeline that decouples structural contour strokes from free-form texture strokes under dedicated objectives, composited via multiply-blend layering. Extensive experiments show that SketchForge consistently outperforms existing vector-based baselines in structural fidelity and generation quality.}
 }
