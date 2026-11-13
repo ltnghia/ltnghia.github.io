@@ -61,6 +61,18 @@
   abstract={AI-assisted creative tools reduce the effort of authoring content, but delegating creative decisions to AI can make it difficult for authors to understand, correct, or redirect work. We present OmniScribble, a system for animating multi-object sketches that treats object decomposition and motion planning as editable artifacts. Rather than generating animation end-to-end, OmniScribble presents AI proposals at verification checkpoints, where authors can accept, repair, or regenerate them. Both manual and AI-assisted authoring operate on the intermediate representation and rendering pipeline, allowing us to isolate AI delegation. In a within-subject study with eight participants, AI-assisted authoring yielded a median within-participant reduction in completion time of 71.4\%, while perceived control and motion-intent alignment remained high. Interaction traces and interviews show that participants adapted to AI errors by repairing local issues, regenerating mismatches, and accepting proposals. These findings suggest that inspectable, repairable delegation enables generative automation while maintaining control over the outcome.}
 }
 
+@article{Vo2026Kingfisher,
+  bibtex_show={true},
+  abbr={arXiv},
+  title={Kingfisher: Fast Personalized Visual Autoregressive Generation via Scale-Aware Prompt-Conditioned Scale Decomposition},
+  author={Dinh-Khoi Vo and Akihiro Sugimoto and Minh-Triet Tran and Trung-Nghia Le},
+  journal={arXiv preprint arXiv:2610.23238},
+  year={2026},
+  pdf={https://arxiv.org/abs/2610.23238},
+  project_page={https://vdkhoi20.github.io/KINGFISHER},
+  abstract={Personalized image generation has been extensively studied in diffusion models, often relying on subject-specific optimization of model weights, textual embeddings, LoRA modules, or adapters. Recent studies have established that early-scale representations strongly control global semantics and appearance in visual autoregressive models. Building on this observation, we introduce Kingfisher, a model-tuning-free framework that explicitly decomposes early scale codes for personalization through prompt-conditioned scale-code decomposition. Kingfisher constructs neutral-style and object-content subspaces from prompt-guided predictions of a frozen generator to extract content- and style-related components from early residual scale codes. Given two real images, Kingfisher first decomposes their early scale codes, then recomposes the content components of one image with the style components of the other into a compact semantic prefix. The frozen generator subsequently predicts the remaining scales through bitwise self-correction for coherent refinement. Experiments on CSD-100 show that Kingfisher achieves strong content preservation and the highest style and text alignment among the evaluated methods, while reducing preparation time by at least 55x compared with diffusion-based methods and by 10.5x compared with CSD-VAR on the same backbone.}
+}
+
 @article{Nguyen2026PhysPlan,
   bibtex_show={true},
   abbr={arXiv},
